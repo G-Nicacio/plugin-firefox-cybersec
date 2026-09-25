@@ -1,0 +1,148 @@
+const reports = new Map();
+
+function getReport(tabId) {
+  if (!reports.has(tabId)) {
+    reports.set(tabId, createEmptyReport(tabId));
+  }
+
+  return reports.get(tabId);
+}
+
+function calculateScore(report) {
+  let score = 100;
+
+  const thirdPartyCount = Object.keys(report.thirdPartyDomains).length;
+
+  score -= Math.min(thirdPartyCount * 2, 20);
+
+  score -= Math.min(report.cookies.thirdParty * 2, 20);
+
+  if (report.storage.localStorage) {
+    score -= 5;
+  }
+
+  if (report.storage.sessionStorage) {
+    score -= 2;
+  }
+
+  if (report.storage.indexedDB) {
+    score -= 5;
+  }
+
+  if (report.canvas.detected) {
+    score -= 15;
+  }
+
+  if (report.bounceTracking.suspected) {
+    score -= 15;
+  }
+
+  if (report.hijacking.suspected) {
+    score -= 20;
+  }
+
+  return Math.max(0, Math.min(100, score));
+}
+
+browser.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  if (changeInfo.status === "loading" && tab.url) {
+    reports.set(tabId, createEmptyReport(tabId, tab.url));
+  }
+});
+
+browser.tabs.onRemoved.addListener((tabId) => {
+  reports.delete(tabId);
+});
+
+browser.webRequest.onBeforeRequest.addListener(
+  (details) => {
+    if (details.tabId < 0) {
+      return;
+    }
+
+    const report = getReport(details.tabId);
+
+    const requestHost = getHostnameFromUrl(details.url);
+
+    const thirdParty = isThirdParty(
+      report.pageUrl,
+      details.url
+    );
+
+    const requestData = {
+      url: details.url,
+      hostname: requestHost,
+      type: details.type,
+      method: details.method,
+      timestamp: details.timeStamp,
+      thirdParty
+    };
+
+    report.requests.push(requestData);
+
+    if (thirdParty && requestHost) {
+      if (!report.thirdPartyDomains[requestHost]) {
+        report.thirdPartyDomains[requestHost] = {
+          count: 0,
+          types: []
+        };
+      }
+
+      report.thirdPartyDomains[requestHost].count += 1;
+
+      if (
+        !report.thirdPartyDomains[requestHost].types.includes(details.type)
+      ) {
+        report.thirdPartyDomains[requestHost].types.push(details.type);
+      }
+    }
+
+    if (
+      details.type === "websocket" &&
+      thirdParty
+    ) {
+      report.hijacking.websockets.push({
+        url: details.url,
+        timestamp: details.timeStamp
+      });
+
+      report.hijacking.indicators.push(
+        "Third-party WebSocket connection"
+      );
+    }
+
+    report.score = calculateScore(report);
+  },
+  {
+    urls: ["<all_urls>"]
+  }
+);
+
+browser.runtime.onMessage.addListener(
+  async (message, sender) => {
+    const tabId = sender.tab?.id ?? message.tabId;
+
+    if (message.type === "PAGE_ANALYSIS" && tabId !== undefined) {
+      const report = getReport(tabId);
+
+      report.storage = message.storage;
+      report.canvas = message.canvas;
+
+      report.score = calculateScore(report);
+
+      return {
+        success: true
+      };
+    }
+
+    if (message.type === "GET_REPORT") {
+      const report = getReport(message.tabId);
+
+      report.score = calculateScore(report);
+
+      return report;
+    }
+
+    return undefined;
+  }
+);

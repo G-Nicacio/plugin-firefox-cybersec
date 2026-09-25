@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Privacy Inspector</title>
+
+  <link
+    rel="stylesheet"
+    href="popup.css"
+  >
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header>
+      <h1>Privacy Inspector</h1>
+      <p id="current-site">Carregando...</p>
+    </header>
+
+    <section class="score-card">
+      <span>Privacy Score</span>
+      <strong id="score">--</strong>
+    </section>
+
+    <section class="card">
+      <h2>Third-party domains</h2>
+      <strong id="third-party-count">0</strong>
+      <ul id="third-party-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Cookies</h2>
+
+      <div class="metric">
+        <span>First-party</span>
+        <span id="cookies-first-party">0</span>
+      </div>
+
+      <div class="metric">
+        <span>Third-party</span>
+        <span id="cookies-third-party">0</span>
+      </div>
+
+      <div class="metric">
+        <span>Session</span>
+        <span id="cookies-session">0</span>
+      </div>
+
+      <div class="metric">
+        <span>Persistent</span>
+        <span id="cookies-persistent">0</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Storage</h2>
+
+      <div class="metric">
+        <span>localStorage</span>
+        <span id="local-storage">Não</span>
+      </div>
+
+      <div class="metric">
+        <span>sessionStorage</span>
+        <span id="session-storage">Não</span>
+      </div>
+
+      <div class="metric">
+        <span>IndexedDB</span>
+        <span id="indexed-db">Não</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Fingerprinting</h2>
+
+      <div class="metric">
+        <span>Canvas</span>
+        <span id="canvas">Não detectado</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Security indicators</h2>
+
+      <div class="metric">
+        <span>Hijacking / Hook</span>
+        <span id="hijacking">Não detectado</span>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="popup.js"></script>
+
+</body>
+</html>

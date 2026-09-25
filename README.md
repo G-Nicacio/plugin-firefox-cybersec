@@ -1,0 +1,1 @@
+# plugin-firefox-cybersec

@@ -136,13 +136,72 @@ browser.runtime.onMessage.addListener(
     }
 
     if (message.type === "GET_REPORT") {
-      const report = getReport(message.tabId);
+        await updateCookiesForTab(message.tabId);
 
-      report.score = calculateScore(report);
+        const report = getReport(message.tabId);
 
-      return report;
-    }
+        report.score = calculateScore(report);
+
+        return report;
+        }
 
     return undefined;
   }
 );
+
+async function updateCookiesForTab(tabId) {
+  const report = getReport(tabId);
+
+  if (!report.pageUrl) {
+    return;
+  }
+
+  try {
+    const cookies = await browser.cookies.getAll({
+      url: report.pageUrl
+    });
+
+    let firstParty = 0;
+    let thirdParty = 0;
+    let session = 0;
+    let persistent = 0;
+
+    const pageHost = getHostnameFromUrl(report.pageUrl);
+
+    for (const cookie of cookies) {
+      const cookieDomain = normalizeHostname(
+        cookie.domain.replace(/^\./, "")
+      );
+
+      const isThird =
+        getBaseDomain(cookieDomain) !==
+        getBaseDomain(pageHost);
+
+      if (isThird) {
+        thirdParty++;
+      } else {
+        firstParty++;
+      }
+
+      if (cookie.session) {
+        session++;
+      } else {
+        persistent++;
+      }
+    }
+
+    report.cookies = {
+      firstParty,
+      thirdParty,
+      session,
+      persistent
+    };
+
+    report.score = calculateScore(report);
+  } catch (error) {
+    console.error(
+      "Privacy Inspector: error reading cookies",
+      error
+    );
+  }
+}

@@ -1,0 +1,7 @@
+# Privacy Inspector - Basic tracker domains
+
+google-analytics.com
+analytics.google.com
+segment.io
+hotjar.com
+clarity.ms

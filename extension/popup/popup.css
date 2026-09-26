@@ -58,6 +58,40 @@ h1 {
   margin: 6px 0;
 }
 
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.blocklist-form {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.blocklist-form input {
+  flex: 1;
+  padding: 7px;
+}
+
+.blocklist-form button {
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+.blocklist-remove {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 12px 0;
+}
+
 ul {
   padding-left: 18px;
   max-height: 120px;

@@ -1,0 +1,6 @@
+# Privacy Inspector - Basic advertisement domains
+
+doubleclick.net
+googlesyndication.com
+googleadservices.com
+adservice.google.com

@@ -76,6 +76,11 @@ function createEmptyReport(tabId, pageUrl = "") {
       websockets: [],
       indicators: []
     },
+    blocked: {
+        ads: [],
+        trackers: [],
+        custom: []
+    },
     score: 100
   };
 }

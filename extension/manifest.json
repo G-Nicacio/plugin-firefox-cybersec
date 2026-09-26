@@ -18,10 +18,11 @@
 
   "background": {
     "scripts": [
-      "utils.js",
-      "background.js"
-    ]
-  },
+        "utils.js",
+        "filter-engine.js",
+        "background.js"
+        ]
+    },
 
   "content_scripts": [
     {

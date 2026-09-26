@@ -97,6 +97,69 @@
       </div>
     </section>
 
+    <section class="card">
+      <h2>Blocking</h2>
+
+      <label class="toggle-row">
+        <span>Block ads</span>
+        <input
+          id="toggle-ads"
+          type="checkbox"
+        >
+      </label>
+
+      <label class="toggle-row">
+        <span>Block trackers</span>
+        <input
+          id="toggle-trackers"
+          type="checkbox"
+        >
+      </label>
+
+      <label class="toggle-row">
+        <span>Custom blocklist</span>
+        <input
+          id="toggle-custom"
+          type="checkbox"
+        >
+      </label>
+
+      <hr>
+
+      <div class="metric">
+        <span>Ads blocked</span>
+        <span id="ads-blocked">0</span>
+      </div>
+
+      <div class="metric">
+        <span>Trackers blocked</span>
+        <span id="trackers-blocked">0</span>
+      </div>
+
+      <div class="metric">
+        <span>Custom blocks</span>
+        <span id="custom-blocked">0</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Custom Blocklist</h2>
+
+      <div class="blocklist-form">
+        <input
+          id="block-domain-input"
+          type="text"
+          placeholder="example.com"
+        >
+
+        <button id="add-block-domain">
+          Add
+        </button>
+      </div>
+
+      <ul id="blocklist"></ul>
+    </section>
+
   </main>
 
   <script src="popup.js"></script>

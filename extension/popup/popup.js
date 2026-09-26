@@ -10,6 +10,10 @@ function renderThirdParties(report) {
   const list =
     document.getElementById("third-party-list");
 
+  if (!list) {
+    return;
+  }
+
   list.innerHTML = "";
 
   const domains =
@@ -28,6 +32,34 @@ function renderThirdParties(report) {
 
     item.textContent =
       `${domain} (${info.count} requests)`;
+
+    list.appendChild(item);
+  }
+}
+
+function renderTrackingIndicators(report) {
+  const list =
+    document.getElementById(
+      "tracking-indicators"
+    );
+
+  if (!list) {
+    return;
+  }
+
+  list.innerHTML = "";
+
+  const indicators =
+    report
+      .bounceTracking
+      ?.indicators || [];
+
+  for (const indicator of indicators) {
+    const item =
+      document.createElement("li");
+
+    item.textContent =
+      indicator;
 
     list.appendChild(item);
   }
@@ -116,6 +148,50 @@ function renderReport(report) {
     "custom-blocked",
     report.blocked?.custom?.length || 0
   );
+
+  setText(
+    "bounce-tracking",
+    report
+      .bounceTracking
+      ?.suspected
+      ? "Possível"
+      : "Não detectado"
+  );
+
+  setText(
+    "cookie-sync",
+    report
+      .bounceTracking
+      ?.cookieSyncSuspected
+      ? "Possível"
+      : "Não detectado"
+  );
+
+  setText(
+    "redirect-count",
+    report
+      .bounceTracking
+      ?.redirects
+      ?.length || 0
+  );
+
+  setText(
+    "tracking-param-count",
+    report
+      .bounceTracking
+      ?.suspiciousParameters
+      ?.length || 0
+  );
+
+  setText(
+    "shared-id-count",
+    report
+      .bounceTracking
+      ?.sharedIdentifiers
+      ?.length || 0
+  );
+
+  renderTrackingIndicators(report);
 }
 
 async function loadReport() {
@@ -156,6 +232,10 @@ function renderBlocklist(domains) {
     document.getElementById(
       "blocklist"
     );
+
+  if (!list) {
+    return;
+  }
 
   list.innerHTML = "";
 
@@ -208,6 +288,10 @@ async function addBlockDomain() {
       "block-domain-input"
     );
 
+  if (!input) {
+    return;
+  }
+
   const domain =
     input.value.trim();
 
@@ -236,58 +320,85 @@ async function loadFilterSettings() {
       type: "GET_FILTER_SETTINGS"
     });
 
-  document.getElementById(
-    "toggle-ads"
-  ).checked =
-    settings.ads;
+  const adsToggle =
+    document.getElementById(
+      "toggle-ads"
+    );
 
-  document.getElementById(
-    "toggle-trackers"
-  ).checked =
-    settings.trackers;
+  const trackersToggle =
+    document.getElementById(
+      "toggle-trackers"
+    );
 
-  document.getElementById(
-    "toggle-custom"
-  ).checked =
-    settings.custom;
+  const customToggle =
+    document.getElementById(
+      "toggle-custom"
+    );
+
+  if (adsToggle) {
+    adsToggle.checked =
+      settings.ads;
+  }
+
+  if (trackersToggle) {
+    trackersToggle.checked =
+      settings.trackers;
+  }
+
+  if (customToggle) {
+    customToggle.checked =
+      settings.custom;
+  }
 }
 
 function registerToggle(
   elementId,
   category
 ) {
-  document
-    .getElementById(elementId)
-    .addEventListener(
-      "change",
-      async (event) => {
-        await browser.runtime.sendMessage({
-          type:
-            "SET_FILTER_SETTING",
-
-          category,
-
-          enabled:
-            event.target.checked
-        });
-      }
+  const element =
+    document.getElementById(
+      elementId
     );
+
+  if (!element) {
+    return;
+  }
+
+  element.addEventListener(
+    "change",
+    async (event) => {
+      await browser.runtime.sendMessage({
+        type:
+          "SET_FILTER_SETTING",
+
+        category,
+
+        enabled:
+          event.target.checked
+      });
+    }
+  );
 }
 
-document
-  .getElementById(
+const addButton =
+  document.getElementById(
     "add-block-domain"
-  )
-  .addEventListener(
+  );
+
+if (addButton) {
+  addButton.addEventListener(
     "click",
     addBlockDomain
   );
+}
 
-document
-  .getElementById(
+const blockInput =
+  document.getElementById(
     "block-domain-input"
-  )
-  .addEventListener(
+  );
+
+if (blockInput) {
+  blockInput.addEventListener(
     "keydown",
     (event) => {
       if (
@@ -297,6 +408,7 @@ document
       }
     }
   );
+}
 
 registerToggle(
   "toggle-ads",

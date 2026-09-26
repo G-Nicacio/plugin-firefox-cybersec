@@ -20,6 +20,7 @@
     "scripts": [
         "utils.js",
         "filter-engine.js",
+        "tracking-detector.js",
         "background.js"
         ]
     },

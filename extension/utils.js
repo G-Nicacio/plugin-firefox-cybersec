@@ -69,7 +69,11 @@ function createEmptyReport(tabId, pageUrl = "") {
     },
     bounceTracking: {
       suspected: false,
-      redirects: []
+      cookieSyncSuspected: false,
+      redirects: [],
+      indicators: [],
+      suspiciousParameters: [],
+      sharedIdentifiers: []
     },
     hijacking: {
       suspected: false,

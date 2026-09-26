@@ -1,4 +1,5 @@
 const reports = new Map();
+const trackingSessions = new Map();
 
 async function initializeFilters() {
   await filterEngine.loadBuiltInFilters();
@@ -40,39 +41,27 @@ function calculateScore(report) {
     20
   );
 
-  if (
-    report.storage.localStorage
-  ) {
+  if (report.storage.localStorage) {
     score -= 5;
   }
 
-  if (
-    report.storage.sessionStorage
-  ) {
+  if (report.storage.sessionStorage) {
     score -= 2;
   }
 
-  if (
-    report.storage.indexedDB
-  ) {
+  if (report.storage.indexedDB) {
     score -= 5;
   }
 
-  if (
-    report.canvas.detected
-  ) {
+  if (report.canvas.detected) {
     score -= 15;
   }
 
-  if (
-    report.bounceTracking.suspected
-  ) {
+  if (report.bounceTracking.suspected) {
     score -= 15;
   }
 
-  if (
-    report.hijacking.suspected
-  ) {
+  if (report.hijacking.suspected) {
     score -= 20;
   }
 
@@ -102,30 +91,37 @@ browser.tabs.onUpdated.addListener(
 browser.tabs.onRemoved.addListener(
   (tabId) => {
     reports.delete(tabId);
+    trackingSessions.delete(tabId);
   }
 );
 
+/*
+ * REQUEST OBSERVATION + BLOCKING
+ */
 browser.webRequest.onBeforeRequest.addListener(
   (details) => {
     if (details.tabId < 0) {
       return;
     }
 
+    registerMainFrameRequest(
+      details
+    );
+
     const filterResult =
       filterEngine.classify(
         details.url
       );
 
-    if (
-      filterResult?.blocked
-    ) {
+    if (filterResult?.blocked) {
       const report =
         getReport(
           details.tabId
         );
 
       const blockedRequest = {
-        url: details.url,
+        url:
+          details.url,
 
         hostname:
           getHostnameFromUrl(
@@ -264,8 +260,7 @@ browser.webRequest.onBeforeRequest.addListener(
     }
 
     if (
-      details.type ===
-        "websocket" &&
+      details.type === "websocket" &&
       thirdParty
     ) {
       report
@@ -302,6 +297,183 @@ browser.webRequest.onBeforeRequest.addListener(
   ["blocking"]
 );
 
+/*
+ * REDIRECT ANALYSIS
+ */
+browser.webRequest.onBeforeRedirect.addListener(
+  (details) => {
+    if (details.tabId < 0) {
+      return;
+    }
+
+    const analysis =
+      trackingDetector
+        .analyzeRedirect(
+          details
+        );
+
+    const session =
+      getTrackingSession(
+        details.tabId
+      );
+
+    session.expectedNextUrl =
+      details.redirectUrl;
+
+    session.lastActivity =
+      details.timeStamp;
+
+    if (!analysis.crossSite) {
+      return;
+    }
+
+    session.redirects.push(
+      analysis
+    );
+
+    const suspiciousParameters = [
+      ...analysis
+        .suspiciousSourceParameters,
+
+      ...analysis
+        .suspiciousDestinationParameters
+    ];
+
+    for (
+      const parameter of
+        suspiciousParameters
+    ) {
+      session
+        .suspiciousParameters
+        .push({
+          name:
+            parameter.name,
+
+          value:
+            parameter.value,
+
+          sourceUrl:
+            analysis.sourceUrl,
+
+          destinationUrl:
+            analysis.destinationUrl
+        });
+    }
+
+    for (
+      const identifier of
+        analysis.sharedIdentifiers
+    ) {
+      if (
+        !session
+          .sharedIdentifiers
+          .includes(
+            identifier
+          )
+      ) {
+        session
+          .sharedIdentifiers
+          .push(
+            identifier
+          );
+      }
+    }
+
+    /*
+     * COOKIE SYNC INDICATORS
+     */
+    if (
+      analysis
+        .sharedIdentifiers
+        .length > 0
+    ) {
+      session.cookieSyncSuspected =
+        true;
+
+      session.indicators.push(
+        "Possible identifier sharing across domains"
+      );
+    }
+
+    if (
+      suspiciousParameters.length >
+      0
+    ) {
+      session.cookieSyncSuspected =
+        true;
+
+      session.indicators.push(
+        "Tracking-like query parameter in cross-site redirect"
+      );
+    }
+
+    /*
+     * BOUNCE TRACKING INDICATORS
+     */
+    const recentMainFrameRedirects =
+      session.redirects.filter(
+        (redirect) => {
+          const recent =
+            details.timeStamp -
+              redirect.timestamp <
+            5000;
+
+          return (
+            redirect.type ===
+              "main_frame" &&
+            recent
+          );
+        }
+      );
+
+    if (
+      details.type ===
+        "main_frame" &&
+      recentMainFrameRedirects.length >=
+        2
+    ) {
+      session.bounceSuspected =
+        true;
+
+      session.indicators.push(
+        "Rapid cross-site redirect chain"
+      );
+    }
+
+    if (
+      details.type ===
+        "main_frame" &&
+      (
+        analysis
+          .sharedIdentifiers
+          .length > 0 ||
+        suspiciousParameters.length >
+          0
+      )
+    ) {
+      session.bounceSuspected =
+        true;
+
+      session.indicators.push(
+        "Identifier-like data in top-level cross-site redirect"
+      );
+    }
+
+    updateBounceReport(
+      details.tabId
+    );
+  },
+
+  {
+    urls: [
+      "<all_urls>"
+    ]
+  }
+);
+
+/*
+ * MESSAGES FROM CONTENT SCRIPT / POPUP
+ */
 browser.runtime.onMessage.addListener(
   async (
     message,
@@ -340,6 +512,10 @@ browser.runtime.onMessage.addListener(
       "GET_REPORT"
     ) {
       await updateCookiesForTab(
+        message.tabId
+      );
+
+      updateBounceReport(
         message.tabId
       );
 
@@ -478,6 +654,9 @@ browser.runtime.onMessage.addListener(
   }
 );
 
+/*
+ * COOKIE ANALYSIS
+ */
 async function updateCookiesForTab(
   tabId
 ) {
@@ -491,7 +670,8 @@ async function updateCookiesForTab(
   try {
     const cookies =
       await browser.cookies.getAll({
-        url: report.pageUrl
+        url:
+          report.pageUrl
       });
 
     let firstParty = 0;
@@ -555,4 +735,144 @@ async function updateCookiesForTab(
       error
     );
   }
+}
+
+/*
+ * TRACKING SESSION STATE
+ */
+function createTrackingSession() {
+  return {
+    redirects: [],
+
+    expectedNextUrl: null,
+
+    lastActivity: 0,
+
+    bounceSuspected: false,
+
+    cookieSyncSuspected: false,
+
+    indicators: [],
+
+    suspiciousParameters: [],
+
+    sharedIdentifiers: []
+  };
+}
+
+function getTrackingSession(
+  tabId
+) {
+  if (
+    !trackingSessions.has(
+      tabId
+    )
+  ) {
+    trackingSessions.set(
+      tabId,
+      createTrackingSession()
+    );
+  }
+
+  return trackingSessions.get(
+    tabId
+  );
+}
+
+/*
+ * Tracks whether a main-frame request
+ * continues a redirect chain or starts
+ * a new navigation.
+ */
+function registerMainFrameRequest(
+  details
+) {
+  if (
+    details.type !==
+    "main_frame"
+  ) {
+    return;
+  }
+
+  let session =
+    getTrackingSession(
+      details.tabId
+    );
+
+  if (
+    session.expectedNextUrl ===
+    details.url
+  ) {
+    session.expectedNextUrl =
+      null;
+
+    session.lastActivity =
+      details.timeStamp;
+
+    return;
+  }
+
+  session =
+    createTrackingSession();
+
+  session.lastActivity =
+    details.timeStamp;
+
+  trackingSessions.set(
+    details.tabId,
+    session
+  );
+}
+
+/*
+ * Copies temporary tracking-session
+ * evidence into the page report.
+ */
+function updateBounceReport(
+  tabId
+) {
+  const report =
+    getReport(tabId);
+
+  const session =
+    getTrackingSession(
+      tabId
+    );
+
+  report.bounceTracking = {
+    suspected:
+      session.bounceSuspected,
+
+    cookieSyncSuspected:
+      session.cookieSyncSuspected,
+
+    redirects:
+      [
+        ...session.redirects
+      ],
+
+    indicators:
+      [
+        ...new Set(
+          session.indicators
+        )
+      ],
+
+    suspiciousParameters:
+      [
+        ...session
+          .suspiciousParameters
+      ],
+
+    sharedIdentifiers:
+      [
+        ...session
+          .sharedIdentifiers
+      ]
+  };
+
+  report.score =
+    calculateScore(
+      report
+    );
 }

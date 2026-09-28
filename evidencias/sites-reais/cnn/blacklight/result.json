@@ -1,0 +1,184 @@
+{
+  "status": "success",
+  "page_title": "Breaking News, Latest News and Videos | CNN",
+  "host": "www.cnn.com",
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/138.0.7204.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/138.0.7204.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.10.255-268-309.1092.amzn2.x86_64"
+    }
+  },
+  "start_time": "2026-09-28T18:02:04.413Z",
+  "end_time": "2026-09-28T18:02:53.776Z",
+  "location": "us-oh",
+  "tracker_radar_last_updated": "2024-03-20T12:00:00.000Z",
+  "display_time": "Sep. 28, 2026, 14:02 ET",
+  "aws_region": "us-east-2",
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.cnn.com",
+        "lightning.cnn.com",
+        "media.cnn.com",
+        "default.any-any.prd.api.bolt.cnn.com",
+        "gcp.amer-free.prd.media.cnn.com",
+        "cf.amer-free.prd.media.cnn.com",
+        "busy.any-amer.prd.api.bolt.cnn.com"
+      ],
+      "third_party": [
+        "cdn.optimizely.com",
+        "registry.api.cnn.io",
+        "fave.api.cnn.io",
+        "fonts.googleapis.com",
+        "production.dataviz.cnn.io",
+        "js.stripe.com",
+        "accounts.google.com",
+        "imasdk.googleapis.com",
+        "turnip.cdn.turner.com",
+        "cookies-data.onetrust.io",
+        "m.stripe.network",
+        "cdn-media.brightline.tv",
+        "events.brightline.tv",
+        "m.stripe.com",
+        "out053a3bejgh7t0phqa0csou.litix.io",
+        "register.mediamelon.com",
+        "pagead2.googlesyndication.com",
+        "pubads.g.doubleclick.net",
+        "beacons-wbd.mediamelon.com",
+        "tpc.googlesyndication.com",
+        "bea4.v.fwmrm.net"
+      ]
+    }
+  },
+  "uri_ins": "https://www.cnn.com/",
+  "uri_dest": "https://www.cnn.com/",
+  "browsing_history": [
+    "https://www.cnn.com/",
+    "https://www.cnn.com/2026/09/28/science/video/[REDACTED]"
+  ],
+  "config": {
+    "numPages": 1,
+    "defaultTimeout": 30000,
+    "defaultWaitUntil": "networkidle2",
+    "enableAdBlock": false,
+    "cleareCache": true,
+    "headless": true,
+    "emulateDevice": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+      "viewport": {
+        "width": 1440,
+        "height": 790,
+        "deviceScaleFactor": 2,
+        "isMobile": false,
+        "hasTouch": false,
+        "isLandscape": true
+      }
+    }
+  },
+  "reportUrl": "https://mrkp-static-production.themarkup.org/blacklight-us-oh/0accbd95e471f9b2c6220834d231990e19720ca9/report.html",
+  "groups": [
+    {
+      "title": "Blacklight Inspection Result",
+      "cards": [
+        {
+          "cardType": "ddg_join_ads",
+          "title": "No ad trackers found on this site.",
+          "testEventsFound": false,
+          "bigNumber": 0,
+          "domainData": {
+            "scripts": [],
+            "categories": [],
+            "owners": []
+          },
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#ad-trackers"
+        },
+        {
+          "cardType": "cookies",
+          "title": "Third-party cookies found.",
+          "testEventsFound": true,
+          "bigNumber": 2,
+          "domainData": {
+            "scripts": [
+              "turnip.cdn.turner.com",
+              "m.stripe.com"
+            ],
+            "categories": [
+              "Online Payment",
+              "CDN",
+              "Embedded Content"
+            ],
+            "owners": [
+              "WarnerMedia, LLC",
+              "Stripe, Inc"
+            ]
+          },
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#third-party-cookies"
+        },
+        {
+          "cardType": "canvas_fingerprinters",
+          "title": "Tracking that evades cookie blockers wasn't found.",
+          "testEventsFound": false,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#canvas-fingerprinting",
+          "caveat": "While Blacklight accurately detects the presence of canvas fingerprinting on a website, it cannot determine if the purpose is user behavior monitoring or for fraud prevention or bot detection."
+        },
+        {
+          "cardType": "session_recorders",
+          "title": "Session recording services not found on this website.",
+          "testEventsFound": false,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#session-recording",
+          "caveat": "While Blacklight can detect whether a session recorder was loaded, it cannot determine exactly how the collected data is being used."
+        },
+        {
+          "cardType": "key_logging",
+          "title": "We did not find this website capturing keystrokes.",
+          "testEventsFound": false,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#key-logging",
+          "caveat": "There are other reasons for key logging, such as providing autocomplete functionality. Blacklight cannot determine the intent behind the inspected website’s use of this technique."
+        },
+        {
+          "cardType": "fb_pixel_events",
+          "title": "Facebook Pixel not found on this website.",
+          "testEventsFound": false,
+          "domainData": null,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#facebook-pixel"
+        },
+        {
+          "cardType": "tiktok_pixel_events",
+          "title": "TikTok Pixel not found on this website.",
+          "testEventsFound": false,
+          "domainData": null,
+          "methodology": ""
+        },
+        {
+          "cardType": "twitter_pixel_events",
+          "title": "X Pixel not found on this website.",
+          "testEventsFound": false,
+          "domainData": null,
+          "methodology": ""
+        },
+        {
+          "cardType": "ga",
+          "title": "Google Analytics' \"remarketing audiences\" feature not found.",
+          "testEventsFound": false,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#google-analytics-remarketing-audiences"
+        }
+      ]
+    },
+    {
+      "title": "Some of the ad-tech companies this website interacted with:",
+      "cards": [
+        {
+          "cardType": "reported_alphabet",
+          "title": "Alphabet",
+          "domains_found": [
+            "<strong>googleapis.com</strong>"
+          ],
+          "bl_data_type": "script_domain"
+        }
+      ]
+    }
+  ]
+}

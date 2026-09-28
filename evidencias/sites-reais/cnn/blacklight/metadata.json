@@ -1,0 +1,19 @@
+{
+  "site": "CNN",
+  "url": "https://www.cnn.com/",
+  "endpoint": "https://blacklight-us-oh.api.themarkup.org/graphic-api",
+  "client": "https://mrkp-static-production.themarkup.org/graphics/blacklight-client_blacklight-client/1781703161872/main.js",
+  "request": {
+    "inUrl": "https://www.cnn.com/",
+    "device": "desktop",
+    "force": true,
+    "location": "us-oh"
+  },
+  "timestamp": "2026-09-28T18:02:02.969Z",
+  "finishedAt": "2026-09-28T18:02:53.529Z",
+  "httpStatus": 200,
+  "status": "collected",
+  "responseSha256": "9ba28a863a91c42c787d23dafd4b39bd53afb1d7855bd48fc5c1a7e9a10759c3",
+  "source": "Actual Blacklight graphic-api response; structured factual extract, not a local Firefox run",
+  "sanitization": "No cookie values, response bodies, embedded images, request headers or browser profile retained"
+}

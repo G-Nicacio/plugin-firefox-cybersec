@@ -1,0 +1,1520 @@
+{
+  "site": "cnn",
+  "runs": {
+    "baseline": {
+      "timestamp": "2026-09-28T18:00:16.756Z",
+      "har": 210,
+      "firstPartyHar": 96,
+      "thirdPartyHar": 113,
+      "unclassifiedHar": 1,
+      "attempted": 189,
+      "allowedByPI": 189,
+      "thirdPartyHosts": 25,
+      "thirdPartyRequestsRetainedHosts": 113,
+      "detected": {
+        "ads": 12,
+        "trackers": 0,
+        "custom": 0
+      },
+      "blocked": {
+        "ads": 0,
+        "trackers": 0,
+        "custom": 0
+      },
+      "cookies": {
+        "firstParty": 13,
+        "thirdParty": 0,
+        "session": 5,
+        "persistent": 8,
+        "thirdPartyPersistent": 0,
+        "thirdPartySession": 0,
+        "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+        "errors": 0
+      },
+      "cookieWrites": {
+        "total": 67,
+        "firstParty": 65,
+        "thirdParty": 2,
+        "session": 62,
+        "persistent": 4,
+        "deletions": 1,
+        "malformed": 0
+      },
+      "storage": {
+        "localStorage": true,
+        "localStorageEntries": 6,
+        "sessionStorage": true,
+        "sessionStorageEntries": 2,
+        "indexedDB": false,
+        "indexedDBDatabases": [],
+        "unavailable": []
+      },
+      "canvas": false,
+      "bounce": false,
+      "cookieSync": false,
+      "hooks": [],
+      "polling": [
+        {
+          "endpoint": "https://gcp.live.cnn.latam.prd.media.max.com/live/use1/[REDACTED]/[REDACTED]/main.mpd",
+          "count": 5,
+          "windowMs": 30000
+        }
+      ],
+      "websockets": [],
+      "score": 77,
+      "breakdown": {
+        "thirdParties": 15,
+        "cookies": 0,
+        "storage": 3,
+        "canvas": 0,
+        "crossSite": 0,
+        "security": 5
+      },
+      "historyTruncated": false
+    },
+    "blocking": {
+      "timestamp": "2026-09-28T18:00:56.067Z",
+      "har": 201,
+      "firstPartyHar": 144,
+      "thirdPartyHar": 56,
+      "unclassifiedHar": 1,
+      "attempted": 180,
+      "allowedByPI": 177,
+      "thirdPartyHosts": 23,
+      "thirdPartyRequestsRetainedHosts": 56,
+      "detected": {
+        "ads": 3,
+        "trackers": 0,
+        "custom": 0
+      },
+      "blocked": {
+        "ads": 3,
+        "trackers": 0,
+        "custom": 0
+      },
+      "cookies": {
+        "firstParty": 13,
+        "thirdParty": 0,
+        "session": 5,
+        "persistent": 8,
+        "thirdPartyPersistent": 0,
+        "thirdPartySession": 0,
+        "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+        "errors": 0
+      },
+      "cookieWrites": {
+        "total": 67,
+        "firstParty": 65,
+        "thirdParty": 2,
+        "session": 62,
+        "persistent": 4,
+        "deletions": 1,
+        "malformed": 0
+      },
+      "storage": {
+        "localStorage": true,
+        "localStorageEntries": 6,
+        "sessionStorage": true,
+        "sessionStorageEntries": 2,
+        "indexedDB": false,
+        "indexedDBDatabases": [],
+        "unavailable": []
+      },
+      "canvas": false,
+      "bounce": false,
+      "cookieSync": false,
+      "hooks": [],
+      "polling": [
+        {
+          "endpoint": "https://fly.live.cnn.latam.prd.media.max.com/live/use1/[REDACTED]/[REDACTED]/main.mpd",
+          "count": 5,
+          "windowMs": 30000
+        }
+      ],
+      "websockets": [],
+      "score": 77,
+      "breakdown": {
+        "thirdParties": 15,
+        "cookies": 0,
+        "storage": 3,
+        "canvas": 0,
+        "crossSite": 0,
+        "security": 5
+      },
+      "historyTruncated": false
+    },
+    "ublock": {
+      "timestamp": "2026-09-28T18:03:23.861Z",
+      "har": 141,
+      "firstPartyHar": 74,
+      "thirdPartyHar": 60,
+      "unclassifiedHar": 7,
+      "attempted": 138,
+      "allowedByPI": 138,
+      "thirdPartyHosts": 17,
+      "thirdPartyRequestsRetainedHosts": 63,
+      "detected": {
+        "ads": 3,
+        "trackers": 0,
+        "custom": 0
+      },
+      "blocked": {
+        "ads": 0,
+        "trackers": 0,
+        "custom": 0
+      },
+      "cookies": {
+        "firstParty": 13,
+        "thirdParty": 0,
+        "session": 5,
+        "persistent": 8,
+        "thirdPartyPersistent": 0,
+        "thirdPartySession": 0,
+        "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+        "errors": 0
+      },
+      "cookieWrites": {
+        "total": 66,
+        "firstParty": 66,
+        "thirdParty": 0,
+        "session": 63,
+        "persistent": 2,
+        "deletions": 1,
+        "malformed": 0
+      },
+      "storage": {
+        "localStorage": true,
+        "localStorageEntries": 6,
+        "sessionStorage": true,
+        "sessionStorageEntries": 2,
+        "indexedDB": false,
+        "indexedDBDatabases": [],
+        "unavailable": []
+      },
+      "canvas": false,
+      "bounce": false,
+      "cookieSync": false,
+      "hooks": [],
+      "polling": [
+        {
+          "endpoint": "https://akm.live.cnn.latam.prd.media.max.com/live/use1/[REDACTED]/[REDACTED]/fallback.mpd",
+          "count": 5,
+          "windowMs": 30000
+        }
+      ],
+      "websockets": [],
+      "score": 77,
+      "breakdown": {
+        "thirdParties": 15,
+        "cookies": 0,
+        "storage": 3,
+        "canvas": 0,
+        "crossSite": 0,
+        "security": 5
+      },
+      "historyTruncated": false
+    }
+  },
+  "ublock": {
+    "blockingDecisions": 10,
+    "blockedHosts": [
+      "cdn.optimizely.com",
+      "lightning.cnn.com",
+      "imasdk.googleapis.com",
+      "pagead2.googlesyndication.com",
+      "pubads.g.doubleclick.net",
+      "akm.live.cnn.latam.prd.media.max.com",
+      "play.google.com"
+    ],
+    "note": "Network logger result=1, excluding modifier entries. These are logged decisions, not a deduplicated HTTP request counter. Redirect/scriptlet/cosmetic rows excluded."
+  },
+  "blacklight": [
+    {
+      "type": "ddg_join_ads",
+      "found": false,
+      "count": 0,
+      "domains": []
+    },
+    {
+      "type": "cookies",
+      "found": true,
+      "count": 2,
+      "domains": [
+        "turnip.cdn.turner.com",
+        "m.stripe.com"
+      ]
+    },
+    {
+      "type": "canvas_fingerprinters",
+      "found": false
+    },
+    {
+      "type": "session_recorders",
+      "found": false
+    },
+    {
+      "type": "key_logging",
+      "found": false
+    },
+    {
+      "type": "fb_pixel_events",
+      "found": false
+    },
+    {
+      "type": "tiktok_pixel_events",
+      "found": false
+    },
+    {
+      "type": "twitter_pixel_events",
+      "found": false
+    },
+    {
+      "type": "ga",
+      "found": false
+    }
+  ],
+  "reconciliation": [
+    {
+      "domain": "cnn.com",
+      "piBaselineObservedHosts": [],
+      "piBaselineSampleCount": 76,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 79,
+      "ublockLogIndexes": [
+        25
+      ],
+      "ublockRules": [
+        "://lightning.*/launch/"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "www.cnn.com",
+            "entries": [
+              0
+            ],
+            "statuses": {
+              "302": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "edition.cnn.com",
+            "entries": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              22,
+              23,
+              25,
+              26,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              60,
+              66,
+              68,
+              69,
+              72,
+              77,
+              78,
+              79,
+              82,
+              83,
+              84,
+              85,
+              86
+            ],
+            "statuses": {
+              "200": 38
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "media.cnn.com",
+            "entries": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              63,
+              64,
+              107,
+              185,
+              186,
+              187,
+              188,
+              189,
+              202,
+              203,
+              204
+            ],
+            "statuses": {
+              "200": 39,
+              "206": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "lightning.cnn.com",
+            "entries": [
+              24,
+              67
+            ],
+            "statuses": {
+              "200": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "default.any-any.prd.api.bolt.cnn.com",
+            "entries": [
+              91,
+              93,
+              98,
+              99,
+              100,
+              101,
+              118,
+              119
+            ],
+            "statuses": {
+              "200": 8
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "cdn.cnn.com",
+            "entries": [
+              136,
+              142,
+              155
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "busy.any-latam.prd.api.bolt.cnn.com",
+            "entries": [
+              151,
+              153,
+              190
+            ],
+            "statuses": {
+              "200": 1,
+              "201": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "www.cnn.com",
+            "entries": [
+              0
+            ],
+            "statuses": {
+              "302": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "edition.cnn.com",
+            "entries": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              22,
+              23,
+              25,
+              26,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              61,
+              67,
+              71,
+              74,
+              75,
+              78,
+              79,
+              80,
+              82,
+              83,
+              84,
+              87,
+              88
+            ],
+            "statuses": {
+              "200": 38
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "media.cnn.com",
+            "entries": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              62,
+              63,
+              107,
+              182,
+              183,
+              184,
+              185,
+              186,
+              195,
+              196,
+              197
+            ],
+            "statuses": {
+              "200": 39,
+              "206": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "lightning.cnn.com",
+            "entries": [
+              24,
+              65
+            ],
+            "statuses": {
+              "200": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "default.any-any.prd.api.bolt.cnn.com",
+            "entries": [
+              89,
+              92,
+              98,
+              99,
+              100,
+              101,
+              117,
+              118
+            ],
+            "statuses": {
+              "200": 8
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "fly.latam-free.prd.media.cnn.com",
+            "entries": [
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              136,
+              137,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              148,
+              149,
+              151,
+              153,
+              154,
+              155,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181
+            ],
+            "statuses": {
+              "200": 48
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "cdn.cnn.com",
+            "entries": [
+              130,
+              135,
+              152
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "busy.any-latam.prd.api.bolt.cnn.com",
+            "entries": [
+              147,
+              150,
+              187
+            ],
+            "statuses": {
+              "200": 1,
+              "201": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "www.cnn.com",
+            "entries": [
+              0
+            ],
+            "statuses": {
+              "302": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "edition.cnn.com",
+            "entries": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              8,
+              24,
+              25,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              47,
+              49,
+              53,
+              59,
+              62,
+              63,
+              64,
+              66,
+              67,
+              68,
+              71,
+              72
+            ],
+            "statuses": {
+              "200": 36
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "media.cnn.com",
+            "entries": [
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              44,
+              45,
+              50,
+              51,
+              52,
+              88,
+              101,
+              102,
+              103,
+              111,
+              127,
+              128
+            ],
+            "statuses": {
+              "200": 25,
+              "206": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "default.any-any.prd.api.bolt.cnn.com",
+            "entries": [
+              74,
+              76,
+              82,
+              83,
+              84,
+              85,
+              97,
+              98
+            ],
+            "statuses": {
+              "200": 8
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "busy.any-latam.prd.api.bolt.cnn.com",
+            "entries": [
+              122,
+              123
+            ],
+            "statuses": {
+              "200": 1,
+              "201": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ://lightning.*/launch/. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "doubleclick.net",
+      "piBaselineObservedHosts": [
+        "pubads.g.doubleclick.net"
+      ],
+      "piBaselineSampleCount": 2,
+      "piSampledCategories": [
+        "ad"
+      ],
+      "internalCategories": [
+        "ad"
+      ],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 2,
+      "ublockBlockingDecisionsC": 2,
+      "ublockObservedC": 6,
+      "ublockLogIndexes": [
+        238,
+        241
+      ],
+      "ublockRules": [
+        "||doubleclick.net^"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "pubads.g.doubleclick.net",
+            "entries": [
+              115,
+              116
+            ],
+            "statuses": {
+              "200": 1,
+              "204": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "pubads.g.doubleclick.net",
+            "entries": [
+              115,
+              116
+            ],
+            "statuses": {
+              "0": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": []
+      },
+      "explanation": "Classificação interna ad e decisão de bloqueio uBlock registradas em execuções distintas. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "google.com",
+      "piBaselineObservedHosts": [
+        "accounts.google.com",
+        "play.google.com"
+      ],
+      "piBaselineSampleCount": 6,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 6,
+      "ublockLogIndexes": [
+        255
+      ],
+      "ublockRules": [
+        "/log?format="
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "accounts.google.com",
+            "entries": [
+              65,
+              87,
+              88,
+              92
+            ],
+            "statuses": {
+              "200": 4
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "play.google.com",
+            "entries": [
+              194,
+              195
+            ],
+            "statuses": {
+              "200": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "accounts.google.com",
+            "entries": [
+              64,
+              90,
+              91,
+              93
+            ],
+            "statuses": {
+              "200": 4
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "play.google.com",
+            "entries": [
+              189,
+              190
+            ],
+            "statuses": {
+              "200": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "accounts.google.com",
+            "entries": [
+              43,
+              73,
+              75,
+              77
+            ],
+            "statuses": {
+              "200": 4
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "play.google.com",
+            "entries": [
+              104
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou /log?format=. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "googleapis.com",
+      "piBaselineObservedHosts": [
+        "imasdk.googleapis.com",
+        "fonts.googleapis.com"
+      ],
+      "piBaselineSampleCount": 2,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 3,
+      "ublockLogIndexes": [
+        69
+      ],
+      "ublockRules": [
+        "||imasdk.googleapis.com^"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "imasdk.googleapis.com",
+            "entries": [
+              62
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "fonts.googleapis.com",
+            "entries": [
+              73
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "imasdk.googleapis.com",
+            "entries": [
+              66
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "fonts.googleapis.com",
+            "entries": [
+              70
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "imasdk.googleapis.com",
+            "entries": [
+              46
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "fonts.googleapis.com",
+            "entries": [
+              58
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ||imasdk.googleapis.com^. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "googlesyndication.com",
+      "piBaselineObservedHosts": [
+        "pagead2.googlesyndication.com",
+        "tpc.googlesyndication.com"
+      ],
+      "piBaselineSampleCount": 10,
+      "piSampledCategories": [
+        "ad"
+      ],
+      "internalCategories": [
+        "ad"
+      ],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 1,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 3,
+      "ublockLogIndexes": [
+        235
+      ],
+      "ublockRules": [
+        "||googlesyndication.com^"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "pagead2.googlesyndication.com",
+            "entries": [
+              114,
+              121,
+              122,
+              137,
+              196,
+              200,
+              205,
+              208
+            ],
+            "statuses": {
+              "200": 2,
+              "204": 6
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "tpc.googlesyndication.com",
+            "entries": [
+              117,
+              120
+            ],
+            "statuses": {
+              "200": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "pagead2.googlesyndication.com",
+            "entries": [
+              114
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": []
+      },
+      "explanation": "Classificação interna ad e decisão de bloqueio uBlock registradas em execuções distintas. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "max.com",
+      "piBaselineObservedHosts": [
+        "gcp.live.cnn.latam.prd.media.max.com",
+        "gcp.latam-free.prd.media.max.com"
+      ],
+      "piBaselineSampleCount": 54,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 3,
+      "ublockObservedC": 28,
+      "ublockLogIndexes": [
+        247,
+        248,
+        256
+      ],
+      "ublockRules": [
+        "||media.max.com/*/main.mpd^$from=cnn.com"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "gcp.live.cnn.latam.prd.media.max.com",
+            "entries": [
+              123,
+              193,
+              198,
+              201,
+              206,
+              209
+            ],
+            "statuses": {
+              "0": 1,
+              "200": 5
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "gcp.latam-free.prd.media.max.com",
+            "entries": [
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              143,
+              144,
+              146,
+              147,
+              148,
+              149,
+              150,
+              152,
+              154,
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              162,
+              163,
+              164,
+              165,
+              166,
+              167,
+              168,
+              169,
+              170,
+              171,
+              172,
+              173,
+              174,
+              175,
+              176,
+              177,
+              178,
+              179,
+              180,
+              181,
+              182,
+              183,
+              184,
+              191,
+              192
+            ],
+            "statuses": {
+              "200": 48
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "fly.live.cnn.latam.prd.media.max.com",
+            "entries": [
+              119,
+              188,
+              192,
+              194,
+              198,
+              199
+            ],
+            "statuses": {
+              "200": 6
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "akm.live.cnn.latam.prd.media.max.com",
+            "entries": [
+              99,
+              100,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              124,
+              125,
+              126,
+              129,
+              130,
+              131,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140
+            ],
+            "statuses": {
+              "0": 3,
+              "200": 25
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ||media.max.com/*/main.mpd^$from=cnn.com. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "optimizely.com",
+      "piBaselineObservedHosts": [
+        "cdn.optimizely.com"
+      ],
+      "piBaselineSampleCount": 1,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 1,
+      "ublockLogIndexes": [
+        7
+      ],
+      "ublockRules": [
+        "||optimizely.com/public/"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "cdn.optimizely.com",
+            "entries": [
+              6
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "cdn.optimizely.com",
+            "entries": [
+              6
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "cdn.optimizely.com",
+            "entries": [
+              6
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ||optimizely.com/public/. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "stripe.com",
+      "piBaselineObservedHosts": [
+        "js.stripe.com"
+      ],
+      "piBaselineSampleCount": 3,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 3,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [
+        "cookies"
+      ],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "js.stripe.com",
+            "entries": [
+              59,
+              95,
+              96
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "js.stripe.com",
+            "entries": [
+              59,
+              95,
+              96
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "js.stripe.com",
+            "entries": [
+              42,
+              79,
+              80
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "HAR A confirma tráfego; Blacklight identifica cookies; lista didática sem classificação para este domínio."
+    },
+    {
+      "domain": "turner.com",
+      "piBaselineObservedHosts": [],
+      "piBaselineSampleCount": 0,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 0,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [
+        "cookies"
+      ],
+      "evidence": {
+        "baseline": [],
+        "blocking": [],
+        "ublock": []
+      },
+      "explanation": "Blacklight identificou o domínio; não consta no HAR A. A sessão externa visitou duas páginas; a causa exata da diferença não foi isolada."
+    }
+  ]
+}

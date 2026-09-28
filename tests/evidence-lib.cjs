@@ -82,9 +82,12 @@ function sanitizeHar(input, source) {
 function analyzeHar(har, pageUrl, report = null) {
   if (!Array.isArray(har?.log?.entries)) throw new Error("Arquivo sem log.entries HAR");
   const hosts = Object.create(null), statuses = Object.create(null), redirects = [], cookieWrites = [];
-  let thirdPartyRequests = 0;
+  let thirdPartyRequests = 0, unclassifiedRequests = 0;
   har.log.entries.forEach((entry, index) => {
     const url = new URL(entry.request.url);
+    if (!url.hostname || !["http:","https:","ws:","wss:"].includes(url.protocol)) {
+      unclassifiedRequests++; return;
+    }
     const third = isThirdParty(pageUrl, url.href);
     if (third) thirdPartyRequests++;
     const host = hosts[url.hostname] ||= { requests:0, thirdParty:third, statuses:{}, types:[], harEntries:[], categories:[] };
@@ -100,8 +103,8 @@ function analyzeHar(har, pageUrl, report = null) {
     for (const cookie of entry._cookieWriteMetadata || []) cookieWrites.push({ entry:index, ...cookie });
   });
   return {
-    totalRequests:har.log.entries.length, firstPartyRequests:har.log.entries.length-thirdPartyRequests,
-    thirdPartyRequests, hosts, statuses, redirects, cookieWrites,
+    totalRequests:har.log.entries.length, firstPartyRequests:har.log.entries.length-thirdPartyRequests-unclassifiedRequests,
+    thirdPartyRequests, unclassifiedRequests, hosts, statuses, redirects, cookieWrites,
     pluginComparison:report ? {
       pluginAttempts:report.requestCount, sampledRequests:report.requests.length,
       hostsOnlyInHar:Object.keys(hosts).filter(host=>!report.thirdPartyDomains?.[host] && isThirdParty(pageUrl,"https://"+host)),

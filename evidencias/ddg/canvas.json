@@ -1,0 +1,787 @@
+{
+  "at": "2026-09-28T16:15:37.446Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+  "pageText": "[Home] ↣ [Privacy Protections Tests] ↣ [Fingerprinting Test Page]\n\nThese checks verify the correctness and performance of canvas rendering. This is to ensure the browser behaves as specified and is used in various identity sites. Canvas drawing is used to visually verify the correctness.\n\nStatus\tNotes\nresistance\tlayering comparison\nfail\tSanity check on pixels that match the reference data\npass\tSanity check on counts matching\nfail\tShould have more than 20% of eligiblePixels that are changed across multiple canvases\nperformance\trandom noise performance\npass\tGetting image data must be under 300ms (14)\npass\tGetting image data must be under 300ms (5)\npass\tData in image must not be blank\nperformance\tfp example performance\npass\tGetting image data must be under 200ms (1)\npass\tData in image must be blank\npass\tDrawing image data must be under 200ms (3)\npass\tGetting image data must be under 200ms (0)\npass\tData in image must not be blank\nperformance\tfp example heavy draw performance\npass\tGetting image data must be under 250ms (0)\npass\tData in image must be blank\npass\tDrawing image data 1000 times must be under 1249ms (150)\npass\tGetting image data must be under 250ms (1)\npass\tData in image must not be blank\nperformance\tfp example performance getImageData heavy\npass\tGetting image data must be under 200ms (0)\npass\tData in image must be blank\npass\tDrawing image data must be under 200ms (1)\npass\tGetting image data 100 times must be under 645.5ms (22)\npass\tData in image must not be blank\ncorrectness\tknown pixel render\npass\tExpect value '18' to equal '18'\npass\tExpect value '18' to equal '18'\npass\tExpect value '255' to equal '255'\npass\tExpect value '255' to equal '255'\npass\tGetting image data must be under 25ms (0)\nfail\tOutput conversion has expected values\ncorrectness\tread canvas into image and back into canvas\npass\tTriggered callback must pass correct key\ncorrectness\tknown string render\nfail\tGenerated code should return expected response: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWklEQVQ4T2NMY2AQec7AwMDDwMBwi4GBQYoBAkB8EPszFIPAFwYGBkkGBoazUDmQGkaQATAFyAY8Y2BgcIBqBlkAEzNGE2P8z8AgAmWTBUYNGA2D0XRApbwAAMsYHdwEDvqVAAAAEGRlQkdCMTJGRUY1NUQ0NTVDMkRGZ81pRgAAAABJRU5ErkJggg==\n☰",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "cdnjs.cloudflare.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790612129342,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/style.css",
+        "hostname": "privacy-test-pages.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612129484,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js",
+        "hostname": "cdnjs.cloudflare.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612129484,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/helpers/canvas.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612129485,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612129485,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/helpers/runMenu.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612129485,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612129894,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/pixel.gif",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612133479,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 8,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 4,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 4,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": true,
+      "sessionStorageEntries": 1,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "data",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": true,
+      "events": [
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133358
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133358
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133358
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133358
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133358
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133359
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133359
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133359
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133359
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133359
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133360
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133360
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133360
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133360
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133361
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133361
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133361
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133361
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133361
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133362
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133362
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133362
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133362
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133362
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133362
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133363
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133363
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133363
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133363
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133363
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133364
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133365
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133365
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133365
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133365
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133365
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133366
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133366
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133367
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133367
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133367
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133367
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133367
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133368
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133368
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133368
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133368
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133369
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133369
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133369
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133369
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133369
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133370
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133370
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133370
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133370
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133370
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133371
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133371
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133371
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133371
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133372
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133372
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133372
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133372
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133372
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133373
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133373
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133373
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133373
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133373
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133374
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133374
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133374
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133374
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133375
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133375
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133375
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133375
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133375
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133376
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133376
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133376
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133376
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133377
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133378
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790612133378
+        },
+        {
+          "method": "getImageData",
+          "width": 1,
+          "height": 1,
+          "timestamp": 1790612133610
+        },
+        {
+          "method": "toDataURL",
+          "width": 1,
+          "height": 1,
+          "timestamp": 1790612133610
+        },
+        {
+          "method": "getImageData",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790612133711
+        },
+        {
+          "method": "toDataURL",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790612133711
+        },
+        {
+          "method": "getImageData",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790612133712
+        },
+        {
+          "method": "getImageData",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790612133813
+        },
+        {
+          "method": "toDataURL",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790612133813
+        }
+      ],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 86,
+    "scoreBreakdown": {
+      "thirdParties": 1,
+      "cookies": 0,
+      "storage": 5,
+      "canvas": 8,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  }
+}

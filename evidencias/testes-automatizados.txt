@@ -1,0 +1,16 @@
+PASS listeners and blocked main-frame report
+PASS detection with blocking ON and OFF
+PASS settings survive background recreation
+PASS strict parser and domain boundaries
+PASS blocked report survives MV3 background suspension
+PASS short named UID versus generic IDs and marketing labels
+PASS redirect chain survives subresource; new navigation resets
+PASS polling time span and WebSocket not proof of hijacking
+PASS DDG client-side bounce preserves short UID and tracker attempt
+PASS history caps and tab cleanup
+PASS cookie deduplication, partitions and persistence
+PASS content cannot change filters; frame analysis aggregates
+PASS suffix fallback and IP addresses
+PASS score avoids bounce/sync double counting
+PASS canvas wrappers preserve returns, callbacks, errors and hostile metadata
+15 tests passed

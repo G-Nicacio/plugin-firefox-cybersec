@@ -1,0 +1,24 @@
+{
+  "at": "2026-09-28T16:21:59.999Z",
+  "firefox": "156.0.1",
+  "expected": {
+    "ads": false,
+    "trackers": true,
+    "custom": true,
+    "customBlocklist": [
+      "example.com"
+    ]
+  },
+  "actual": [
+    {
+      "ads": false,
+      "trackers": true,
+      "custom": true
+    },
+    {
+      "domains": [
+        "example.com"
+      ]
+    }
+  ]
+}

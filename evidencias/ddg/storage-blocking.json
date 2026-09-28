@@ -1,0 +1,1020 @@
+{
+  "at": "2026-09-28T16:23:53.229Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://privacy-test-pages.site/privacy-protections/storage-blocking/#736",
+  "pageText": "[Home] ↣ [Privacy Protections Tests] ↣ [Storage Blocking Test Page]\n\nThis page will try to store, and then retrieve, a random number using various storage mechanisms in the browser.\n\nStore data Retrieve data\n\nRetrieved data from 23 storage mechanisms (2 failed). Click for details.\nfirst party header cookie - \"736\"\nsafe third party header cookie - \"736\"\ntracking third party header cookie - \"736\"\nJS cookie - \"736\" (expires in NaN days)\nJS cookie (__Host) - \"736\"\nJS cookie (no SameSite attribute) - \"736\"\nlocalStorage - \"736\"\nsessionStorage - \"736\"\nIndexedDB - \"736\"\nWebSQL - ❌ error thrown (\"openDatabase is not defined\")\nCache API - \"736\"\nCookieStore - \"736\" (expires in NaN days)\nJS cookie (3rd party tracking script) - \"736\" (expires in NaN days)\nJS cookie (3rd party safe script) - \"736\" (expires in NaN days)\nsafe third party iframe -\nfirst party header cookie - 736\ntracking third party header cookie - 736\nJS cookie - 736 (expires in NaN days)\nJS cookie (__Host) - 736\nJS cookie (no SameSite attribute) - 736\nlocalStorage - 736\nsessionStorage - 736\nIndexedDB - 736\nWebSQL - null (❌ openDatabase is not defined)\nCache API - 736\nCookieStore - null (❌ can't access property \"value\" of null)\ntracking third party iframe -\nfirst party header cookie - 736\nsafe third party header cookie - 736\nJS cookie - 736 (expires in NaN days)\nJS cookie (__Host) - 736\nJS cookie (no SameSite attribute) - 736\nlocalStorage - 736\nsessionStorage - 736\nIndexedDB - 736\nWebSQL - null (❌ openDatabase is not defined)\nCache API - 736\nCookieStore - null (❌ can't access property \"value\" of null)\nad third party iframe -\nfirst party header cookie - null (❌ JSON.parse: unexpected character at line 1 column 1 of the JSON data)\nsafe third party header cookie - 736\ntracking third party header cookie - 736\nJS cookie - 736 (expires in NaN days)\nJS cookie (__Host) - 736\nJS cookie (no SameSite attribute) - 736\nlocalStorage - 736\nsessionStorage - 736\nIndexedDB - null (❌ DB is not defined)\nWebSQL - null (❌ openDatabase is not defined)\nCache API - 736\nCookieStore - null (❌ can't access property \"value\" of null)\nbrowser cache - \"736\"\nmemory - \"736\"\nwindow.name - \"736\"\nhistory - \"736\"\nservice worker - \"736\"\nservice worker cookieStore - ❌ error thrown (\"can't access property \"value\" of null\")\n\nDownload the result",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://privacy-test-pages.site/privacy-protections/storage-blocking/",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "broken.third-party.site": {
+        "count": 22,
+        "blocked": 0,
+        "allowed": 22,
+        "types": [
+          "script",
+          "sub_frame",
+          "xmlhttprequest"
+        ]
+      },
+      "good.third-party.site": {
+        "count": 22,
+        "blocked": 0,
+        "allowed": 22,
+        "types": [
+          "script",
+          "sub_frame",
+          "xmlhttprequest"
+        ]
+      },
+      "convert.ad-company.site": {
+        "count": 12,
+        "blocked": 0,
+        "allowed": 12,
+        "types": [
+          "sub_frame",
+          "script",
+          "xmlhttprequest"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790612622101,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790612622111,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/helpers/idb-wrapper.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622249,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622249,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622249,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/3rdparty.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622249,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/3rdparty.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622250,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/main.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622250,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/style.css",
+        "hostname": "privacy-test-pages.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612622250,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/helpers/idb-wrapper.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622255,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622255,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622256,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/3rdparty.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622256,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/3rdparty.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622256,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/main.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612622256,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/style.css",
+        "hostname": "privacy-test-pages.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612622256,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612622662,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612622664,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/cached-random-number",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624678,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/cached-random-number",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624679,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/iframe.html?data=736",
+        "hostname": "good.third-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612624811,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/iframe.html?data=736",
+        "hostname": "broken.third-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612624815,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/iframe.html?data=736",
+        "hostname": "convert.ad-company.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612624816,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/set-cookie?value=736&name=top_firstparty_headerdata",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624817,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/set-cookie?value=736&name=top_thirdparty_headerdata",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624817,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/set-cookie?value=736&name=top_tracker_headerdata",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624817,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/set-cookie?value=736&name=top_firstparty_headerdata",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624820,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/set-cookie?value=736&name=top_thirdparty_headerdata",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624820,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/set-cookie?value=736&name=top_tracker_headerdata",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624820,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/helpers/idb-wrapper.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624964,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624965,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624965,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/iframe.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624966,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/helpers/idb-wrapper.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624967,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624967,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624967,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/iframe.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612624967,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/service-worker-set-cookie?name=swcookiestoredata&data=736",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624968,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/service-worker-set-cookie?name=swcookiestoredata&data=736",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612624970,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/set-cookie?value=736&name=thirdparty_firstparty_headerdata",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625232,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/set-cookie?value=736&name=thirdparty_tracker_headerdata",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625232,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/helpers/idb-wrapper.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612625233,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612625233,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612625234,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/iframe.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612625234,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/set-cookie?value=736&name=thirdpartytracker_firstparty_headerdata",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625361,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/set-cookie?value=736&name=thirdpartytracker_thirdparty_headerdata",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625362,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/set-cookie?value=736&name=thirdpartyAd_firstparty_headerdata",
+        "hostname": "convert.ad-company.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625643,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/set-cookie?value=736&name=thirdpartyAd_thirdparty_headerdata",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625643,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/set-cookie?value=736&name=thirdpartyAd_tracker_headerdata",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612625643,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/reflect-headers",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630194,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/reflect-headers",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630194,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/reflect-headers",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630194,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/iframe.html",
+        "hostname": "good.third-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612630195,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/iframe.html",
+        "hostname": "broken.third-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612630197,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/iframe.html",
+        "hostname": "convert.ad-company.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612630197,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/cached-random-number",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630198,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/privacy-protections/storage-blocking/service-worker-data",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630198,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/reflect-headers",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630198,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/reflect-headers",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630198,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/reflect-headers",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630198,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/cached-random-number",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630200,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/helpers/idb-wrapper.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630335,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630336,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630336,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/privacy-protections/storage-blocking/iframe.js",
+        "hostname": "good.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630336,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/helpers/idb-wrapper.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630340,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630341,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630341,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/privacy-protections/storage-blocking/iframe.js",
+        "hostname": "convert.ad-company.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630341,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/helpers/idb-wrapper.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630345,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/helpers/globals.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630345,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/helpers/commonTests.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630345,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/privacy-protections/storage-blocking/iframe.js",
+        "hostname": "broken.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612630345,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://convert.ad-company.site/reflect-headers",
+        "hostname": "convert.ad-company.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630474,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/reflect-headers",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630474,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/reflect-headers",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630475,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/reflect-headers",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630479,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/reflect-headers",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630480,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://good.third-party.site/reflect-headers",
+        "hostname": "good.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630593,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://broken.third-party.site/reflect-headers",
+        "hostname": "broken.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612630593,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 81,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 7,
+      "thirdParty": 17,
+      "session": 0,
+      "persistent": 24,
+      "thirdPartyPersistent": 17,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 4,
+      "sessionStorage": true,
+      "sessionStorageEntries": 4,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "data",
+          "version": 1
+        },
+        {
+          "name": "data",
+          "version": 1
+        },
+        {
+          "name": "data",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 72,
+    "scoreBreakdown": {
+      "thirdParties": 3,
+      "cookies": 20,
+      "storage": 5,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "detailsCapturedAt": "2026-09-28T16:26:08.274Z"
+}

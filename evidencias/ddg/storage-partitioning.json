@@ -1,0 +1,1043 @@
+{
+  "at": "2026-09-28T16:16:11.160Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://www.first-party.site/privacy-protections/storage-partitioning/",
+  "pageText": "[Home] ↣ [Privacy Protections Tests] ↣ [Storage Partitioning Test Page]\n\nThis page will determine whether various storage APIs are parititoned or blocked across origins.\n\nNOTE: These tests will return incorrect results if:\n\nyou have multiple copies of the test page open\nyou run the tests after force reloading the page, as this bypasses Service Workers\n\nRun Tests\n\nRetrieved data from 21 storage mechanisms.\n\nShow Detailed Results\n✅ document.cookie - pass\n✅ HTTP Cookie - pass\n✅ Cookie Store API - pass\n✅ localStorage - pass\n✅ sessionStorage - pass\n✅ IndexedDB - pass\n✅ WebSQL - unsupported\n✅ Cache API - pass\n✅ ServiceWorker - pass\n⚠️ BroadcastChannel - error\n✅ SharedWorker - pass\n⚠️ Web Locks API - error\n✅ Fetch Cache - pass\n✅ XMLHttpRequest Cache - pass\n✅ Iframe Cache - pass\n✅ Image Cache - pass\n✅ Favicon Cache - pass\n✅ Font Cache - pass\n✅ CSS cache - pass\n⚠️ Prefetch Cache - error\n✅ HSTS - pass\n\nDownload the result",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://www.first-party.site/privacy-protections/storage-partitioning/",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "privacy-test-pages.site": {
+        "count": 8,
+        "blocked": 0,
+        "allowed": 8,
+        "types": [
+          "image"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/",
+        "hostname": "www.first-party.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790612148031,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/",
+        "hostname": "www.first-party.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790612148045,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/idb-wrapper.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148452,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/uuidv4.min.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148452,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/tests.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148452,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/common.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148453,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/main.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148453,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/style.css",
+        "hostname": "www.first-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612148453,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/idb-wrapper.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148456,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/uuidv4.min.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148456,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/tests.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148456,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/common.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148456,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/main.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612148456,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/style.css",
+        "hostname": "www.first-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612148456,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/favicon.ico",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612148868,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/favicon.ico",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612148869,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612149086,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612149090,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=favicon&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149176,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=favicon&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149178,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/idb-wrapper.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149230,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/common.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149231,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/tests.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149231,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149231,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/idb-wrapper.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149233,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/common.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149233,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/tests.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149233,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612149234,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/set-cookie?cookieName=partition_test_http&cookieValue=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149504,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=fetch&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149505,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=xhr&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149505,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/set-cookie?cookieName=partition_test_http&cookieValue=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149506,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=page&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612149507,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=css&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612149507,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=image&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149507,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/clear_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149508,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=xhr&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149508,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/serviceworker-write?data=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149508,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=fetch&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612149508,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=css&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612149509,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=image&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149510,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/clear_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149510,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=font&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790612149666,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=font&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790612149667,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/set_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149911,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/set_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612149913,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=prefetch&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "other",
+        "method": "GET",
+        "timestamp": 1790612150606,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=prefetch&key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "other",
+        "method": "GET",
+        "timestamp": 1790612150607,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612159132,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612159136,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=favicon&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159217,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=favicon&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159219,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/idb-wrapper.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159273,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/common.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159273,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/tests.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159273,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159273,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/helpers/idb-wrapper.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159276,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/common.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159276,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/helpers/tests.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159276,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.js",
+        "hostname": "www.first-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790612159276,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/set-cookie?cookieName=partition_test_http&cookieValue=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159545,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=fetch&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159546,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=xhr&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159546,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=page&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790612159547,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=css&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612159547,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=image&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159548,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/clear_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159548,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=xhr&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159549,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/privacy-protections/storage-partitioning/serviceworker-write?data=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159549,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/set-cookie?cookieName=partition_test_http&cookieValue=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159549,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=fetch&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612159549,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=css&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790612159550,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=image&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159550,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/clear_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159551,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=font&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790612159704,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=font&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790612159706,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/set_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159818,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://privacy-test-pages.site/partitioning/set_hsts.png",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790612159820,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=prefetch&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "other",
+        "method": "GET",
+        "timestamp": 1790612160521,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/resource?fileType=prefetch&key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "other",
+        "method": "GET",
+        "timestamp": 1790612160524,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/get-results?key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612162333,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/get-results?key=7254e13f-0573-4d88-b077-0028560df470",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612162335,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/get-results?key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612170416,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "https://www.first-party.site/partitioning/get-results?key=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+        "hostname": "www.first-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790612170419,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 84,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 3,
+      "thirdParty": 4,
+      "session": 0,
+      "persistent": 7,
+      "thirdPartyPersistent": 4,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": true,
+      "sessionStorageEntries": 1,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "partition_test",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [
+        {
+          "name": "sessionid",
+          "sourceUrl": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=7254e13f-0573-4d88-b077-0028560df470",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "sessionid",
+          "sourceUrl": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=7254e13f-0573-4d88-b077-0028560df470",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "sessionid",
+          "sourceUrl": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "sessionid",
+          "sourceUrl": "https://www.first-party.site/privacy-protections/storage-partitioning/iframe.html?mode=store&sessionId=58137645-ea8c-4c61-ad56-0cb63a2da4c8",
+          "context": "request parameter; not proof of sync"
+        }
+      ],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 82,
+    "scoreBreakdown": {
+      "thirdParties": 1,
+      "cookies": 12,
+      "storage": 5,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  }
+}

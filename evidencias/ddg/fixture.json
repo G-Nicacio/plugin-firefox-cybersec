@@ -1,0 +1,259 @@
+{
+  "at": "2026-09-28T16:07:56.591Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "http://localhost:8765/",
+  "pageText": "Controlled privacy fixture\n\nStorage, canvas, third-party polling, WebSocket and delayed fetch hook.\n\nCanvas original behavior: true, true",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "http://localhost:8765/",
+    "thirdPartyDomains": {
+      "127.0.0.1": {
+        "count": 8,
+        "blocked": 0,
+        "allowed": 8,
+        "types": [
+          "websocket",
+          "xmlhttprequest"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "url": "http://localhost:8765/",
+        "hostname": "localhost",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790611661527,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://localhost:8765/fixture.js",
+        "hostname": "localhost",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790611661543,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "ws://127.0.0.1:8765/socket",
+        "hostname": "127.0.0.1",
+        "type": "websocket",
+        "method": "GET",
+        "timestamp": 1790611661554,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://localhost:8765/favicon.ico",
+        "hostname": "localhost",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790611661558,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611663561,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611665563,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611667563,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611669909,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611671910,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611673924,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "url": "http://127.0.0.1:8765/poll",
+        "hostname": "127.0.0.1",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790611675938,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 11,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 1,
+      "thirdParty": 0,
+      "session": 1,
+      "persistent": 0,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": true,
+      "sessionStorageEntries": 1,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "privacy-inspector-fixture",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": true,
+      "events": [
+        {
+          "method": "toDataURL",
+          "width": 120,
+          "height": 40,
+          "timestamp": 1790611661554
+        },
+        {
+          "method": "toBlob",
+          "width": 120,
+          "height": 40,
+          "timestamp": 1790611661554
+        }
+      ],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": true,
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:8765/socket",
+          "hostname": "127.0.0.1",
+          "type": "websocket",
+          "method": "GET",
+          "timestamp": 1790611661554,
+          "thirdParty": true,
+          "blocked": false,
+          "category": null,
+          "rule": null
+        }
+      ],
+      "polling": [
+        {
+          "endpoint": "http://127.0.0.1:8765/poll",
+          "count": 5,
+          "windowMs": 30000
+        }
+      ],
+      "hooks": [
+        {
+          "api": "fetch",
+          "timestamp": 1790611664569
+        }
+      ],
+      "indicators": [
+        "Third-party WebSocket attempt (not proof of hijacking)",
+        "Possible hook: API reference changed; may be a framework",
+        "Possible persistent third-party polling (may be legitimate)"
+      ]
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 69,
+    "scoreBreakdown": {
+      "thirdParties": 1,
+      "cookies": 0,
+      "storage": 5,
+      "canvas": 8,
+      "crossSite": 0,
+      "security": 17
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  }
+}

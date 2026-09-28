@@ -1,0 +1,104 @@
+{
+  "at": "2026-09-28T16:08:13.796Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "ON",
+  "pageUrl": "https://privacy-test-pages.site/privacy-protections/bounce-tracking/",
+  "pageText": "[Home] ↣ [Privacy Protections Tests] ↣ [Bounce Tracking Test Page]\n\nBelow links allow to bounce of bad.third-party.site to different locations. bad.third-party.site will pass its local UID to the destination via URL param.\n\nGo to good.third-party.site\n\nGo to first-party.site\n\nGo to privacy-test-pages.site\n\nGo to www.publisher-company.site",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=www.first-party.site",
+    "thirdPartyDomains": {},
+    "requests": [
+      {
+        "url": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=www.first-party.site",
+        "hostname": "bad.third-party.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790611678771,
+        "thirdParty": false,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      }
+    ],
+    "requestCount": 1,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 1,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 1,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 1,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 1,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "storage": {
+      "localStorage": false,
+      "localStorageEntries": 0,
+      "sessionStorage": false,
+      "sessionStorageEntries": 0,
+      "indexedDB": false,
+      "indexedDBDatabases": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": []
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [
+        {
+          "url": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=www.first-party.site",
+          "hostname": "bad.third-party.site",
+          "type": "main_frame",
+          "method": "GET",
+          "timestamp": 1790611678771,
+          "thirdParty": false,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        }
+      ],
+      "custom": []
+    },
+    "score": 100,
+    "scoreBreakdown": {
+      "thirdParties": 0,
+      "cookies": 0,
+      "storage": 0,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  }
+}

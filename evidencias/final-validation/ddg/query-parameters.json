@@ -1,0 +1,146 @@
+{
+  "at": "2026-09-28T21:46:44.116Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://privacy-test-pages.site/privacy-protections/query-parameters/query.html?fbclid=%5BREDACTED%5D&fb_source=%5BREDACTED%5D&u=%5BREDACTED%5D",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://privacy-test-pages.site/privacy-protections/query-parameters/query.html?fbclid=%5BREDACTED%5D&fb_source=%5BREDACTED%5D&u=%5BREDACTED%5D",
+    "navigationObserved": true,
+    "thirdPartyDomains": {},
+    "requests": [
+      {
+        "requestId": "498",
+        "url": "https://privacy-test-pages.site/privacy-protections/query-parameters/query.html?fbclid=%5BREDACTED%5D&fb_source=%5BREDACTED%5D&u=%5BREDACTED%5D",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790631998595,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "499",
+        "url": "https://privacy-test-pages.site/privacy-protections/query-parameters/main.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631998734,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "500",
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631998867,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 3,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 4,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 4,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 0,
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "deletions": 0,
+      "malformed": 0,
+      "events": []
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": true,
+      "sessionStorageEntries": 1,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "data",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [
+        {
+          "name": "fbclid",
+          "sourceUrl": "https://privacy-test-pages.site/privacy-protections/query-parameters/query.html?fbclid=%5BREDACTED%5D&fb_source=%5BREDACTED%5D&u=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "fb_source",
+          "sourceUrl": "https://privacy-test-pages.site/privacy-protections/query-parameters/query.html?fbclid=%5BREDACTED%5D&fb_source=%5BREDACTED%5D&u=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        }
+      ],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 95,
+    "scoreBreakdown": {
+      "thirdParties": 0,
+      "cookies": 0,
+      "storage": 5,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "validationScope": "Separate final regression, reused disposable DDG profile; not comparable to clean real-site runs. Page text omitted; previous DDG evidence preserved."
+}

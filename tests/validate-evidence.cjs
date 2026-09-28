@@ -37,7 +37,7 @@ function validate(){
   }
   try{const dir=path.join(base,site.slug,'blacklight'),m=load(path.join(dir,'metadata.json')),r=load(path.join(dir,'result.json'));assert.equal(m.status,'collected');assert.equal(r.status,'success');assert(r.groups[0].cards.length>0);assert.equal(r.uri_ins,site.url);checks.push({site:site.slug,mode:'blacklight',status:'PASS'})}catch(error){failures.push(site.slug+'/blacklight: '+error.message)}
  }
- function inventory(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory())inventory(p);else if(!['completeness.json','artifact-hashes.json'].includes(entry.name))artifacts.push({path:path.relative(root,p).replaceAll('\\','/'),sha256:crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')})}}
+ function inventory(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory())inventory(p);else if(!['completeness.json','artifact-hashes.json'].includes(entry.name))artifacts.push({path:path.relative(root,p).replaceAll('\\','/'),normalization:'LF for text; raw binary',sha256:crypto.createHash('sha256').update(/\.(json|har|md)$/.test(p)?fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n'):fs.readFileSync(p)).digest('hex')})}}
  inventory(base);
  writeJson(path.join(base,'completeness.json'),{checkedAt:new Date().toISOString(),status:failures.length?'FAIL':'PASS',checks,failures,
   manualPending:['Final editorial screenshots with anchored popup/about:debugging/uBlock UI (see docs/screenshot-plan.md)'],
@@ -47,4 +47,5 @@ function validate(){
 }
 if(require.main===module&&validate().length)process.exitCode=1;
 module.exports={validate};
+
 

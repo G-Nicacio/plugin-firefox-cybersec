@@ -23,7 +23,7 @@ function summarize(slug){
   }
   const sampled=runs.baseline.report.requests.filter(r=>getBaseDomain(r.hostname)===domain);
   const observed=Object.keys(runs.baseline.report.thirdPartyDomains).filter(h=>getBaseDomain(h)===domain);
-  const categories=Array.from(filterEngine.classify('https://'+domain).matches,m=>m.category);
+  const categories=[...new Set([domain,...Object.values(evidence).flat().map(x=>x.host)].flatMap(host=>Array.from(filterEngine.classify('https://'+host).matches,m=>m.category)))];
   const piBlocked=Object.values(runs.blocking.report.blocked).flat().filter(r=>getBaseDomain(r.hostname)===domain);
   const ubo=blockEntries.filter(({entry:e})=>getBaseDomain(e.hostname)===domain);
   const uboObserved=log.filter(e=>e.realm==='network'&&getBaseDomain(e.hostname)===domain);
@@ -36,7 +36,7 @@ function summarize(slug){
   if(blFindings.length&&evidence.baseline.length&&!categories.length)reasons.push('HAR A confirma tráfego; Blacklight identifica '+blFindings.join('/')+'; lista didática sem classificação para este domínio.');
   if(!blFindings.length)reasons.push('Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego.');
   if(!reasons.length)reasons.push('HAR e cartões externos registram o domínio; presença de domínio não prova execução de uma API específica.');
-  return {domain,piBaselineObservedHosts:observed,piSampledCategories:[...new Set(sampled.map(r=>r.category).filter(Boolean))],internalCategories:categories,
+  return {domain,piBaselineObservedHosts:observed,piBaselineSampleCount:sampled.length,piSampledCategories:[...new Set(sampled.map(r=>r.category).filter(Boolean))],internalCategories:categories,
    piBaselineHistoryTruncated:!!runs.baseline.report.historyTruncated,piBlockedB:piBlocked.length,ublockBlockingDecisionsC:ubo.length,ublockObservedC:uboObserved.length,
    ublockLogIndexes:ubo.map(x=>x.index),ublockRules:[...new Set(ubo.map(x=>x.entry.filter.raw))],blacklightFindings:blFindings,evidence,explanation:reasons.join(' ')};
  });
@@ -55,7 +55,7 @@ function summarize(slug){
   '| Domínio | PI observado em A / classificação | PI bloqueou B | uBlock C | Blacklight | HAR | Explicação |','|---|---|---:|---|---|---|---|'];
  for(const r of reconciliation){
   const har=Object.entries(r.evidence).filter(([,v])=>v.length).map(([mode,v])=>`[${mode} ${v.flatMap(x=>x.entries).slice(0,3).join(',')}](./${mode}/${slug}-${mode}.har)`).join('; ')||'Ausente A/B/C';
-  const observed=r.piBaselineObservedHosts.length||r.piSampledCategories.length?'Sim':r.piBaselineHistoryTruncated?'Não retido; histórico parcial':'Não observado';
+  const observed=r.piBaselineObservedHosts.length||r.piBaselineSampleCount?'Sim':r.piBaselineHistoryTruncated?'Não retido; histórico parcial':'Não observado';
   lines.push('| '+[r.domain,observed+' / '+(r.piSampledCategories.join(', ')||((r.internalCategories.join(', ')||'sem categoria')+' [lista]')),r.piBlockedB,
    r.ublockBlockingDecisionsC?`${r.ublockBlockingDecisionsC} decisões; log ${r.ublockLogIndexes.slice(0,3).join(',')}`:r.ublockObservedC?'Observado sem bloqueio':'Não observado',r.blacklightFindings.join(', ')||'Não identificado',har,r.explanation].map(escape).join(' | ')+' |');
  }

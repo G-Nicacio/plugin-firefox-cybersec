@@ -1,0 +1,785 @@
+{
+  "at": "2026-09-28T21:46:36.416Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "ON",
+  "pageUrl": "https://privacy-test-pages.site/privacy-protections/request-blocking/",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://privacy-test-pages.site/privacy-protections/request-blocking/",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "bad.third-party.site": {
+        "count": 22,
+        "blocked": 22,
+        "allowed": 0,
+        "types": [
+          "script",
+          "object",
+          "stylesheet",
+          "sub_frame",
+          "xmlhttprequest",
+          "beacon",
+          "image",
+          "imageset",
+          "font",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "requestId": "462",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790631985934,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "464",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/main.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631986080,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "465",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/style.css",
+        "hostname": "privacy-test-pages.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790631986080,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "466",
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631986346,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "467",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/script.js?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631988358,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "468",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/object.png?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "object",
+        "method": "GET",
+        "timestamp": 1790631988358,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "469",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/style.css?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790631988358,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "470",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/frame.html?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790631988367,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "471",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/cssImport.css?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790631988367,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "472",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/ajax.json?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988369,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "473",
+        "url": "https://bad.third-party.site/block-me/server-sent-events",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988370,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "474",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988370,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "475",
+        "url": "https://bad.third-party.site/block-me/beacon?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790631988370,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "476",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/frame.html?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "privacy-test-pages.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790631988370,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "477",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/middleframe.html?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "privacy-test-pages.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790631988372,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "479",
+        "url": "https://privacy-test-pages.site/redirect?destination=%5BREDACTED%5D",
+        "hostname": "privacy-test-pages.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988372,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "480",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/img.jpg?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631988372,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "481",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/picture.jpg?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "imageset",
+        "method": "GET",
+        "timestamp": 1790631988372,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "482",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/cssbg.jpg?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631988373,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "483",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/cssfont.woff?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790631988373,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "484",
+        "url": "https://bad.third-party.site/block-me/csp",
+        "hostname": "bad.third-party.site",
+        "type": "csp_report",
+        "method": "POST",
+        "timestamp": 1790631988377,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "485",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/audio.wav?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "media",
+        "method": "GET",
+        "timestamp": 1790631988378,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "486",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/video.mp4?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "media",
+        "method": "GET",
+        "timestamp": 1790631988378,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "487",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/worker.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631988378,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "488",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?iframe-0.19520044541429804=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988512,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "489",
+        "url": "https://privacy-test-pages.site/privacy-protections/request-blocking/frame.html?0.34901090543270485=%5BREDACTED%5D",
+        "hostname": "privacy-test-pages.site",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790631988513,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "490",
+        "url": "wss://bad.third-party.site/block-me/web-socket",
+        "hostname": "bad.third-party.site",
+        "type": "websocket",
+        "method": "GET",
+        "timestamp": 1790631988551,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "479",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?redirected-0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988633,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "491",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?webworker-0.33500993237442867=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988640,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "492",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/favicon.ico?0.9437759283654052=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631988677,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "493",
+        "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?iframe-depth-2-0.8844553342998095=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790631988767,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      }
+    ],
+    "requestCount": 31,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 22,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 22,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 4,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 4,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 0,
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "deletions": 0,
+      "malformed": 0,
+      "events": []
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": true,
+      "sessionStorageEntries": 1,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "data",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [
+        {
+          "requestId": "479",
+          "sourceUrl": "https://privacy-test-pages.site/redirect?destination=%5BREDACTED%5D",
+          "destinationUrl": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?redirected-0.9437759283654052=%5BREDACTED%5D",
+          "sourceDomain": "privacy-test-pages.site",
+          "destinationDomain": "third-party.site",
+          "type": "xmlhttprequest",
+          "timestamp": 1790631988632,
+          "crossSite": true,
+          "suspiciousSourceParameters": [],
+          "suspiciousDestinationParameters": [],
+          "sharedIdentifiers": []
+        }
+      ],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [
+        {
+          "requestId": "490",
+          "url": "wss://bad.third-party.site/block-me/web-socket",
+          "hostname": "bad.third-party.site",
+          "type": "websocket",
+          "method": "GET",
+          "timestamp": 1790631988551,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        }
+      ],
+      "polling": [],
+      "hooks": [],
+      "indicators": [
+        "Third-party WebSocket attempt (not proof of hijacking)"
+      ]
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [
+        {
+          "requestId": "467",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/script.js?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "script",
+          "method": "GET",
+          "timestamp": 1790631988358,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "468",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/object.png?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "object",
+          "method": "GET",
+          "timestamp": 1790631988358,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "469",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/style.css?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "stylesheet",
+          "method": "GET",
+          "timestamp": 1790631988358,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "470",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/frame.html?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "sub_frame",
+          "method": "GET",
+          "timestamp": 1790631988367,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "471",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/cssImport.css?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "stylesheet",
+          "method": "GET",
+          "timestamp": 1790631988367,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "472",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/ajax.json?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988369,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "473",
+          "url": "https://bad.third-party.site/block-me/server-sent-events",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988370,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "474",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988370,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "475",
+          "url": "https://bad.third-party.site/block-me/beacon?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "beacon",
+          "method": "POST",
+          "timestamp": 1790631988370,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "480",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/img.jpg?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "image",
+          "method": "GET",
+          "timestamp": 1790631988372,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "481",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/picture.jpg?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "imageset",
+          "method": "GET",
+          "timestamp": 1790631988372,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "482",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/cssbg.jpg?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "image",
+          "method": "GET",
+          "timestamp": 1790631988373,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "483",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/cssfont.woff?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "font",
+          "method": "GET",
+          "timestamp": 1790631988373,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "484",
+          "url": "https://bad.third-party.site/block-me/csp",
+          "hostname": "bad.third-party.site",
+          "type": "csp_report",
+          "method": "POST",
+          "timestamp": 1790631988377,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "485",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/audio.wav?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "media",
+          "method": "GET",
+          "timestamp": 1790631988378,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "486",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/video.mp4?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "media",
+          "method": "GET",
+          "timestamp": 1790631988378,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "488",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?iframe-0.19520044541429804=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988512,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "490",
+          "url": "wss://bad.third-party.site/block-me/web-socket",
+          "hostname": "bad.third-party.site",
+          "type": "websocket",
+          "method": "GET",
+          "timestamp": 1790631988551,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "479",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?redirected-0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988633,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "491",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?webworker-0.33500993237442867=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988640,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "492",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/favicon.ico?0.9437759283654052=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "image",
+          "method": "GET",
+          "timestamp": 1790631988677,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        },
+        {
+          "requestId": "493",
+          "url": "https://bad.third-party.site/privacy-protections/request-blocking/block-me/fetch.json?iframe-depth-2-0.8844553342998095=%5BREDACTED%5D",
+          "hostname": "bad.third-party.site",
+          "type": "xmlhttprequest",
+          "method": "GET",
+          "timestamp": 1790631988767,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "bad.third-party.site"
+        }
+      ],
+      "custom": []
+    },
+    "score": 95,
+    "scoreBreakdown": {
+      "thirdParties": 0,
+      "cookies": 0,
+      "storage": 5,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "validationScope": "Separate final regression, reused disposable DDG profile; not comparable to clean real-site runs. Page text omitted; previous DDG evidence preserved."
+}

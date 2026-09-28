@@ -1,0 +1,144 @@
+{
+  "at": "2026-09-28T21:45:43.223Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://privacy-test-pages.site/tracker-reporting/[REDACTED]",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://privacy-test-pages.site/tracker-reporting/[REDACTED]",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "doubleclick.net": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "requestId": "10",
+        "url": "https://privacy-test-pages.site/tracker-reporting/[REDACTED]",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790631935349,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "11",
+        "url": "https://doubleclick.net/tracker.js",
+        "hostname": "doubleclick.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631935490,
+        "thirdParty": true,
+        "blocked": false,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "12",
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631935672,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 3,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 1,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 4,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 4,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 0,
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "deletions": 0,
+      "malformed": 0,
+      "events": []
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": false,
+      "sessionStorageEntries": 0,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "data",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 95,
+    "scoreBreakdown": {
+      "thirdParties": 1,
+      "cookies": 0,
+      "storage": 4,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "validationScope": "Separate final regression, reused disposable DDG profile; not comparable to clean real-site runs. Page text omitted; previous DDG evidence preserved."
+}

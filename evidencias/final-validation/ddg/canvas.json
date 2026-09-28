@@ -1,0 +1,805 @@
+{
+  "at": "2026-09-28T21:45:51.356Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "cdnjs.cloudflare.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "requestId": "13",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.html",
+        "hostname": "privacy-test-pages.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790631943252,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "14",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/style.css",
+        "hostname": "privacy-test-pages.site",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790631943394,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "15",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js",
+        "hostname": "cdnjs.cloudflare.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631943394,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "16",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/helpers/canvas.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631943394,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "17",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/canvas.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631943394,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "18",
+        "url": "https://privacy-test-pages.site/helpers/runMenu.js",
+        "hostname": "privacy-test-pages.site",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790631943394,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "19",
+        "url": "https://privacy-test-pages.site/favicon.ico",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631943799,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "20",
+        "url": "https://privacy-test-pages.site/privacy-protections/fingerprinting/pixel.gif",
+        "hostname": "privacy-test-pages.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790631947551,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 8,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 4,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 4,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 0,
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "deletions": 0,
+      "malformed": 0,
+      "events": []
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": false,
+      "sessionStorageEntries": 0,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "data",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": true,
+      "events": [
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947426
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947426
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947427
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947427
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947427
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947427
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947427
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947428
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947429
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947429
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947429
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947429
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947429
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947430
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947430
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947430
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947430
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947431
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947431
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947431
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947431
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947432
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947433
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947434
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947435
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947437
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947437
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947438
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947438
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947438
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947438
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947439
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947439
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947439
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947439
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947440
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947440
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947440
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947440
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947440
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947441
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947441
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947441
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947441
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947442
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947442
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947442
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947443
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947443
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947443
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947443
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947443
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947444
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947444
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947444
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947444
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947445
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947445
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947445
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947445
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947445
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947445
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947446
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947446
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947447
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947448
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947448
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947448
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947448
+        },
+        {
+          "method": "getImageData",
+          "width": 2000,
+          "height": 200,
+          "timestamp": 1790631947448
+        },
+        {
+          "method": "getImageData",
+          "width": 1,
+          "height": 1,
+          "timestamp": 1790631947685
+        },
+        {
+          "method": "toDataURL",
+          "width": 1,
+          "height": 1,
+          "timestamp": 1790631947685
+        },
+        {
+          "method": "getImageData",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790631947787
+        },
+        {
+          "method": "toDataURL",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790631947787
+        },
+        {
+          "method": "getImageData",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790631947787
+        },
+        {
+          "method": "getImageData",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790631947888
+        },
+        {
+          "method": "toDataURL",
+          "width": 16,
+          "height": 16,
+          "timestamp": 1790631947888
+        }
+      ],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 87,
+    "scoreBreakdown": {
+      "thirdParties": 1,
+      "cookies": 0,
+      "storage": 4,
+      "canvas": 8,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "validationScope": "Separate final regression, reused disposable DDG profile; not comparable to clean real-site runs. Page text omitted; previous DDG evidence preserved."
+}

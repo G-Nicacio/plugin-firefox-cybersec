@@ -1,0 +1,182 @@
+{
+  "at": "2026-09-28T21:46:51.842Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "mode": "OFF",
+  "pageUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D",
+    "navigationObserved": true,
+    "thirdPartyDomains": {},
+    "requests": [
+      {
+        "requestId": "503",
+        "url": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=%5BREDACTED%5D",
+        "hostname": "bad.third-party.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790632006305,
+        "thirdParty": false,
+        "blocked": false,
+        "category": "tracker",
+        "rule": "bad.third-party.site"
+      },
+      {
+        "requestId": "504",
+        "url": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D",
+        "hostname": "www.first-party.site",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790632006747,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "505",
+        "url": "https://www.first-party.site/favicon.ico",
+        "hostname": "www.first-party.site",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790632006898,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 3,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 1,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 1,
+      "thirdParty": 1,
+      "session": 0,
+      "persistent": 2,
+      "thirdPartyPersistent": 1,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 0,
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "deletions": 0,
+      "malformed": 0,
+      "events": []
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 1,
+      "sessionStorage": true,
+      "sessionStorageEntries": 1,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "partition_test",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": true,
+      "cookieSyncSuspected": false,
+      "redirects": [
+        {
+          "requestId": "504",
+          "sourceUrl": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=%5BREDACTED%5D",
+          "destinationUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D",
+          "sourceDomain": "third-party.site",
+          "destinationDomain": "first-party.site",
+          "type": "main_frame",
+          "timestamp": 1790632006747,
+          "crossSite": true,
+          "suspiciousSourceParameters": [],
+          "suspiciousDestinationParameters": [
+            {
+              "name": "bounceuidlocalstorage",
+              "value": "[REDACTED]"
+            },
+            {
+              "name": "bounceuidcookie",
+              "value": "[REDACTED]"
+            }
+          ],
+          "sharedIdentifiers": [],
+          "mechanism": "inferred top-level transition (may be script, meta refresh, or user navigation)"
+        }
+      ],
+      "indicators": [
+        "Possible client-side bounce: rapid navigation away from a listed tracker"
+      ],
+      "suspiciousParameters": [
+        {
+          "name": "bounceuidlocalstorage",
+          "sourceUrl": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=%5BREDACTED%5D",
+          "destinationUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D"
+        },
+        {
+          "name": "bounceuidcookie",
+          "sourceUrl": "https://bad.third-party.site/privacy-protections/bounce-tracking/bounce.html?destination=%5BREDACTED%5D",
+          "destinationUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D"
+        },
+        {
+          "name": "bounceuidlocalstorage",
+          "sourceUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "bounceuidcookie",
+          "sourceUrl": "https://www.first-party.site/privacy-protections/bounce-tracking/?bounceUIDlocalStorage=%5BREDACTED%5D&bounceUIDcookie=%5BREDACTED%5D&isNew=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        }
+      ],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 80,
+    "scoreBreakdown": {
+      "thirdParties": 0,
+      "cookies": 3,
+      "storage": 5,
+      "canvas": 0,
+      "crossSite": 12,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "validationScope": "Separate final regression, reused disposable DDG profile; not comparable to clean real-site runs. Page text omitted; previous DDG evidence preserved."
+}

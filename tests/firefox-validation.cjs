@@ -1,6 +1,7 @@
 const net = require("node:net");
 const fs = require("node:fs");
 const path = require("node:path");
+const evidenceRoot = process.env.PI_EVIDENCE_ROOT || "evidencias";
 let sequence = 0;
 const pending = new Map();
 const socket = net.connect(2829, "127.0.0.1");
@@ -52,8 +53,8 @@ const asyncExecute = async script => (await call("WebDriver:ExecuteAsyncScript",
   await wait(500);
   const tabs = await asyncExecute("const done=arguments[arguments.length-1]; browser.tabs.query({}).then(done);");
   const tabId = tabs.find(t => t.url.startsWith("https://privacy-test-pages.site/")).id;
-  fs.mkdirSync("evidencias/ddg", {recursive:true});
-  fs.mkdirSync("evidencias/screenshots", {recursive:true});
+  fs.mkdirSync(path.join(evidenceRoot,"ddg"), {recursive:true});
+  fs.mkdirSync(path.join(evidenceRoot,"screenshots"), {recursive:true});
   const cases = [
     ["tracker-reporting", "/tracker-reporting/1major-via-script.html", null],
     ["canvas", "/privacy-protections/fingerprinting/canvas.html", null],
@@ -78,12 +79,12 @@ const asyncExecute = async script => (await call("WebDriver:ExecuteAsyncScript",
     if(name==="storage-partitioning") { await wait(2000); await execute("Array.from(document.querySelectorAll('button')).find(b=>b.textContent.trim()==='Run Tests' && !b.disabled)?.click()"); await wait(12000); } const pageText = await execute("return document.body.innerText");
     const pageUrl = await execute("return location.href");
     const shot = await call("WebDriver:TakeScreenshot", {full: true});
-    fs.writeFileSync("evidencias/screenshots/" + name + "-page.png", Buffer.from(shot.value, "base64"));
+    fs.writeFileSync(path.join(evidenceRoot,"screenshots",name + "-page.png"), Buffer.from(shot.value, "base64"));
     await call("WebDriver:SwitchToWindow", {handle: popupHandle});
     const report = await asyncExecute("const done=arguments[arguments.length-1]; browser.runtime.sendMessage({type:'GET_REPORT',tabId:" + tabId + "}).then(report=>{renderReport(report);loadFilterSettings().then(()=>done(report))});");
-    fs.writeFileSync("evidencias/ddg/" + name + ".json", JSON.stringify({at:new Date().toISOString(),firefox:session.capabilities.browserVersion,plugin:"0.2.0",mode:name === "tracker-blocking" ? "ON" : "OFF",pageUrl,pageText,report},null,2));
+    fs.writeFileSync(path.join(evidenceRoot,"ddg",name + ".json"), JSON.stringify({at:new Date().toISOString(),firefox:session.capabilities.browserVersion,plugin:"0.2.0",mode:name === "tracker-blocking" ? "ON" : "OFF",pageUrl,pageText,report},null,2));
     const popupShot = await call("WebDriver:TakeScreenshot", {full:true});
-    fs.writeFileSync("evidencias/screenshots/" + name + "-plugin.png", Buffer.from(popupShot.value, "base64"));
+    fs.writeFileSync(path.join(evidenceRoot,"screenshots",name + "-plugin.png"), Buffer.from(popupShot.value, "base64"));
     console.log(name, JSON.stringify({requests:report?.requestCount,canvas:report?.canvas?.detected,storage:report?.storage,bounce:report?.bounceTracking?.suspected,blocked:report?.blockedCounts,score:report?.score}));
   }
   await call("WebDriver:DeleteSession"); socket.end();

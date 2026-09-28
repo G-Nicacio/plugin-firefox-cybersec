@@ -1,0 +1,116 @@
+{
+  "at": "2026-09-28T21:51:12.357Z",
+  "firefox": "156.0.1",
+  "plugin": "0.2.0",
+  "navigationError": "Timeout: WebDriver:Navigate",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://example.com/",
+    "navigationObserved": true,
+    "thirdPartyDomains": {},
+    "requests": [
+      {
+        "requestId": "513",
+        "url": "https://example.com/",
+        "hostname": "example.com",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790632241315,
+        "thirdParty": false,
+        "blocked": true,
+        "category": "custom",
+        "rule": "example.com"
+      }
+    ],
+    "requestCount": 1,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 1
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 1
+    },
+    "cookies": {
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 0,
+      "firstParty": 0,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 0,
+      "deletions": 0,
+      "malformed": 0,
+      "events": []
+    },
+    "storage": {
+      "localStorage": false,
+      "localStorageEntries": 0,
+      "sessionStorage": false,
+      "sessionStorageEntries": 0,
+      "indexedDB": false,
+      "indexedDBDatabases": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": []
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [],
+      "indicators": [],
+      "suspiciousParameters": [],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": [
+        {
+          "requestId": "513",
+          "url": "https://example.com/",
+          "hostname": "example.com",
+          "type": "main_frame",
+          "method": "GET",
+          "timestamp": 1790632241315,
+          "thirdParty": false,
+          "blocked": true,
+          "category": "custom",
+          "rule": "example.com"
+        }
+      ]
+    },
+    "score": 100,
+    "scoreBreakdown": {
+      "thirdParties": 0,
+      "cookies": 0,
+      "storage": 0,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  },
+  "validationScope": "Separate final regression, reused disposable DDG profile; not comparable to clean real-site runs. Page text omitted; previous DDG evidence preserved."
+}

@@ -22,6 +22,10 @@ const trackingDetector = {
     "fbclid",
     "msclkid",
     "_ga",
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "fb_source",
     "id"
   ]),
 
@@ -50,7 +54,7 @@ const trackingDetector = {
 
     return parameters.filter(
       (parameter) =>
-        this.suspiciousParameterNames.has(
+        parameter.value.length > 0 && this.suspiciousParameterNames.has(
           parameter.name
         )
     );
@@ -58,21 +62,12 @@ const trackingDetector = {
 
   getPotentialIdentifierValues(url) {
     return this
-      .getQueryParameters(url)
-      .map((parameter) =>
-        parameter.value
-      )
-      .filter((value) => {
-        if (!value) {
-          return false;
-        }
-
-        /*
-         * IDs muito pequenos gerariam
-         * falsos positivos demais.
-         */
-        return value.length >= 6;
-      });
+      .getSuspiciousParameters(url)
+      // Short IDs are meaningful under explicit identifier names (uid=63).
+      // A generic id needs stronger shape evidence to avoid product/page IDs.
+      .filter(({ name, value }) => !name.startsWith("utm_") && name !== "fb_source" &&
+        (name !== "id" || (value.length >= 8 && /[a-z]/i.test(value) && /[0-9]/.test(value))))
+      .map(parameter => parameter.value);
   },
 
   findSharedIdentifiers(
@@ -87,9 +82,9 @@ const trackingDetector = {
       );
 
     const destinationValues =
-      this.getPotentialIdentifierValues(
-        destinationUrl
-      );
+      this.getSuspiciousParameters(destinationUrl)
+        .filter(parameter => !parameter.name.startsWith("utm_") && parameter.name !== "fb_source")
+        .map(parameter => parameter.value);
 
     return destinationValues.filter(
       (value) =>
@@ -143,6 +138,7 @@ const trackingDetector = {
       );
 
     return {
+      requestId: details.requestId,
       sourceUrl:
         details.url,
 

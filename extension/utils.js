@@ -5,7 +5,7 @@ function normalizeHostname(hostname) {
 
   return hostname
     .toLowerCase()
-    .replace(/^www\./, "");
+    .replace(/\.$/, "");
 }
 
 function getHostnameFromUrl(url) {
@@ -24,6 +24,10 @@ function getBaseDomain(hostname) {
   }
 
   const parts = normalized.split(".");
+  if (/^\d+\.\d+\.\d+\.\d+$/.test(normalized) || normalized.includes(":")) return normalized;
+  // Explicit fallback, not a complete Public Suffix List.
+  const compoundSuffixes = new Set(["co.uk", "org.uk", "ac.uk", "com.br", "org.br", "net.br", "com.au", "co.jp", "co.nz", "github.io", "pages.dev", "appspot.com"]);
+  if (compoundSuffixes.has(parts.slice(-2).join("."))) return parts.slice(-3).join(".");
 
   if (parts.length <= 2) {
     return normalized;
@@ -49,6 +53,9 @@ function createEmptyReport(tabId, pageUrl = "") {
     pageUrl,
     thirdPartyDomains: {},
     requests: [],
+    requestCount: 0,
+    blockedCounts: { ads: 0, trackers: 0, custom: 0 },
+    detectedCounts: { ads: 0, trackers: 0, custom: 0 },
     cookies: {
       firstParty: 0,
       thirdParty: 0,
@@ -78,6 +85,8 @@ function createEmptyReport(tabId, pageUrl = "") {
     hijacking: {
       suspected: false,
       websockets: [],
+      polling: [],
+      hooks: [],
       indicators: []
     },
     blocked: {

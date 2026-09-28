@@ -5,3 +5,6 @@ analytics.google.com
 segment.io
 hotjar.com
 clarity.ms
+
+# DuckDuckGo official test domain (not the test-page host)
+bad.third-party.site

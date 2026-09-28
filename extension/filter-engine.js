@@ -1,211 +1,67 @@
 const filterEngine = {
-  ads: new Set(),
-  trackers: new Set(),
-  custom: new Set(),
-
-  enabled: {
-    ads: true,
-    trackers: true,
-    custom: true
+  ads: new Set(), trackers: new Set(), custom: new Set(),
+  enabled: { ads: true, trackers: true, custom: true },
+  ignoredRules: 0, errors: [],
+  normalizeDomain(value) {
+    if (typeof value !== "string") return "";
+    const domain = value.trim().toLowerCase().replace(/\.$/, "");
+    if (domain.length > 253 || !domain.includes(".")) return "";
+    return domain.split(".").every(label => /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/.test(label)) ? domain : "";
   },
-
-  normalizeDomain(domain) {
-    if (!domain) {
-      return "";
-    }
-
-    return domain
-      .trim()
-      .toLowerCase()
-      .replace(/^https?:\/\//, "")
-      .replace(/^\|\|/, "")
-      .replace(/\^$/, "")
-      .replace(/^www\./, "")
-      .split("/")[0];
-  },
-
   async loadFilterFile(path, targetSet) {
     try {
-      const url = browser.runtime.getURL(path);
-
-      const response = await fetch(url);
-
-      const text = await response.text();
-
-      const lines = text.split(/\r?\n/);
-
-      for (const line of lines) {
-        const trimmed = line.trim();
-
-        if (!trimmed) {
-          continue;
-        }
-
-        if (
-          trimmed.startsWith("#") ||
-          trimmed.startsWith("!")
-        ) {
-          continue;
-        }
-
-        const domain =
-          this.normalizeDomain(trimmed);
-
-        if (domain) {
-          targetSet.add(domain);
-        }
+      const response = await fetch(browser.runtime.getURL(path));
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      for (const line of (await response.text()).split(/\r?\n/)) {
+        const rule = line.trim();
+        if (!rule || rule.startsWith("#") || rule.startsWith("!")) continue;
+        const domain = this.normalizeDomain(rule.replace(/^\|\|([^|^]+)\^$/, "$1"));
+        if (domain) targetSet.add(domain);
+        else this.ignoredRules++;
       }
-    } catch (error) {
-      console.error(
-        `Privacy Inspector: failed to load ${path}`,
-        error
-      );
-    }
+    } catch (error) { this.errors.push(path + ": " + error.message); }
   },
-
   async loadBuiltInFilters() {
-    this.ads.clear();
-    this.trackers.clear();
-
+    this.ads.clear(); this.trackers.clear();
     await Promise.all([
-      this.loadFilterFile(
-        "filters/ads.txt",
-        this.ads
-      ),
-
-      this.loadFilterFile(
-        "filters/trackers.txt",
-        this.trackers
-      )
+      this.loadFilterFile("filters/ads.txt", this.ads),
+      this.loadFilterFile("filters/trackers.txt", this.trackers)
     ]);
-
-    console.log(
-      "Privacy Inspector filters loaded:",
-      {
-        ads: this.ads.size,
-        trackers: this.trackers.size
-      }
-    );
   },
-
   async loadCustomFilters() {
-    const result =
-      await browser.storage.local.get(
-        "customBlocklist"
-      );
-
-    const saved =
-      result.customBlocklist || [];
-
-    this.custom =
-      new Set(
-        saved
-          .map((domain) =>
-            this.normalizeDomain(domain)
-          )
-          .filter(Boolean)
-      );
-  },
-
-  async saveCustomFilters() {
-    await browser.storage.local.set({
-      customBlocklist:
-        Array.from(this.custom)
-    });
-  },
-
-  domainMatches(
-    hostname,
-    blockedDomain
-  ) {
-    return (
-      hostname === blockedDomain ||
-      hostname.endsWith(
-        "." + blockedDomain
-      )
-    );
-  },
-
-  matchesSet(hostname, set) {
-    for (const domain of set) {
-      if (
-        this.domainMatches(
-          hostname,
-          domain
-        )
-      ) {
-        return domain;
-      }
+    const saved = await browser.storage.local.get(["customBlocklist", "filterSettings"]);
+    this.custom = new Set((Array.isArray(saved.customBlocklist) ? saved.customBlocklist : [])
+      .map(value => this.normalizeDomain(value)).filter(Boolean));
+    for (const key of Object.keys(this.enabled)) {
+      if (typeof saved.filterSettings?.[key] === "boolean") this.enabled[key] = saved.filterSettings[key];
     }
-
+  },
+  async saveCustomFilters() {
+    await browser.storage.local.set({ customBlocklist: [...this.custom] });
+  },
+  async saveSettings() {
+    await browser.storage.local.set({ filterSettings: { ...this.enabled } });
+  },
+  domainMatches(hostname, domain) {
+    return hostname === domain || hostname.endsWith("." + domain);
+  },
+  matchesSet(hostname, set) {
+    const labels = hostname.split(".");
+    for (let index = 0; index < labels.length; index++) {
+      const candidate = labels.slice(index).join(".");
+      if (set.has(candidate)) return candidate;
+    }
     return null;
   },
-
   classify(url) {
-    let hostname;
-
-    try {
-      hostname =
-        new URL(url)
-          .hostname
-          .toLowerCase()
-          .replace(/^www\./, "");
-    } catch {
-      return null;
+    const hostname = getHostnameFromUrl(url);
+    const matches = [];
+    for (const [key, category] of [["custom", "custom"], ["ads", "ad"], ["trackers", "tracker"]]) {
+      const rule = this.matchesSet(hostname, this[key]);
+      if (rule) matches.push({ key, category, rule });
     }
-
-    if (this.enabled.custom) {
-      const rule =
-        this.matchesSet(
-          hostname,
-          this.custom
-        );
-
-      if (rule) {
-        return {
-          blocked: true,
-          category: "custom",
-          rule
-        };
-      }
-    }
-
-    if (this.enabled.ads) {
-      const rule =
-        this.matchesSet(
-          hostname,
-          this.ads
-        );
-
-      if (rule) {
-        return {
-          blocked: true,
-          category: "ad",
-          rule
-        };
-      }
-    }
-
-    if (this.enabled.trackers) {
-      const rule =
-        this.matchesSet(
-          hostname,
-          this.trackers
-        );
-
-      if (rule) {
-        return {
-          blocked: true,
-          category: "tracker",
-          rule
-        };
-      }
-    }
-
-    return {
-      blocked: false,
-      category: null,
-      rule: null
-    };
+    const selected = matches.find(match => this.enabled[match.key]);
+    const detected = selected || matches[0];
+    return { blocked: Boolean(selected), category: detected?.category || null, rule: detected?.rule || null, matches };
   }
 };

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Privacy Inspector",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extensão para análise de privacidade, rastreamento e indicadores de segurança em páginas web.",
 
   "permissions": [
@@ -31,7 +31,9 @@
       "js": [
         "content.js"
       ],
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "ISOLATED"
     },
     {
       "matches": ["<all_urls>"],
@@ -40,6 +42,7 @@
       ],
       "run_at": "document_start",
       "world": "MAIN"
+      ,"all_frames": true
     }
   ],
 
@@ -50,7 +53,8 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "privacy-inspector@insper.local"
+      "id": "privacy-inspector@insper.local",
+      "strict_min_version": "128.0"
     }
   }
 }

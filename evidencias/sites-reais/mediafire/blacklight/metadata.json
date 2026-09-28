@@ -1,0 +1,19 @@
+{
+  "site": "MediaFire",
+  "url": "https://www.mediafire.com/",
+  "endpoint": "https://blacklight-us-oh.api.themarkup.org/graphic-api",
+  "client": "https://mrkp-static-production.themarkup.org/graphics/blacklight-client_blacklight-client/1781703161872/main.js",
+  "request": {
+    "inUrl": "https://www.mediafire.com/",
+    "device": "desktop",
+    "force": true,
+    "location": "us-oh"
+  },
+  "timestamp": "2026-09-28T18:00:14.937Z",
+  "finishedAt": "2026-09-28T18:00:47.094Z",
+  "httpStatus": 200,
+  "status": "collected",
+  "responseSha256": "3818edc5d5e2746390906d1b28c1e10e80b77018c0ba12c4cf3a395b0a71ec21",
+  "source": "Actual Blacklight graphic-api response; structured factual extract, not a local Firefox run",
+  "sanitization": "No cookie values, response bodies, embedded images, request headers or browser profile retained"
+}

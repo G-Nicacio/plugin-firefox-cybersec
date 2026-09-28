@@ -1,0 +1,225 @@
+{
+  "status": "success",
+  "page_title": "File sharing and storage made simple",
+  "host": "www.mediafire.com",
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/138.0.7204.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/138.0.7204.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.10.255-268-309.1092.amzn2.x86_64"
+    }
+  },
+  "start_time": "2026-09-28T18:00:16.641Z",
+  "end_time": "2026-09-28T18:00:46.898Z",
+  "location": "us-oh",
+  "tracker_radar_last_updated": "2024-03-20T12:00:00.000Z",
+  "display_time": "Sep. 28, 2026, 14:00 ET",
+  "aws_region": "us-east-2",
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.mediafire.com",
+        "static.mediafire.com"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "www.google.com",
+        "ajax.googleapis.com",
+        "www.googletagmanager.com",
+        "static.cloudflareinsights.com",
+        "www.gstatic.com",
+        "cdn.amplitude.com",
+        "fonts.gstatic.com",
+        "api.amplitude.com",
+        "www.google-analytics.com",
+        "static.hotjar.com",
+        "script.hotjar.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "device.maxmind.com",
+        "d-ipv6.mmapiws.com",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "translate-pa.googleapis.com"
+      ]
+    }
+  },
+  "uri_ins": "https://www.mediafire.com/",
+  "uri_dest": "https://www.mediafire.com/",
+  "browsing_history": [
+    "https://www.mediafire.com/",
+    "https://www.mediafire.com/upgrade/index.php?plan=%5BREDACTED%5D"
+  ],
+  "config": {
+    "numPages": 1,
+    "defaultTimeout": 30000,
+    "defaultWaitUntil": "networkidle2",
+    "enableAdBlock": false,
+    "cleareCache": true,
+    "headless": true,
+    "emulateDevice": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36",
+      "viewport": {
+        "width": 1440,
+        "height": 790,
+        "deviceScaleFactor": 2,
+        "isMobile": false,
+        "hasTouch": false,
+        "isLandscape": true
+      }
+    }
+  },
+  "reportUrl": "https://mrkp-static-production.themarkup.org/blacklight-us-oh/287cfe48667a594473bf1cc53c2a2697c14b675f/report.html",
+  "groups": [
+    {
+      "title": "Blacklight Inspection Result",
+      "cards": [
+        {
+          "cardType": "ddg_join_ads",
+          "title": "Ad trackers found on this site.",
+          "testEventsFound": true,
+          "bigNumber": 3,
+          "domainData": {
+            "scripts": [
+              "google.com",
+              "maxmind.com",
+              "googletagmanager.com"
+            ],
+            "categories": [
+              "Ad Motivated Tracking",
+              "Advertising",
+              "Online Payment",
+              "CDN",
+              "Ad Fraud",
+              "Analytics",
+              "Audience Measurement",
+              "Third-Party Analytics Marketing",
+              "Tag Manager"
+            ],
+            "owners": [
+              "MaxMind Inc.",
+              "Alphabet, Inc."
+            ]
+          },
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#ad-trackers"
+        },
+        {
+          "cardType": "cookies",
+          "title": "Third-party cookie found.",
+          "testEventsFound": true,
+          "bigNumber": 1,
+          "domainData": {
+            "scripts": [
+              "d-ipv6.mmapiws.com"
+            ],
+            "categories": [],
+            "owners": []
+          },
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#third-party-cookies"
+        },
+        {
+          "cardType": "canvas_fingerprinters",
+          "title": "This website loads trackers on your computer that are designed to evade third-party cookie blockers.",
+          "testEventsFound": true,
+          "domainData": {
+            "scripts": [
+              "maxmind.com"
+            ],
+            "categories": [
+              "Ad Motivated Tracking",
+              "Ad Fraud",
+              "Analytics",
+              "Audience Measurement"
+            ],
+            "owners": [
+              "MaxMind Inc."
+            ]
+          },
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#canvas-fingerprinting",
+          "caveat": "While Blacklight accurately detects the presence of canvas fingerprinting on a website, it cannot determine if the purpose is user behavior monitoring or for fraud prevention or bot detection."
+        },
+        {
+          "cardType": "session_recorders",
+          "title": "This website could be monitoring your keystrokes and mouse clicks.",
+          "testEventsFound": true,
+          "domainData": {
+            "scripts": [
+              "hotjar.com"
+            ],
+            "categories": [
+              "Analytics",
+              "Audience Measurement",
+              "Session Replay"
+            ],
+            "owners": [
+              "Hotjar Ltd"
+            ]
+          },
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#session-recording",
+          "caveat": "While Blacklight can detect whether a session recorder was loaded, it cannot determine exactly how the collected data is being used."
+        },
+        {
+          "cardType": "key_logging",
+          "title": "We did not find this website capturing keystrokes.",
+          "testEventsFound": false,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#key-logging",
+          "caveat": "There are other reasons for key logging, such as providing autocomplete functionality. Blacklight cannot determine the intent behind the inspected website’s use of this technique."
+        },
+        {
+          "cardType": "fb_pixel_events",
+          "title": "Facebook Pixel not found on this website.",
+          "testEventsFound": false,
+          "domainData": null,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#facebook-pixel"
+        },
+        {
+          "cardType": "tiktok_pixel_events",
+          "title": "TikTok Pixel not found on this website.",
+          "testEventsFound": false,
+          "domainData": null,
+          "methodology": ""
+        },
+        {
+          "cardType": "twitter_pixel_events",
+          "title": "X Pixel not found on this website.",
+          "testEventsFound": false,
+          "domainData": null,
+          "methodology": ""
+        },
+        {
+          "cardType": "ga",
+          "title": "This site allows Google Analytics to follow you across the internet.",
+          "testEventsFound": true,
+          "methodology": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector#google-analytics-remarketing-audiences"
+        }
+      ]
+    },
+    {
+      "title": "Some of the ad-tech companies this website interacted with:",
+      "cards": [
+        {
+          "cardType": "reported_alphabet",
+          "title": "Alphabet",
+          "domains_found": [
+            "<strong>doubleclick.net</strong>",
+            "<strong>google-analytics.com</strong>",
+            "<strong>google.com</strong>",
+            "<strong>googleapis.com</strong>",
+            "<strong>googletagmanager.com</strong>"
+          ],
+          "bl_data_type": "script_domain"
+        },
+        {
+          "cardType": "reported_hotjar",
+          "title": "HotJar",
+          "domains_found": [
+            "<strong>hotjar.com</strong>"
+          ],
+          "bl_data_type": "script_domain"
+        }
+      ]
+    }
+  ]
+}

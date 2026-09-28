@@ -1,0 +1,59 @@
+{
+  "site": "MediaFire",
+  "url": "https://www.mediafire.com/",
+  "timestamp": "2026-09-28T17:56:54.615Z",
+  "mode": "baseline",
+  "profile": "NEW empty profile per site/mode",
+  "login": false,
+  "consent": "Não interagir com banners; registrar o estado apresentado. Sem login.",
+  "actions": [
+    {
+      "atSeconds": 10.018,
+      "scroll": {
+        "url": "https://www.mediafire.com/",
+        "y": 600,
+        "height": 815
+      }
+    },
+    {
+      "atSeconds": 20.012,
+      "scroll": {
+        "url": "https://www.mediafire.com/",
+        "y": 1200,
+        "height": 815
+      }
+    }
+  ],
+  "settings": {
+    "ads": false,
+    "trackers": false,
+    "custom": false,
+    "ublock": false
+  },
+  "os": "Windows_NT 10.0.26200",
+  "commit": "c999d5281fad306df95eab9bd208f61f22328515",
+  "observationSeconds": 30,
+  "status": "collected",
+  "harSource": "Firefox DevTools Network Monitor HarExporter, not reconstructed from extension data",
+  "firefoxVersion": "156.0.1",
+  "etp": {
+    "browser.contentblocking.category": "standard",
+    "privacy.trackingprotection.enabled": false,
+    "privacy.trackingprotection.pbmode.enabled": true,
+    "network.cookie.cookieBehavior": 5,
+    "privacy.fingerprintingProtection": false,
+    "privacy.resistFingerprinting": false
+  },
+  "pluginVersion": "0.2.0",
+  "pluginTabId": 1,
+  "navigationStartedAt": "2026-09-28T17:57:02.061Z",
+  "finalUrl": "https://www.mediafire.com/",
+  "observedSeconds": 30.009,
+  "harEntries": 87,
+  "reportSamples": 79,
+  "reportAttempts": 79,
+  "pageAccess": "Site content loaded; page.png and page-observation.json visually inspected; no challenge bypass",
+  "finishedAt": "2026-09-28T17:57:32.453Z",
+  "cacheStorage": "Empty new profile at start; normal cache enabled during navigation",
+  "notes": "HAR snapshot after 30-second observation and page screenshot; PI export follows HAR and may include later events. One run per condition, not causal/statistical replication."
+}

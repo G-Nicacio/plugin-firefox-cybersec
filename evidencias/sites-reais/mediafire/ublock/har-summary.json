@@ -1,0 +1,510 @@
+{
+  "totalRequests": 76,
+  "firstPartyRequests": 66,
+  "thirdPartyRequests": 10,
+  "unclassifiedRequests": 0,
+  "hosts": {
+    "www.mediafire.com": {
+      "requests": 20,
+      "thirdParty": false,
+      "statuses": {
+        "200": 16,
+        "302": 4
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        0,
+        8,
+        17,
+        20,
+        21,
+        22,
+        49,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        70,
+        71,
+        72,
+        73,
+        75
+      ],
+      "categories": []
+    },
+    "ajax.googleapis.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        1
+      ],
+      "categories": []
+    },
+    "static.mediafire.com": {
+      "requests": 46,
+      "thirdParty": false,
+      "statuses": {
+        "200": 46
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        18,
+        19,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        69
+      ],
+      "categories": []
+    },
+    "static.cloudflareinsights.com": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "0": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        6,
+        39
+      ],
+      "categories": []
+    },
+    "fonts.googleapis.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        14
+      ],
+      "categories": []
+    },
+    "www.google.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        15
+      ],
+      "categories": []
+    },
+    "cdn.amplitude.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "0": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        16
+      ],
+      "categories": []
+    },
+    "www.gstatic.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        28
+      ],
+      "categories": []
+    },
+    "fonts.gstatic.com": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        59,
+        60
+      ],
+      "categories": []
+    },
+    "device.maxmind.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "0": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        74
+      ],
+      "categories": []
+    }
+  },
+  "statuses": {
+    "0": 4,
+    "200": 68,
+    "302": 4
+  },
+  "redirects": [
+    {
+      "entry": 49,
+      "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 302,
+      "destination": "[INVALID_OR_REDACTED_URL]"
+    },
+    {
+      "entry": 61,
+      "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 302,
+      "destination": "[INVALID_OR_REDACTED_URL]"
+    },
+    {
+      "entry": 62,
+      "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 302,
+      "destination": "[INVALID_OR_REDACTED_URL]"
+    },
+    {
+      "entry": 68,
+      "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+      "status": 302,
+      "destination": "[INVALID_OR_REDACTED_URL]"
+    }
+  ],
+  "cookieWrites": [
+    {
+      "entry": 0,
+      "name": "ukey",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618520470
+    },
+    {
+      "entry": 0,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618520470
+    },
+    {
+      "entry": 49,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521150
+    },
+    {
+      "entry": 61,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521201
+    },
+    {
+      "entry": 62,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521267
+    },
+    {
+      "entry": 63,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521277
+    },
+    {
+      "entry": 64,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521298
+    },
+    {
+      "entry": 65,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521305
+    },
+    {
+      "entry": 68,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521337
+    },
+    {
+      "entry": 70,
+      "name": "cf_clearance",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": true,
+      "timestamp": 1790618521377
+    },
+    {
+      "entry": 70,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521377
+    },
+    {
+      "entry": 71,
+      "name": "cf_clearance",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": true,
+      "timestamp": 1790618521422
+    },
+    {
+      "entry": 71,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521422
+    },
+    {
+      "entry": 72,
+      "name": "cf_clearance",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": true,
+      "timestamp": 1790618521449
+    },
+    {
+      "entry": 72,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521449
+    },
+    {
+      "entry": 73,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521450
+    },
+    {
+      "entry": 75,
+      "name": "cf_clearance",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": true,
+      "timestamp": 1790618521487
+    },
+    {
+      "entry": 75,
+      "name": "__cf_bm",
+      "domain": "mediafire.com",
+      "responseHost": "www.mediafire.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618521487
+    }
+  ],
+  "pluginComparison": {
+    "pluginAttempts": 70,
+    "sampledRequests": 70,
+    "hostsOnlyInHar": [],
+    "hostsOnlyInPlugin": [
+      "www.googletagmanager.com"
+    ],
+    "note": "Host-level comparison of the same run. HAR entries and attempted requests are different measurements."
+  },
+  "domainMethod": "Same partial registrable-domain fallback as Privacy Inspector; not a complete PSL."
+}

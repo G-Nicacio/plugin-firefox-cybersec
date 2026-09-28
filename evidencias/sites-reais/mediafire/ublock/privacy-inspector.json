@@ -1,0 +1,1160 @@
+{
+  "exportedAt": "2026-09-28T18:02:30.605Z",
+  "version": "0.2.0",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://www.mediafire.com/",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "fonts.googleapis.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "stylesheet"
+        ]
+      },
+      "www.google.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "ajax.googleapis.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "www.googletagmanager.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "static.cloudflareinsights.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "www.gstatic.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "cdn.amplitude.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "fonts.gstatic.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "font"
+        ]
+      },
+      "device.maxmind.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "requestId": "69",
+        "url": "https://www.mediafire.com/",
+        "hostname": "www.mediafire.com",
+        "type": "main_frame",
+        "method": "GET",
+        "timestamp": 1790618520443,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "70",
+        "url": "https://static.mediafire.com/css/mfv3_121967.php?ver=%5BREDACTED%5D",
+        "hostname": "static.mediafire.com",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790618520813,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "71",
+        "url": "https://static.mediafire.com/css/mfv4_121967.php?ver=%5BREDACTED%5D&date=%5BREDACTED%5D",
+        "hostname": "static.mediafire.com",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790618520816,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "72",
+        "url": "https://fonts.googleapis.com/css?family=%5BREDACTED%5D",
+        "hostname": "fonts.googleapis.com",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790618520820,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "73",
+        "url": "https://www.google.com/recaptcha/api.js",
+        "hostname": "www.google.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618520820,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "74",
+        "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js",
+        "hostname": "ajax.googleapis.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618520821,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "75",
+        "url": "https://www.googletagmanager.com/gtag/js?id=%5BREDACTED%5D",
+        "hostname": "www.googletagmanager.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618520821,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "76",
+        "url": "https://static.mediafire.com/js/[REDACTED]",
+        "hostname": "static.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618520822,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "77",
+        "url": "https://static.mediafire.com/images/backgrounds/header/[REDACTED]",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520823,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "78",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/[REDACTED]",
+        "hostname": "static.cloudflareinsights.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618520823,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "79",
+        "url": "https://static.mediafire.com/images/backgrounds/header/[REDACTED]",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520823,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "80",
+        "url": "https://www.mediafire.com/images/icons/myfiles/default.png",
+        "hostname": "www.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520824,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "81",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/gizmodo.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520824,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "82",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/lifehacker.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520824,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "83",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/cnet.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520824,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "84",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/techcrunch.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520824,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "85",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/engadget.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618520825,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "86",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521054,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "87",
+        "url": "https://cdn.amplitude.com/libs/[REDACTED]",
+        "hostname": "cdn.amplitude.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521057,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "88",
+        "url": "https://www.googletagmanager.com/gtm.js?id=%5BREDACTED%5D",
+        "hostname": "www.googletagmanager.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521058,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "89",
+        "url": "https://www.mediafire.com/blank.html",
+        "hostname": "www.mediafire.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618521064,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "90",
+        "url": "https://www.mediafire.com/blank.html",
+        "hostname": "www.mediafire.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618521065,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "91",
+        "url": "https://www.mediafire.com/templates/upgrade/upgrade_button.php",
+        "hostname": "www.mediafire.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618521067,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "92",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/hero_tile.png",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521101,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "93",
+        "url": "https://static.mediafire.com/images/icons/svg_light/upload.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521101,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "94",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/share.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521113,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "95",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/share_color.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521116,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "96",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/collaborate.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521116,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "97",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/collaborate_color.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521120,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "98",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/store.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521120,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "99",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/store_color.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521120,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "100",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/access.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521121,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "101",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/access_color.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521121,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "102",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/heart.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521121,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "103",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/mf_logo_flame_reversed.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521121,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "104",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/tf_10gb.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521121,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "105",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/tf_downloads.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521122,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "106",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/tf_share.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521122,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "107",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/tf_multi_upload.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521122,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "108",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/tf_organize.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521122,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "109",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/[REDACTED]",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521122,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "110",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/tf_apps.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521124,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "111",
+        "url": "https://fonts.gstatic.com/s/opensans/v44/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618521125,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "112",
+        "url": "https://fonts.gstatic.com/s/opensans/v44/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618521125,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "113",
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/[REDACTED]",
+        "hostname": "static.cloudflareinsights.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521126,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "114",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pro_driver.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521126,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "115",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pf_1tb.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521126,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "116",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pf_no_ads.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521126,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "117",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pf_web_uploads.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521126,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "118",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pf_direct_download.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521126,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "119",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pf_bulk_download.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521127,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "120",
+        "url": "https://static.mediafire.com/images/backgrounds/home_unicorn/pf_1_time.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521128,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "121",
+        "url": "https://static.mediafire.com/images/backgrounds/newHome/sections/texas.png",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521129,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "122",
+        "url": "https://static.mediafire.com/images/icons/svg_light/social_icons_sprite.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521129,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "123",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521142,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "124",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521186,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "125",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521230,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "123",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js?",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521253,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "124",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js?",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521293,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "125",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js?",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521301,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "126",
+        "url": "https://www.mediafire.com/favicon.ico",
+        "hostname": "www.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521303,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "127",
+        "url": "https://www.mediafire.com/apple-touch-icon.png",
+        "hostname": "www.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521303,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "128",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521330,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "129",
+        "url": "https://static.mediafire.com/images/icons/svg_dark/icons_sprite.svg",
+        "hostname": "static.mediafire.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618521331,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "130",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/[REDACTED]/[REDACTED]",
+        "hostname": "www.mediafire.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618521376,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "131",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/[REDACTED]/[REDACTED]",
+        "hostname": "www.mediafire.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618521421,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "132",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/[REDACTED]/[REDACTED]",
+        "hostname": "www.mediafire.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618521446,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "128",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/d76008a69eab/main.js?",
+        "hostname": "www.mediafire.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521446,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "133",
+        "url": "https://device.maxmind.com/js/device.js",
+        "hostname": "device.maxmind.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618521460,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "134",
+        "url": "https://www.mediafire.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/[REDACTED]/[REDACTED]",
+        "hostname": "www.mediafire.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618521486,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 70,
+    "blockedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 0,
+      "trackers": 0,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 3,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 3,
+      "thirdPartyPersistent": 0,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 7,
+      "firstParty": 7,
+      "thirdParty": 0,
+      "session": 0,
+      "persistent": 7,
+      "deletions": 0,
+      "malformed": 0,
+      "events": [
+        {
+          "name": "ukey",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618520751,
+          "thirdParty": false
+        },
+        {
+          "name": "__cf_bm",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618521189,
+          "thirdParty": false
+        },
+        {
+          "name": "__cf_bm",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618521307,
+          "thirdParty": false
+        },
+        {
+          "name": "cf_clearance",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": true,
+          "timestamp": 1790618521404,
+          "thirdParty": false
+        },
+        {
+          "name": "cf_clearance",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": true,
+          "timestamp": 1790618521448,
+          "thirdParty": false
+        },
+        {
+          "name": "cf_clearance",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": true,
+          "timestamp": 1790618521473,
+          "thirdParty": false
+        },
+        {
+          "name": "cf_clearance",
+          "domain": "mediafire.com",
+          "responseHost": "www.mediafire.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": true,
+          "timestamp": 1790618521513,
+          "thirdParty": false
+        }
+      ]
+    },
+    "storage": {
+      "localStorage": false,
+      "localStorageEntries": 0,
+      "sessionStorage": false,
+      "sessionStorageEntries": 0,
+      "indexedDB": false,
+      "indexedDBDatabases": [],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [
+        {
+          "requestId": "75",
+          "sourceUrl": "https://www.googletagmanager.com/gtag/js?id=%5BREDACTED%5D",
+          "destinationUrl": "moz-extension:[REDACTED]",
+          "sourceDomain": "googletagmanager.com",
+          "destinationDomain": "ba3c846c-d266-4988-8a24-8560c7fcc45a",
+          "type": "script",
+          "timestamp": 1790618520825,
+          "crossSite": true,
+          "suspiciousSourceParameters": [
+            {
+              "name": "id",
+              "value": "[REDACTED]"
+            }
+          ],
+          "suspiciousDestinationParameters": [],
+          "sharedIdentifiers": []
+        },
+        {
+          "requestId": "88",
+          "sourceUrl": "https://www.googletagmanager.com/gtm.js?id=%5BREDACTED%5D",
+          "destinationUrl": "moz-extension:[REDACTED]",
+          "sourceDomain": "googletagmanager.com",
+          "destinationDomain": "ba3c846c-d266-4988-8a24-8560c7fcc45a",
+          "type": "script",
+          "timestamp": 1790618521060,
+          "crossSite": true,
+          "suspiciousSourceParameters": [
+            {
+              "name": "id",
+              "value": "[REDACTED]"
+            }
+          ],
+          "suspiciousDestinationParameters": [],
+          "sharedIdentifiers": []
+        }
+      ],
+      "indicators": [],
+      "suspiciousParameters": [
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtag/js?id=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtag/js?id=%5BREDACTED%5D",
+          "destinationUrl": "moz-extension:[REDACTED]"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtm.js?id=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtm.js?id=%5BREDACTED%5D",
+          "destinationUrl": "moz-extension:[REDACTED]"
+        }
+      ],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": false,
+      "websockets": [],
+      "polling": [],
+      "hooks": [],
+      "indicators": []
+    },
+    "blocked": {
+      "ads": [],
+      "trackers": [],
+      "custom": []
+    },
+    "score": 91,
+    "scoreBreakdown": {
+      "thirdParties": 9,
+      "cookies": 0,
+      "storage": 0,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 0
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  }
+}

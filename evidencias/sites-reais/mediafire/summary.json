@@ -1,0 +1,838 @@
+{
+  "site": "mediafire",
+  "runs": {
+    "baseline": {
+      "timestamp": "2026-09-28T17:57:02.061Z",
+      "har": 87,
+      "firstPartyHar": 67,
+      "thirdPartyHar": 20,
+      "unclassifiedHar": 0,
+      "attempted": 79,
+      "allowedByPI": 79,
+      "thirdPartyHosts": 16,
+      "thirdPartyRequestsRetainedHosts": 20,
+      "detected": {
+        "ads": 1,
+        "trackers": 5,
+        "custom": 0
+      },
+      "blocked": {
+        "ads": 0,
+        "trackers": 0,
+        "custom": 0
+      },
+      "cookies": {
+        "firstParty": 10,
+        "thirdParty": 0,
+        "session": 0,
+        "persistent": 10,
+        "thirdPartyPersistent": 0,
+        "thirdPartySession": 0,
+        "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+        "errors": 0
+      },
+      "cookieWrites": {
+        "total": 7,
+        "firstParty": 7,
+        "thirdParty": 0,
+        "session": 0,
+        "persistent": 7,
+        "deletions": 0,
+        "malformed": 0
+      },
+      "storage": {
+        "localStorage": true,
+        "localStorageEntries": 2,
+        "sessionStorage": false,
+        "sessionStorageEntries": 0,
+        "indexedDB": false,
+        "indexedDBDatabases": [],
+        "unavailable": []
+      },
+      "canvas": false,
+      "bounce": false,
+      "cookieSync": false,
+      "hooks": [],
+      "polling": [],
+      "websockets": [],
+      "score": 83,
+      "breakdown": {
+        "thirdParties": 15,
+        "cookies": 0,
+        "storage": 2,
+        "canvas": 0,
+        "crossSite": 0,
+        "security": 0
+      },
+      "historyTruncated": false
+    },
+    "blocking": {
+      "timestamp": "2026-09-28T17:58:19.261Z",
+      "har": 86,
+      "firstPartyHar": 67,
+      "thirdPartyHar": 19,
+      "unclassifiedHar": 0,
+      "attempted": 79,
+      "allowedByPI": 75,
+      "thirdPartyHosts": 15,
+      "thirdPartyRequestsRetainedHosts": 19,
+      "detected": {
+        "ads": 1,
+        "trackers": 3,
+        "custom": 0
+      },
+      "blocked": {
+        "ads": 1,
+        "trackers": 3,
+        "custom": 0
+      },
+      "cookies": {
+        "firstParty": 6,
+        "thirdParty": 0,
+        "session": 0,
+        "persistent": 6,
+        "thirdPartyPersistent": 0,
+        "thirdPartySession": 0,
+        "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+        "errors": 0
+      },
+      "cookieWrites": {
+        "total": 7,
+        "firstParty": 7,
+        "thirdParty": 0,
+        "session": 0,
+        "persistent": 7,
+        "deletions": 0,
+        "malformed": 0
+      },
+      "storage": {
+        "localStorage": true,
+        "localStorageEntries": 2,
+        "sessionStorage": false,
+        "sessionStorageEntries": 0,
+        "indexedDB": false,
+        "indexedDBDatabases": [],
+        "unavailable": []
+      },
+      "canvas": false,
+      "bounce": false,
+      "cookieSync": false,
+      "hooks": [],
+      "polling": [],
+      "websockets": [],
+      "score": 87,
+      "breakdown": {
+        "thirdParties": 11,
+        "cookies": 0,
+        "storage": 2,
+        "canvas": 0,
+        "crossSite": 0,
+        "security": 0
+      },
+      "historyTruncated": false
+    },
+    "ublock": {
+      "timestamp": "2026-09-28T18:02:00.435Z",
+      "har": 76,
+      "firstPartyHar": 66,
+      "thirdPartyHar": 10,
+      "unclassifiedHar": 0,
+      "attempted": 70,
+      "allowedByPI": 70,
+      "thirdPartyHosts": 9,
+      "thirdPartyRequestsRetainedHosts": 12,
+      "detected": {
+        "ads": 0,
+        "trackers": 0,
+        "custom": 0
+      },
+      "blocked": {
+        "ads": 0,
+        "trackers": 0,
+        "custom": 0
+      },
+      "cookies": {
+        "firstParty": 3,
+        "thirdParty": 0,
+        "session": 0,
+        "persistent": 3,
+        "thirdPartyPersistent": 0,
+        "thirdPartySession": 0,
+        "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+        "errors": 0
+      },
+      "cookieWrites": {
+        "total": 7,
+        "firstParty": 7,
+        "thirdParty": 0,
+        "session": 0,
+        "persistent": 7,
+        "deletions": 0,
+        "malformed": 0
+      },
+      "storage": {
+        "localStorage": false,
+        "localStorageEntries": 0,
+        "sessionStorage": false,
+        "sessionStorageEntries": 0,
+        "indexedDB": false,
+        "indexedDBDatabases": [],
+        "unavailable": []
+      },
+      "canvas": false,
+      "bounce": false,
+      "cookieSync": false,
+      "hooks": [],
+      "polling": [],
+      "websockets": [],
+      "score": 91,
+      "breakdown": {
+        "thirdParties": 9,
+        "cookies": 0,
+        "storage": 0,
+        "canvas": 0,
+        "crossSite": 0,
+        "security": 0
+      },
+      "historyTruncated": false
+    }
+  },
+  "ublock": {
+    "blockingDecisions": 6,
+    "blockedHosts": [
+      "www.googletagmanager.com",
+      "static.cloudflareinsights.com",
+      "cdn.amplitude.com",
+      "device.maxmind.com"
+    ],
+    "note": "Network logger result=1, excluding modifier entries. These are logged decisions, not a deduplicated HTTP request counter. Redirect/scriptlet/cosmetic rows excluded."
+  },
+  "blacklight": [
+    {
+      "type": "ddg_join_ads",
+      "found": true,
+      "count": 3,
+      "domains": [
+        "google.com",
+        "maxmind.com",
+        "googletagmanager.com"
+      ]
+    },
+    {
+      "type": "cookies",
+      "found": true,
+      "count": 1,
+      "domains": [
+        "d-ipv6.mmapiws.com"
+      ]
+    },
+    {
+      "type": "canvas_fingerprinters",
+      "found": true,
+      "domains": [
+        "maxmind.com"
+      ]
+    },
+    {
+      "type": "session_recorders",
+      "found": true,
+      "domains": [
+        "hotjar.com"
+      ]
+    },
+    {
+      "type": "key_logging",
+      "found": false
+    },
+    {
+      "type": "fb_pixel_events",
+      "found": false
+    },
+    {
+      "type": "tiktok_pixel_events",
+      "found": false
+    },
+    {
+      "type": "twitter_pixel_events",
+      "found": false
+    },
+    {
+      "type": "ga",
+      "found": true
+    }
+  ],
+  "reconciliation": [
+    {
+      "domain": "amplitude.com",
+      "piBaselineObservedHosts": [
+        "cdn.amplitude.com",
+        "api.amplitude.com"
+      ],
+      "piBaselineSampleCount": 2,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 1,
+      "ublockLogIndexes": [
+        37
+      ],
+      "ublockRules": [
+        "||amplitude.com^$3p"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "cdn.amplitude.com",
+            "entries": [
+              18
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "api.amplitude.com",
+            "entries": [
+              76
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "cdn.amplitude.com",
+            "entries": [
+              18
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "api.amplitude.com",
+            "entries": [
+              76
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "cdn.amplitude.com",
+            "entries": [
+              16
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ||amplitude.com^$3p. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "cloudflareinsights.com",
+      "piBaselineObservedHosts": [
+        "static.cloudflareinsights.com"
+      ],
+      "piBaselineSampleCount": 1,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 2,
+      "ublockObservedC": 2,
+      "ublockLogIndexes": [
+        11,
+        68
+      ],
+      "ublockRules": [
+        "||cloudflareinsights.com^"
+      ],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "static.cloudflareinsights.com",
+            "entries": [
+              8
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "static.cloudflareinsights.com",
+            "entries": [
+              8
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "static.cloudflareinsights.com",
+            "entries": [
+              6,
+              39
+            ],
+            "statuses": {
+              "0": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ||cloudflareinsights.com^. A lista interna não contém este domínio. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "doubleclick.net",
+      "piBaselineObservedHosts": [
+        "stats.g.doubleclick.net"
+      ],
+      "piBaselineSampleCount": 1,
+      "piSampledCategories": [
+        "ad"
+      ],
+      "internalCategories": [
+        "ad"
+      ],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 1,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 0,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "stats.g.doubleclick.net",
+            "entries": [
+              82
+            ],
+            "statuses": {
+              "204": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "stats.g.doubleclick.net",
+            "entries": [
+              81
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": []
+      },
+      "explanation": "PI bloqueou em B; domínio ausente no logger C. Não equivale a permissão pelo uBlock. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "google-analytics.com",
+      "piBaselineObservedHosts": [
+        "www.google-analytics.com"
+      ],
+      "piBaselineSampleCount": 2,
+      "piSampledCategories": [
+        "tracker"
+      ],
+      "internalCategories": [
+        "tracker"
+      ],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 1,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 0,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "www.google-analytics.com",
+            "entries": [
+              69,
+              80
+            ],
+            "statuses": {
+              "200": 2
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "www.google-analytics.com",
+            "entries": [
+              64
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": []
+      },
+      "explanation": "PI bloqueou em B; domínio ausente no logger C. Não equivale a permissão pelo uBlock. Não identificado nominalmente nos cartões do Blacklight; ausência não prova ausência de tráfego."
+    },
+    {
+      "domain": "google.com",
+      "piBaselineObservedHosts": [
+        "www.google.com",
+        "analytics.google.com"
+      ],
+      "piBaselineSampleCount": 2,
+      "piSampledCategories": [
+        "tracker"
+      ],
+      "internalCategories": [
+        "tracker"
+      ],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 1,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 2,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [
+        "ddg_join_ads"
+      ],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "www.google.com",
+            "entries": [
+              4
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "analytics.google.com",
+            "entries": [
+              81
+            ],
+            "statuses": {
+              "204": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "www.google.com",
+            "entries": [
+              4,
+              83
+            ],
+            "statuses": {
+              "200": 1,
+              "204": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "analytics.google.com",
+            "entries": [
+              80
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "www.google.com",
+            "entries": [
+              15
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "PI bloqueou em B; C contém tráfego do domínio sem decisão de bloqueio. Conferir paths/tipos: não implica mesmas URLs."
+    },
+    {
+      "domain": "googletagmanager.com",
+      "piBaselineObservedHosts": [
+        "www.googletagmanager.com"
+      ],
+      "piBaselineSampleCount": 3,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 2,
+      "ublockObservedC": 6,
+      "ublockLogIndexes": [
+        6,
+        38
+      ],
+      "ublockRules": [
+        "||googletagmanager.com^"
+      ],
+      "blacklightFindings": [
+        "ddg_join_ads"
+      ],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "www.googletagmanager.com",
+            "entries": [
+              6,
+              19,
+              73
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "www.googletagmanager.com",
+            "entries": [
+              6,
+              19,
+              73
+            ],
+            "statuses": {
+              "200": 3
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": []
+      },
+      "explanation": "uBlock aplicou ||googletagmanager.com^. A lista interna não contém este domínio. HAR A confirma tráfego; Blacklight identifica ddg_join_ads; lista didática sem classificação para este domínio."
+    },
+    {
+      "domain": "hotjar.com",
+      "piBaselineObservedHosts": [
+        "static.hotjar.com",
+        "script.hotjar.com"
+      ],
+      "piBaselineSampleCount": 2,
+      "piSampledCategories": [
+        "tracker"
+      ],
+      "internalCategories": [
+        "tracker"
+      ],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 1,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 0,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [
+        "session_recorders"
+      ],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "static.hotjar.com",
+            "entries": [
+              74
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          },
+          {
+            "host": "script.hotjar.com",
+            "entries": [
+              84
+            ],
+            "statuses": {
+              "200": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "static.hotjar.com",
+            "entries": [
+              74
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": []
+      },
+      "explanation": "PI bloqueou em B; domínio ausente no logger C. Não equivale a permissão pelo uBlock."
+    },
+    {
+      "domain": "maxmind.com",
+      "piBaselineObservedHosts": [
+        "device.maxmind.com"
+      ],
+      "piBaselineSampleCount": 1,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 1,
+      "ublockObservedC": 1,
+      "ublockLogIndexes": [
+        128
+      ],
+      "ublockRules": [
+        "||maxmind.com/js/device.js$3p"
+      ],
+      "blacklightFindings": [
+        "ddg_join_ads",
+        "canvas_fingerprinters"
+      ],
+      "evidence": {
+        "baseline": [
+          {
+            "host": "device.maxmind.com",
+            "entries": [
+              85
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "blocking": [
+          {
+            "host": "device.maxmind.com",
+            "entries": [
+              84
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ],
+        "ublock": [
+          {
+            "host": "device.maxmind.com",
+            "entries": [
+              74
+            ],
+            "statuses": {
+              "0": 1
+            },
+            "types": [
+              "not provided"
+            ]
+          }
+        ]
+      },
+      "explanation": "uBlock aplicou ||maxmind.com/js/device.js$3p. A lista interna não contém este domínio. HAR A confirma tráfego; Blacklight identifica ddg_join_ads/canvas_fingerprinters; lista didática sem classificação para este domínio."
+    },
+    {
+      "domain": "mmapiws.com",
+      "piBaselineObservedHosts": [],
+      "piBaselineSampleCount": 0,
+      "piSampledCategories": [],
+      "internalCategories": [],
+      "piBaselineHistoryTruncated": false,
+      "piBlockedB": 0,
+      "ublockBlockingDecisionsC": 0,
+      "ublockObservedC": 0,
+      "ublockLogIndexes": [],
+      "ublockRules": [],
+      "blacklightFindings": [
+        "cookies"
+      ],
+      "evidence": {
+        "baseline": [],
+        "blocking": [],
+        "ublock": []
+      },
+      "explanation": "Blacklight identificou o domínio; não consta no HAR A. A sessão externa visitou duas páginas; a causa exata da diferença não foi isolada."
+    }
+  ]
+}

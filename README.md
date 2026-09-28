@@ -135,3 +135,6 @@ MediaFire, Forbes e CNN foram coletados em Firefox nos modos OFF, ON e uBlock, c
 
 Para conferir os artefatos: node tests/evidence-tests.cjs e node tests/validate-evidence.cjs.
 As coletas são visitas específicas, não certificações de privacidade. Permanecem pendentes os prints editoriais com instalação/popup ancorado; cookie sync corroborado e atribuição estrita de injeção continuam fora da prova. Não foi gerado PDF.
+
+
+### EVENTUALMENTE eu vou tentar implementar um AdBlocker para anúncios de streamings inclusive, mas hoje não. Tenho banca amanhã :P

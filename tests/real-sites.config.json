@@ -1,0 +1,17 @@
+{
+  "observationSeconds": 30,
+  "scrollAtSeconds": [10, 20],
+  "scrollPixels": 600,
+  "viewport": { "width": 1366, "height": 900 },
+  "consent": "Não interagir com banners; registrar o estado apresentado. Sem login.",
+  "sites": [
+    { "name": "MediaFire", "slug": "mediafire", "url": "https://www.mediafire.com/" },
+    { "name": "Forbes", "slug": "forbes", "url": "https://www.forbes.com/" },
+    { "name": "CNN", "slug": "cnn", "url": "https://www.cnn.com/" }
+  ],
+  "modes": {
+    "baseline": { "ads": false, "trackers": false, "custom": false, "ublock": false },
+    "blocking": { "ads": true, "trackers": true, "custom": false, "ublock": false },
+    "ublock": { "ads": false, "trackers": false, "custom": false, "ublock": true }
+  }
+}

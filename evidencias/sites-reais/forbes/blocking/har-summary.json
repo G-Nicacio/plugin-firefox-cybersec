@@ -1,0 +1,2265 @@
+{
+  "totalRequests": 281,
+  "firstPartyRequests": 39,
+  "thirdPartyRequests": 241,
+  "unclassifiedRequests": 1,
+  "hosts": {
+    "www.forbes.com": {
+      "requests": 10,
+      "thirdParty": false,
+      "statuses": {
+        "200": 6,
+        "202": 1,
+        "401": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        0,
+        56,
+        57,
+        75,
+        76,
+        77,
+        79,
+        95,
+        100,
+        222
+      ],
+      "categories": []
+    },
+    "i.forbesimg.com": {
+      "requests": 36,
+      "thirdParty": true,
+      "statuses": {
+        "200": 36
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        92,
+        157,
+        158
+      ],
+      "categories": []
+    },
+    "cdn.ketchjs.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        4,
+        80,
+        105
+      ],
+      "categories": []
+    },
+    "imageio.forbes.com": {
+      "requests": 10,
+      "thirdParty": false,
+      "statuses": {
+        "200": 10
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        5,
+        32,
+        33,
+        34,
+        35,
+        58,
+        59,
+        60,
+        275,
+        276
+      ],
+      "categories": []
+    },
+    "images.forbes.com": {
+      "requests": 11,
+      "thirdParty": false,
+      "statuses": {
+        "200": 11
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        38,
+        39,
+        40,
+        41,
+        42,
+        85
+      ],
+      "categories": []
+    },
+    "global.ketchcdn.com": {
+      "requests": 18,
+      "thirdParty": true,
+      "statuses": {
+        "200": 16,
+        "204": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        36,
+        96,
+        104,
+        107,
+        128,
+        129,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        207,
+        208,
+        214,
+        215,
+        240,
+        241
+      ],
+      "categories": []
+    },
+    "js.datadome.co": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        37
+      ],
+      "categories": []
+    },
+    "cdn.speedcurve.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        50
+      ],
+      "categories": []
+    },
+    "storage.googleapis.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        53
+      ],
+      "categories": []
+    },
+    "bacon.forbes.com": {
+      "requests": 1,
+      "thirdParty": false,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        54
+      ],
+      "categories": []
+    },
+    "geolocation.forbes.com": {
+      "requests": 2,
+      "thirdParty": false,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        55,
+        70
+      ],
+      "categories": []
+    },
+    "vi.ml314.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        61
+      ],
+      "categories": []
+    },
+    "warp.media.net": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        62,
+        179,
+        180
+      ],
+      "categories": []
+    },
+    "config.aps.amazon-adsystem.com": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        63,
+        177
+      ],
+      "categories": []
+    },
+    "client.aps.amazon-adsystem.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        64
+      ],
+      "categories": []
+    },
+    "pub.doubleverify.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        65,
+        173,
+        174
+      ],
+      "categories": []
+    },
+    "cdn.p-n.io": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        66
+      ],
+      "categories": []
+    },
+    "static.criteo.net": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        67
+      ],
+      "categories": []
+    },
+    "cdn.adsafeprotected.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        68
+      ],
+      "categories": []
+    },
+    "securepubads.g.doubleclick.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "0": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        69,
+        201
+      ],
+      "categories": [
+        "ad"
+      ]
+    },
+    "fuse.forbes.com": {
+      "requests": 1,
+      "thirdParty": false,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        71
+      ],
+      "categories": []
+    },
+    "d.email.forbes.com": {
+      "requests": 2,
+      "thirdParty": false,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        72,
+        74
+      ],
+      "categories": []
+    },
+    "www.googletagmanager.com": {
+      "requests": 4,
+      "thirdParty": true,
+      "statuses": {
+        "200": 4
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        73,
+        86,
+        90,
+        91
+      ],
+      "categories": []
+    },
+    "api-js.datadome.co": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        78,
+        277
+      ],
+      "categories": []
+    },
+    "se.email.forbes.com": {
+      "requests": 1,
+      "thirdParty": false,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        81
+      ],
+      "categories": []
+    },
+    "www.google.com": {
+      "requests": 24,
+      "thirdParty": true,
+      "statuses": {
+        "200": 20,
+        "204": 4
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        82,
+        83,
+        84,
+        130,
+        131,
+        132,
+        150,
+        155,
+        156,
+        165,
+        166,
+        169,
+        184,
+        185,
+        186,
+        195,
+        199,
+        202,
+        216,
+        218,
+        219,
+        254,
+        273,
+        279
+      ],
+      "categories": []
+    },
+    "secure.quantserve.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        87
+      ],
+      "categories": []
+    },
+    "sb.scorecardresearch.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1,
+        "204": 1,
+        "302": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        88,
+        193,
+        205
+      ],
+      "categories": []
+    },
+    "cdn.brandmetrics.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "302": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        89
+      ],
+      "categories": []
+    },
+    "promote-subscribe.forbes.com": {
+      "requests": 1,
+      "thirdParty": false,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        93
+      ],
+      "categories": []
+    },
+    "static.ads-twitter.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "0": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        94
+      ],
+      "categories": []
+    },
+    "forbes.blueconic.net": {
+      "requests": 6,
+      "thirdParty": true,
+      "statuses": {
+        "200": 6
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        97,
+        217,
+        220,
+        221,
+        232,
+        243
+      ],
+      "categories": []
+    },
+    "connect.facebook.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        98,
+        178
+      ],
+      "categories": []
+    },
+    "www.redditstatic.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        99
+      ],
+      "categories": []
+    },
+    "www.gstatic.com": {
+      "requests": 22,
+      "thirdParty": true,
+      "statuses": {
+        "200": 22
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        101,
+        102,
+        103,
+        133,
+        134,
+        135,
+        137,
+        138,
+        139,
+        147,
+        159,
+        161,
+        163,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        210,
+        211,
+        212
+      ],
+      "categories": []
+    },
+    "phx.bmtrcs.com": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1,
+        "204": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        106,
+        226
+      ],
+      "categories": []
+    },
+    "i.ytimg.com": {
+      "requests": 20,
+      "thirdParty": true,
+      "statuses": {
+        "200": 20
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "categories": []
+    },
+    "ml314.com": {
+      "requests": 7,
+      "thirdParty": true,
+      "statuses": {
+        "200": 4,
+        "302": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        136,
+        225,
+        246,
+        247,
+        250,
+        251,
+        274
+      ],
+      "categories": []
+    },
+    "fonts.gstatic.com": {
+      "requests": 7,
+      "thirdParty": true,
+      "statuses": {
+        "200": 7
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        148,
+        149,
+        151,
+        152,
+        153,
+        154,
+        213
+      ],
+      "categories": []
+    },
+    "analytics.google.com": {
+      "requests": 4,
+      "thirdParty": true,
+      "statuses": {
+        "0": 4
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        160,
+        253,
+        272,
+        278
+      ],
+      "categories": [
+        "tracker"
+      ]
+    },
+    "stats.g.doubleclick.net": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "0": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        162
+      ],
+      "categories": [
+        "ad"
+      ]
+    },
+    "googleads.g.doubleclick.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "0": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        164,
+        170
+      ],
+      "categories": [
+        "ad"
+      ]
+    },
+    "ad.doubleclick.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "0": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        167,
+        175
+      ],
+      "categories": [
+        "ad"
+      ]
+    },
+    "www.google.com.br": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        168
+      ],
+      "categories": []
+    },
+    "pixel-config.reddit.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        171
+      ],
+      "categories": []
+    },
+    "alb.reddit.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        172
+      ],
+      "categories": []
+    },
+    "c.amazon-adsystem.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        176
+      ],
+      "categories": []
+    },
+    "pxlrtpge-a.akamaihd.net": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        181
+      ],
+      "categories": []
+    },
+    "gum.criteo.com": {
+      "requests": 4,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2,
+        "302": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        182,
+        194,
+        258,
+        270
+      ],
+      "categories": []
+    },
+    "web-banner.ads.aps.amazon-adsystem.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        183
+      ],
+      "categories": []
+    },
+    "mpc-prod-24-s6uit34pua-uw.a.run.app": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        196,
+        197
+      ],
+      "categories": []
+    },
+    "rcp.rtpge.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        198,
+        206,
+        209
+      ],
+      "categories": []
+    },
+    "rules.quantcount.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        200
+      ],
+      "categories": []
+    },
+    "www.facebook.com": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        203,
+        204
+      ],
+      "categories": []
+    },
+    "s.amazon-adsystem.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2,
+        "302": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        223,
+        224,
+        229
+      ],
+      "categories": []
+    },
+    "pixel.quantserve.com": {
+      "requests": 4,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2,
+        "204": 1,
+        "302": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        227,
+        228,
+        231,
+        238
+      ],
+      "categories": []
+    },
+    "mug.criteo.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        230,
+        239,
+        271
+      ],
+      "categories": []
+    },
+    "dpm.demdex.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1,
+        "302": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        233,
+        244
+      ],
+      "categories": []
+    },
+    "idsync.rlcdn.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "451": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        234
+      ],
+      "categories": []
+    },
+    "match.adsrvr.org": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "302": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        235,
+        245
+      ],
+      "categories": []
+    },
+    "securedvisit.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        236
+      ],
+      "categories": []
+    },
+    "ps.eyeota.net": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1,
+        "302": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        237,
+        248,
+        252
+      ],
+      "categories": []
+    },
+    "plugins.blueconic.net": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        242
+      ],
+      "categories": []
+    },
+    "dnacdn.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        249,
+        266
+      ],
+      "categories": []
+    },
+    "media.pushlycdn.com": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        255,
+        257
+      ],
+      "categories": []
+    },
+    "k.p-n.io": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "204": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        256
+      ],
+      "categories": []
+    },
+    "zndpq7uw2elr2st9z-forbesbi.siteintercept.qualtrics.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        259
+      ],
+      "categories": []
+    },
+    "munchkin.marketo.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        260,
+        267
+      ],
+      "categories": []
+    },
+    "static.chartbeat.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        261
+      ],
+      "categories": []
+    },
+    "siteintercept.qualtrics.com": {
+      "requests": 3,
+      "thirdParty": true,
+      "statuses": {
+        "200": 3
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        262,
+        263,
+        269
+      ],
+      "categories": []
+    },
+    "ag.gbc.criteo.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        264
+      ],
+      "categories": []
+    },
+    "gem.gbc.criteo.com": {
+      "requests": 1,
+      "thirdParty": true,
+      "statuses": {
+        "200": 1
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        265
+      ],
+      "categories": []
+    },
+    "ping.chartbeat.net": {
+      "requests": 2,
+      "thirdParty": true,
+      "statuses": {
+        "200": 2
+      },
+      "types": [
+        "not provided"
+      ],
+      "harEntries": [
+        268,
+        280
+      ],
+      "categories": []
+    }
+  },
+  "statuses": {
+    "0": 12,
+    "200": 239,
+    "202": 1,
+    "204": 10,
+    "302": 14,
+    "401": 3,
+    "451": 1
+  },
+  "redirects": [
+    {
+      "entry": 88,
+      "url": "https://sb.scorecardresearch.com/cs/6872493/beacon.js",
+      "status": 302,
+      "destination": "[INVALID_OR_REDACTED_URL]"
+    },
+    {
+      "entry": 89,
+      "url": "https://cdn.brandmetrics.com/tag/[REDACTED]/Forbes.js",
+      "status": 302,
+      "destination": "https://phx.bmtrcs.com/api/v2/[REDACTED]/lib/site.js"
+    },
+    {
+      "entry": 182,
+      "url": "https://gum.criteo.com/sid/json?origin=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&domain=%5BREDACTED%5D&cw=%5BREDACTED%5D&lsw=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://mug.criteo.com/sid?cpp=%5BREDACTED%5D&cppv=%5BREDACTED%5D"
+    },
+    {
+      "entry": 223,
+      "url": "https://s.amazon-adsystem.com/iu3?cm3ppd=%5BREDACTED%5D&d=%5BREDACTED%5D&csif=%5BREDACTED%5D&dl=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://s.amazon-adsystem.com/iu3?cm3ppd=%5BREDACTED%5D&d=%5BREDACTED%5D&csif=%5BREDACTED%5D&dl=%5BREDACTED%5D&dcc=%5BREDACTED%5D"
+    },
+    {
+      "entry": 227,
+      "url": "https://pixel.quantserve.com/cs?a=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&sf2=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://pixel.quantserve.com/cs?a=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&sf2=%5BREDACTED%5D&__qcmcs=%5BREDACTED%5D"
+    },
+    {
+      "entry": 233,
+      "url": "https://dpm.demdex.net/[REDACTED]",
+      "status": 302,
+      "destination": "https://dpm.demdex.net/demconf.jpg?et%3Aibs%7Cdata%3Adpid=%5BREDACTED%5D&dpuuid=%5BREDACTED%5D&redir=%5BREDACTED%5D"
+    },
+    {
+      "entry": 235,
+      "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D"
+    },
+    {
+      "entry": 237,
+      "url": "https://ps.eyeota.net/pixel?pid=%5BREDACTED%5D&t=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "[INVALID_OR_REDACTED_URL]"
+    },
+    {
+      "entry": 245,
+      "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D"
+    },
+    {
+      "entry": 246,
+      "url": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D"
+    },
+    {
+      "entry": 248,
+      "url": "https://ps.eyeota.net/pixel/bounce/?pid=%5BREDACTED%5D&t=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D&return=%5BREDACTED%5D"
+    },
+    {
+      "entry": 250,
+      "url": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D&return=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D&return=%5BREDACTED%5D"
+    },
+    {
+      "entry": 251,
+      "url": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D&return=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://ps.eyeota.net/match?bid=%5BREDACTED%5D&uid=%5BREDACTED%5D&referrer_pid=%5BREDACTED%5D"
+    },
+    {
+      "entry": 270,
+      "url": "https://gum.criteo.com/sid/json?origin=%5BREDACTED%5D&domain=%5BREDACTED%5D&sn=%5BREDACTED%5D&so=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&bundle=%5BREDACTED%5D&info=%5BREDACTED%5D&idsd=%5BREDACTED%5D&idsdctx=%5BREDACTED%5D",
+      "status": 302,
+      "destination": "https://mug.criteo.com/sid?cpp=%5BREDACTED%5D&cppv=%5BREDACTED%5D"
+    }
+  ],
+  "cookieWrites": [
+    {
+      "entry": 0,
+      "name": "VWO",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618377784
+    },
+    {
+      "entry": 56,
+      "name": "datadome",
+      "domain": "forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378456
+    },
+    {
+      "entry": 56,
+      "name": "VWO",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378456
+    },
+    {
+      "entry": 57,
+      "name": "datadome",
+      "domain": "forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378456
+    },
+    {
+      "entry": 57,
+      "name": "datadome",
+      "domain": "forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378456
+    },
+    {
+      "entry": 72,
+      "name": "__cf_bm",
+      "domain": "d.email.forbes.com",
+      "responseHost": "d.email.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618378611
+    },
+    {
+      "entry": 75,
+      "name": "AWSALB",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378723
+    },
+    {
+      "entry": 75,
+      "name": "AWSALBCORS",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378723
+    },
+    {
+      "entry": 76,
+      "name": "AWSALB",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378727
+    },
+    {
+      "entry": 76,
+      "name": "AWSALBCORS",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378727
+    },
+    {
+      "entry": 79,
+      "name": "AWSALB",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378772
+    },
+    {
+      "entry": 79,
+      "name": "AWSALBCORS",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378772
+    },
+    {
+      "entry": 79,
+      "name": "blaize_session",
+      "domain": "forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378772
+    },
+    {
+      "entry": 79,
+      "name": "blaize_tracking_id",
+      "domain": "forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618378772
+    },
+    {
+      "entry": 81,
+      "name": "__cf_bm",
+      "domain": "se.email.forbes.com",
+      "responseHost": "se.email.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618378960
+    },
+    {
+      "entry": 93,
+      "name": "datadome",
+      "domain": "forbes.com",
+      "responseHost": "promote-subscribe.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618379131
+    },
+    {
+      "entry": 95,
+      "name": "AWSALB",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618379146
+    },
+    {
+      "entry": 95,
+      "name": "AWSALBCORS",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618379146
+    },
+    {
+      "entry": 97,
+      "name": "AWSALB",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618379147
+    },
+    {
+      "entry": 97,
+      "name": "AWSALBCORS",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618379147
+    },
+    {
+      "entry": 100,
+      "name": "VWO",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618379185
+    },
+    {
+      "entry": 182,
+      "name": "uid",
+      "domain": "criteo.com",
+      "responseHost": "gum.criteo.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380096
+    },
+    {
+      "entry": 195,
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "responseHost": "www.google.com",
+      "domainMatchesResponse": true,
+      "path": "/recaptcha",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618380485
+    },
+    {
+      "entry": 199,
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "responseHost": "www.google.com",
+      "domainMatchesResponse": true,
+      "path": "/recaptcha",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618380571
+    },
+    {
+      "entry": 202,
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "responseHost": "www.google.com",
+      "domainMatchesResponse": true,
+      "path": "/recaptcha",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618380606
+    },
+    {
+      "entry": 203,
+      "name": "fr",
+      "domain": "facebook.com",
+      "responseHost": "www.facebook.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618380615
+    },
+    {
+      "entry": 204,
+      "name": "fr",
+      "domain": "facebook.com",
+      "responseHost": "www.facebook.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618380619
+    },
+    {
+      "entry": 205,
+      "name": "UID",
+      "domain": "scorecardresearch.com",
+      "responseHost": "sb.scorecardresearch.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380620
+    },
+    {
+      "entry": 217,
+      "name": "AWSALB",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380688
+    },
+    {
+      "entry": 217,
+      "name": "AWSALBCORS",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380688
+    },
+    {
+      "entry": 217,
+      "name": "BCTempID",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/DG/DEFAULT",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": true,
+      "timestamp": 1790618380688
+    },
+    {
+      "entry": 220,
+      "name": "AWSALB",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380853
+    },
+    {
+      "entry": 220,
+      "name": "AWSALBCORS",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380853
+    },
+    {
+      "entry": 221,
+      "name": "AWSALB",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380854
+    },
+    {
+      "entry": 221,
+      "name": "AWSALBCORS",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380854
+    },
+    {
+      "entry": 222,
+      "name": "AWSALB",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380899
+    },
+    {
+      "entry": 222,
+      "name": "AWSALBCORS",
+      "domain": "www.forbes.com",
+      "responseHost": "www.forbes.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618380899
+    },
+    {
+      "entry": 223,
+      "name": "ad-id",
+      "domain": "amazon-adsystem.com",
+      "responseHost": "s.amazon-adsystem.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618380963
+    },
+    {
+      "entry": 224,
+      "name": "ad-id",
+      "domain": "amazon-adsystem.com",
+      "responseHost": "s.amazon-adsystem.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618381155
+    },
+    {
+      "entry": 224,
+      "name": "ad-privacy",
+      "domain": "amazon-adsystem.com",
+      "responseHost": "s.amazon-adsystem.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618381155
+    },
+    {
+      "entry": 225,
+      "name": "u",
+      "domain": "ml314.com",
+      "responseHost": "ml314.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381222
+    },
+    {
+      "entry": 225,
+      "name": "pi",
+      "domain": "ml314.com",
+      "responseHost": "ml314.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618381222
+    },
+    {
+      "entry": 225,
+      "name": "tp",
+      "domain": "ml314.com",
+      "responseHost": "ml314.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381222
+    },
+    {
+      "entry": 226,
+      "name": "bm_lib",
+      "domain": "bmtrcs.com",
+      "responseHost": "phx.bmtrcs.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618381251
+    },
+    {
+      "entry": 232,
+      "name": "AWSALB",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381543
+    },
+    {
+      "entry": 232,
+      "name": "AWSALBCORS",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381543
+    },
+    {
+      "entry": 232,
+      "name": "BCSessionID",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/DG/DEFAULT",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": true,
+      "timestamp": 1790618381543
+    },
+    {
+      "entry": 232,
+      "name": "BCTempID",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/DG/DEFAULT",
+      "session": false,
+      "deletion": true,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": true,
+      "timestamp": 1790618381543
+    },
+    {
+      "entry": 233,
+      "name": "demdex",
+      "domain": "demdex.net",
+      "responseHost": "dpm.demdex.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381576
+    },
+    {
+      "entry": 235,
+      "name": "TDID",
+      "domain": "adsrvr.org",
+      "responseHost": "match.adsrvr.org",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381577
+    },
+    {
+      "entry": 235,
+      "name": "TDCPM",
+      "domain": "adsrvr.org",
+      "responseHost": "match.adsrvr.org",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381577
+    },
+    {
+      "entry": 237,
+      "name": "mako_uid",
+      "domain": "eyeota.net",
+      "responseHost": "ps.eyeota.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618381577
+    },
+    {
+      "entry": 237,
+      "name": "SERVERID",
+      "domain": "eyeota.net",
+      "responseHost": "ps.eyeota.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618381577
+    },
+    {
+      "entry": 243,
+      "name": "AWSALB",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": false,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381772
+    },
+    {
+      "entry": 243,
+      "name": "AWSALBCORS",
+      "domain": "forbes.blueconic.net",
+      "responseHost": "forbes.blueconic.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381772
+    },
+    {
+      "entry": 244,
+      "name": "demdex",
+      "domain": "demdex.net",
+      "responseHost": "dpm.demdex.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381993
+    },
+    {
+      "entry": 244,
+      "name": "dpm",
+      "domain": "dpm.demdex.net",
+      "responseHost": "dpm.demdex.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381993
+    },
+    {
+      "entry": 245,
+      "name": "TDID",
+      "domain": "adsrvr.org",
+      "responseHost": "match.adsrvr.org",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381993
+    },
+    {
+      "entry": 245,
+      "name": "TDCPM",
+      "domain": "adsrvr.org",
+      "responseHost": "match.adsrvr.org",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618381993
+    },
+    {
+      "entry": 248,
+      "name": "SERVERID",
+      "domain": "eyeota.net",
+      "responseHost": "ps.eyeota.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618382239
+    },
+    {
+      "entry": 249,
+      "name": "browser_data",
+      "domain": "dnacdn.net",
+      "responseHost": "dnacdn.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618382504
+    },
+    {
+      "entry": 252,
+      "name": "SERVERID",
+      "domain": "eyeota.net",
+      "responseHost": "ps.eyeota.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": true,
+      "partitioned": false,
+      "timestamp": 1790618383009
+    },
+    {
+      "entry": 258,
+      "name": "uid",
+      "domain": "criteo.com",
+      "responseHost": "gum.criteo.com",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618390236
+    },
+    {
+      "entry": 266,
+      "name": "browser_data",
+      "domain": "dnacdn.net",
+      "responseHost": "dnacdn.net",
+      "domainMatchesResponse": true,
+      "path": "/",
+      "session": false,
+      "deletion": false,
+      "secure": true,
+      "httpOnly": false,
+      "partitioned": false,
+      "timestamp": 1790618390457
+    }
+  ],
+  "pluginComparison": {
+    "pluginAttempts": 325,
+    "sampledRequests": 200,
+    "hostsOnlyInHar": [],
+    "hostsOnlyInPlugin": [
+      "hbxlp.media.net",
+      "vtrk.dv.tech"
+    ],
+    "note": "Host-level comparison of the same run. HAR entries and attempted requests are different measurements."
+  },
+  "domainMethod": "Same partial registrable-domain fallback as Privacy Inspector; not a complete PSL."
+}

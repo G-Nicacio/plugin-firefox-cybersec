@@ -1,0 +1,19 @@
+{
+  "site": "Forbes",
+  "url": "https://www.forbes.com/",
+  "endpoint": "https://blacklight-us-oh.api.themarkup.org/graphic-api",
+  "client": "https://mrkp-static-production.themarkup.org/graphics/blacklight-client_blacklight-client/1781703161872/main.js",
+  "request": {
+    "inUrl": "https://www.forbes.com/",
+    "device": "desktop",
+    "force": true,
+    "location": "us-oh"
+  },
+  "timestamp": "2026-09-28T18:00:47.095Z",
+  "finishedAt": "2026-09-28T18:02:02.968Z",
+  "httpStatus": 200,
+  "status": "collected",
+  "responseSha256": "ea17e3db5c64b2971ac95c0409e435e9251b93a58f50e78e25445829b1ca41c3",
+  "source": "Actual Blacklight graphic-api response; structured factual extract, not a local Firefox run",
+  "sanitization": "No cookie values, response bodies, embedded images, request headers or browser profile retained"
+}

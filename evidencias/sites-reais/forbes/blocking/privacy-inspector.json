@@ -1,0 +1,3953 @@
+{
+  "exportedAt": "2026-09-28T18:00:08.589Z",
+  "version": "0.2.0",
+  "report": {
+    "tabId": 1,
+    "pageUrl": "https://www.forbes.com/",
+    "navigationObserved": true,
+    "thirdPartyDomains": {
+      "i.forbesimg.com": {
+        "count": 36,
+        "blocked": 0,
+        "allowed": 36,
+        "types": [
+          "font",
+          "script",
+          "image"
+        ]
+      },
+      "cdn.ketchjs.com": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "script"
+        ]
+      },
+      "global.ketchcdn.com": {
+        "count": 26,
+        "blocked": 0,
+        "allowed": 26,
+        "types": [
+          "script",
+          "xmlhttprequest",
+          "beacon"
+        ]
+      },
+      "js.datadome.co": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "cdn.speedcurve.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "storage.googleapis.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "vi.ml314.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "warp.media.net": {
+        "count": 5,
+        "blocked": 0,
+        "allowed": 5,
+        "types": [
+          "script"
+        ]
+      },
+      "static.criteo.net": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "config.aps.amazon-adsystem.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "client.aps.amazon-adsystem.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "cdn.adsafeprotected.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "securepubads.g.doubleclick.net": {
+        "count": 2,
+        "blocked": 2,
+        "allowed": 0,
+        "types": [
+          "script"
+        ]
+      },
+      "pub.doubleverify.com": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "script",
+          "xmlhttprequest"
+        ]
+      },
+      "cdn.p-n.io": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "www.googletagmanager.com": {
+        "count": 4,
+        "blocked": 0,
+        "allowed": 4,
+        "types": [
+          "script"
+        ]
+      },
+      "api-js.datadome.co": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "www.google.com": {
+        "count": 24,
+        "blocked": 0,
+        "allowed": 24,
+        "types": [
+          "script",
+          "sub_frame",
+          "xmlhttprequest",
+          "image"
+        ]
+      },
+      "secure.quantserve.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "sb.scorecardresearch.com": {
+        "count": 4,
+        "blocked": 0,
+        "allowed": 4,
+        "types": [
+          "script",
+          "image"
+        ]
+      },
+      "cdn.brandmetrics.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "static.ads-twitter.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "connect.facebook.net": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "script"
+        ]
+      },
+      "forbes.blueconic.net": {
+        "count": 11,
+        "blocked": 0,
+        "allowed": 11,
+        "types": [
+          "script",
+          "xmlhttprequest"
+        ]
+      },
+      "www.redditstatic.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "script"
+        ]
+      },
+      "www.gstatic.com": {
+        "count": 17,
+        "blocked": 0,
+        "allowed": 17,
+        "types": [
+          "script",
+          "stylesheet",
+          "image"
+        ]
+      },
+      "phx.bmtrcs.com": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "script",
+          "xmlhttprequest"
+        ]
+      },
+      "i.ytimg.com": {
+        "count": 20,
+        "blocked": 0,
+        "allowed": 20,
+        "types": [
+          "image"
+        ]
+      },
+      "ml314.com": {
+        "count": 9,
+        "blocked": 0,
+        "allowed": 9,
+        "types": [
+          "script",
+          "image"
+        ]
+      },
+      "fonts.gstatic.com": {
+        "count": 7,
+        "blocked": 0,
+        "allowed": 7,
+        "types": [
+          "font"
+        ]
+      },
+      "analytics.google.com": {
+        "count": 4,
+        "blocked": 4,
+        "allowed": 0,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "stats.g.doubleclick.net": {
+        "count": 1,
+        "blocked": 1,
+        "allowed": 0,
+        "types": [
+          "beacon"
+        ]
+      },
+      "googleads.g.doubleclick.net": {
+        "count": 2,
+        "blocked": 2,
+        "allowed": 0,
+        "types": [
+          "script",
+          "image"
+        ]
+      },
+      "ad.doubleclick.net": {
+        "count": 2,
+        "blocked": 2,
+        "allowed": 0,
+        "types": [
+          "xmlhttprequest",
+          "image"
+        ]
+      },
+      "www.google.com.br": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "image"
+        ]
+      },
+      "pixel-config.reddit.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "alb.reddit.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "c.amazon-adsystem.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "pxlrtpge-a.akamaihd.net": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "gum.criteo.com": {
+        "count": 5,
+        "blocked": 0,
+        "allowed": 5,
+        "types": [
+          "xmlhttprequest",
+          "sub_frame"
+        ]
+      },
+      "web-banner.ads.aps.amazon-adsystem.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "rcp.rtpge.com": {
+        "count": 5,
+        "blocked": 0,
+        "allowed": 5,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "rules.quantcount.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "mpc-prod-24-s6uit34pua-uw.a.run.app": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "www.facebook.com": {
+        "count": 4,
+        "blocked": 0,
+        "allowed": 4,
+        "types": [
+          "image"
+        ]
+      },
+      "s.amazon-adsystem.com": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "sub_frame"
+        ]
+      },
+      "pixel.quantserve.com": {
+        "count": 7,
+        "blocked": 0,
+        "allowed": 7,
+        "types": [
+          "xmlhttprequest",
+          "image"
+        ]
+      },
+      "mug.criteo.com": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "dpm.demdex.net": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "image"
+        ]
+      },
+      "idsync.rlcdn.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "image"
+        ]
+      },
+      "match.adsrvr.org": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "image"
+        ]
+      },
+      "securedvisit.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "image"
+        ]
+      },
+      "ps.eyeota.net": {
+        "count": 4,
+        "blocked": 0,
+        "allowed": 4,
+        "types": [
+          "image"
+        ]
+      },
+      "plugins.blueconic.net": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "dnacdn.net": {
+        "count": 3,
+        "blocked": 0,
+        "allowed": 3,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "media.pushlycdn.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "image"
+        ]
+      },
+      "k.p-n.io": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "zndpq7uw2elr2st9z-forbesbi.siteintercept.qualtrics.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "munchkin.marketo.net": {
+        "count": 4,
+        "blocked": 0,
+        "allowed": 4,
+        "types": [
+          "script"
+        ]
+      },
+      "static.chartbeat.com": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "script"
+        ]
+      },
+      "siteintercept.qualtrics.com": {
+        "count": 6,
+        "blocked": 0,
+        "allowed": 6,
+        "types": [
+          "script",
+          "xmlhttprequest"
+        ]
+      },
+      "ping.chartbeat.net": {
+        "count": 4,
+        "blocked": 0,
+        "allowed": 4,
+        "types": [
+          "image"
+        ]
+      },
+      "ag.gbc.criteo.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "gem.gbc.criteo.com": {
+        "count": 1,
+        "blocked": 0,
+        "allowed": 1,
+        "types": [
+          "xmlhttprequest"
+        ]
+      },
+      "hbxlp.media.net": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "beacon"
+        ]
+      },
+      "vtrk.dv.tech": {
+        "count": 2,
+        "blocked": 0,
+        "allowed": 2,
+        "types": [
+          "beacon"
+        ]
+      }
+    },
+    "requests": [
+      {
+        "requestId": "180",
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=%5BREDACTED%5D&k=%5BREDACTED%5D&co=%5BREDACTED%5D&hl=%5BREDACTED%5D&v=%5BREDACTED%5D&size=%5BREDACTED%5D&anchor-ms=%5BREDACTED%5D&execute-ms=%5BREDACTED%5D&cb=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618379474,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "181",
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=%5BREDACTED%5D&k=%5BREDACTED%5D&co=%5BREDACTED%5D&hl=%5BREDACTED%5D&v=%5BREDACTED%5D&size=%5BREDACTED%5D&anchor-ms=%5BREDACTED%5D&execute-ms=%5BREDACTED%5D&cb=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618379476,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "182",
+        "url": "https://www.google.com/recaptcha/api2/anchor?ar=%5BREDACTED%5D&k=%5BREDACTED%5D&co=%5BREDACTED%5D&hl=%5BREDACTED%5D&v=%5BREDACTED%5D&size=%5BREDACTED%5D&anchor-ms=%5BREDACTED%5D&execute-ms=%5BREDACTED%5D&cb=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618379478,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "184",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/styles__ltr.css",
+        "hostname": "www.gstatic.com",
+        "type": "stylesheet",
+        "method": "GET",
+        "timestamp": 1790618379595,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "185",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379596,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "186",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379626,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "187",
+        "url": "https://ml314.com/tag.aspx?288=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379630,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "188",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379649,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "189",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=%5BREDACTED%5D&url=%5BREDACTED%5D&property=%5BREDACTED%5D&environment=%5BREDACTED%5D&jurisdiction=%5BREDACTED%5D&tenant=%5BREDACTED%5D&dver=%5BREDACTED%5D&event_type=%5BREDACTED%5D&ids=%5BREDACTED%5D&region=%5BREDACTED%5D",
+        "hostname": "global.ketchcdn.com",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618379658,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "190",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379659,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "191",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618379662,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "192",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=%5BREDACTED%5D&url=%5BREDACTED%5D&property=%5BREDACTED%5D&environment=%5BREDACTED%5D&jurisdiction=%5BREDACTED%5D&tenant=%5BREDACTED%5D&dver=%5BREDACTED%5D&event_type=%5BREDACTED%5D&ids=%5BREDACTED%5D&region=%5BREDACTED%5D",
+        "hostname": "global.ketchcdn.com",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618379665,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "193",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379665,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "194",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618379667,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "195",
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "hostname": "www.gstatic.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618379752,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "197",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618379777,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "198",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618379781,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "199",
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=%5BREDACTED%5D&v=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379784,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "200",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618379785,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "201",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618379785,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "202",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618379785,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "203",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618379785,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "204",
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=%5BREDACTED%5D&v=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379789,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "205",
+        "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=%5BREDACTED%5D&v=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379793,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "208",
+        "url": "https://i.forbesimg.com/144X144-F.png",
+        "hostname": "i.forbesimg.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618379929,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "209",
+        "url": "https://i.forbesimg.com/48X48-F.png",
+        "hostname": "i.forbesimg.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618379929,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "210",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379941,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "211",
+        "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&_gaz=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&_fv=%5BREDACTED%5D&_nsi=%5BREDACTED%5D&_ss=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&up.bucket=%5BREDACTED%5D&up.client_id=%5BREDACTED%5D&up.login=%5BREDACTED%5D&up.cordial_id=%5BREDACTED%5D&up.piano_id=%5BREDACTED%5D&up.sh_post=%5BREDACTED%5D&up.ip=%5BREDACTED%5D&up.isp_name=%5BREDACTED%5D&up.pushly_user_id=%5BREDACTED%5D&up.pushly_opt_in_status=%5BREDACTED%5D&up.user_agent=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "analytics.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379942,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "analytics.google.com"
+      },
+      {
+        "requestId": "213",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379943,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "214",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&cid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&rcb=%5BREDACTED%5D&aip=%5BREDACTED%5D&dma=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&frm=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D",
+        "hostname": "stats.g.doubleclick.net",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618379943,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "215",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379943,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "216",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/[REDACTED]/?random=%5BREDACTED%5D&cv=%5BREDACTED%5D&fst=%5BREDACTED%5D&bg=%5BREDACTED%5D&guid=%5BREDACTED%5D&async=%5BREDACTED%5D&en=%5BREDACTED%5D&gtm=%5BREDACTED%5D&gcd=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&u_w=%5BREDACTED%5D&u_h=%5BREDACTED%5D&url=%5BREDACTED%5D&rcb=%5BREDACTED%5D&frm=%5BREDACTED%5D&tiba=%5BREDACTED%5D&hn=%5BREDACTED%5D&npa=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&auid=%5BREDACTED%5D&data=%5BREDACTED%5D&ept=%5BREDACTED%5D&rfmt=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+        "hostname": "googleads.g.doubleclick.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618379944,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "217",
+        "url": "https://www.google.com/rmkt/collect/[REDACTED]/?random=%5BREDACTED%5D&cv=%5BREDACTED%5D&fst=%5BREDACTED%5D&fmt=%5BREDACTED%5D&bg=%5BREDACTED%5D&guid=%5BREDACTED%5D&async=%5BREDACTED%5D&en=%5BREDACTED%5D&gtm=%5BREDACTED%5D&gcd=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&u_w=%5BREDACTED%5D&u_h=%5BREDACTED%5D&url=%5BREDACTED%5D&rcb=%5BREDACTED%5D&frm=%5BREDACTED%5D&tiba=%5BREDACTED%5D&hn=%5BREDACTED%5D&npa=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&auid=%5BREDACTED%5D&data=%5BREDACTED%5D&ept=%5BREDACTED%5D&gcp=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379945,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "218",
+        "url": "https://www.google.com/ccm/collect?rcb=%5BREDACTED%5D&frm=%5BREDACTED%5D&apvc=%5BREDACTED%5D&auid=%5BREDACTED%5D&dt=%5BREDACTED%5D&tid=%5BREDACTED%5D&en=%5BREDACTED%5D&dl=%5BREDACTED%5D&scrsrc=%5BREDACTED%5D&rnd=%5BREDACTED%5D&navt=%5BREDACTED%5D&npa=%5BREDACTED%5D&gtm=%5BREDACTED%5D&gcd=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&tft=%5BREDACTED%5D&tfd=%5BREDACTED%5D&tids=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379945,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "219",
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+        "hostname": "ad.doubleclick.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379945,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "220",
+        "url": "https://www.google.com.br/ads/ga-audiences?v=%5BREDACTED%5D&t=%5BREDACTED%5D&slf_rd=%5BREDACTED%5D&_r=%5BREDACTED%5D&tid=%5BREDACTED%5D&cid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&rcb=%5BREDACTED%5D&aip=%5BREDACTED%5D&dma=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&frm=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&z=%5BREDACTED%5D",
+        "hostname": "www.google.com.br",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618379946,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "221",
+        "url": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&_gaz=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&_fv=%5BREDACTED%5D&_nsi=%5BREDACTED%5D&_ss=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&up.bucket=%5BREDACTED%5D&up.client_id=%5BREDACTED%5D&up.login=%5BREDACTED%5D&up.cordial_id=%5BREDACTED%5D&up.piano_id=%5BREDACTED%5D&up.sh_post=%5BREDACTED%5D&up.ip=%5BREDACTED%5D&up.isp_name=%5BREDACTED%5D&up.pushly_user_id=%5BREDACTED%5D&up.pushly_opt_in_status=%5BREDACTED%5D&up.user_agent=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379962,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "222",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/[REDACTED]/?random=%5BREDACTED%5D&cv=%5BREDACTED%5D&fst=%5BREDACTED%5D&fmt=%5BREDACTED%5D&bg=%5BREDACTED%5D&guid=%5BREDACTED%5D&async=%5BREDACTED%5D&en=%5BREDACTED%5D&gtm=%5BREDACTED%5D&gcd=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&u_w=%5BREDACTED%5D&u_h=%5BREDACTED%5D&url=%5BREDACTED%5D&rcb=%5BREDACTED%5D&frm=%5BREDACTED%5D&tiba=%5BREDACTED%5D&hn=%5BREDACTED%5D&npa=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&auid=%5BREDACTED%5D&data=%5BREDACTED%5D&ept=%5BREDACTED%5D",
+        "hostname": "googleads.g.doubleclick.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618379972,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "223",
+        "url": "https://pixel-config.reddit.com/pixels/a2_ic3qoutpufxc/config",
+        "hostname": "pixel-config.reddit.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618379985,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "224",
+        "url": "https://alb.reddit.com/rp?id=%5BREDACTED%5D&event=%5BREDACTED%5D",
+        "hostname": "alb.reddit.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618379985,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "225",
+        "url": "https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=%5BREDACTED%5D&cmp=%5BREDACTED%5D&url=%5BREDACTED%5D&ids=%5BREDACTED%5D&token=%5BREDACTED%5D",
+        "hostname": "pub.doubleverify.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618380013,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "226",
+        "url": "https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=%5BREDACTED%5D&cmp=%5BREDACTED%5D&url=%5BREDACTED%5D&bsc=%5BREDACTED%5D&abs=%5BREDACTED%5D&token=%5BREDACTED%5D",
+        "hostname": "pub.doubleverify.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618380014,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "227",
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+        "hostname": "ad.doubleclick.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380014,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "228",
+        "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js",
+        "hostname": "c.amazon-adsystem.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618380017,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "229",
+        "url": "https://config.aps.amazon-adsystem.com/configs/3038",
+        "hostname": "config.aps.amazon-adsystem.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380019,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "230",
+        "url": "https://connect.facebook.net/signals/config/[REDACTED]?v=%5BREDACTED%5D&r=%5BREDACTED%5D&domain=%5BREDACTED%5D&hme=%5BREDACTED%5D&ex_m=%5BREDACTED%5D",
+        "hostname": "connect.facebook.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380055,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "230",
+        "url": "https://connect.facebook.net/signals/config/[REDACTED]?v=%5BREDACTED%5D&r=%5BREDACTED%5D&domain=%5BREDACTED%5D&hme=%5BREDACTED%5D&ex_m=%5BREDACTED%5D",
+        "hostname": "connect.facebook.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380075,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "231",
+        "url": "https://warp.media.net/ss/nes/dfs?cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&cc=%5BREDACTED%5D&ugd=%5BREDACTED%5D&type=%5BREDACTED%5D&itype=%5BREDACTED%5D&callback=%5BREDACTED%5D&rc=%5BREDACTED%5D",
+        "hostname": "warp.media.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380087,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "232",
+        "url": "https://warp.media.net/mcx.js?callback=%5BREDACTED%5D&cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&icode=%5BREDACTED%5D&itype=%5BREDACTED%5D&rt=%5BREDACTED%5D&url=%5BREDACTED%5D&ver=%5BREDACTED%5D",
+        "hostname": "warp.media.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380088,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "233",
+        "url": "https://pxlrtpge-a.akamaihd.net/javascripts/browserrap.min.js?templateId=%5BREDACTED%5D&customerId=%5BREDACTED%5D",
+        "hostname": "pxlrtpge-a.akamaihd.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380088,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "231",
+        "url": "https://warp.media.net/ss/nes/dfs?cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&cc=%5BREDACTED%5D&ugd=%5BREDACTED%5D&type=%5BREDACTED%5D&itype=%5BREDACTED%5D&callback=%5BREDACTED%5D&rc=%5BREDACTED%5D",
+        "hostname": "warp.media.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380090,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "232",
+        "url": "https://warp.media.net/mcx.js?callback=%5BREDACTED%5D&cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&icode=%5BREDACTED%5D&itype=%5BREDACTED%5D&rt=%5BREDACTED%5D&url=%5BREDACTED%5D&ver=%5BREDACTED%5D",
+        "hostname": "warp.media.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380090,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "233",
+        "url": "https://pxlrtpge-a.akamaihd.net/javascripts/browserrap.min.js?templateId=%5BREDACTED%5D&customerId=%5BREDACTED%5D",
+        "hostname": "pxlrtpge-a.akamaihd.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380090,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "234",
+        "url": "https://gum.criteo.com/sid/json?origin=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&domain=%5BREDACTED%5D&cw=%5BREDACTED%5D&lsw=%5BREDACTED%5D",
+        "hostname": "gum.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618380092,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "234",
+        "url": "https://gum.criteo.com/sid/json?origin=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&domain=%5BREDACTED%5D&cw=%5BREDACTED%5D&lsw=%5BREDACTED%5D",
+        "hostname": "gum.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618380095,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "235",
+        "url": "https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid",
+        "hostname": "web-banner.ads.aps.amazon-adsystem.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380099,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "235",
+        "url": "https://web-banner.ads.aps.amazon-adsystem.com/e/dtb/bid",
+        "hostname": "web-banner.ads.aps.amazon-adsystem.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380105,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "236",
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=%5BREDACTED%5D&v=%5BREDACTED%5D&k=%5BREDACTED%5D&bft=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618380160,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "237",
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=%5BREDACTED%5D&v=%5BREDACTED%5D&k=%5BREDACTED%5D&bft=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618380163,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "238",
+        "url": "https://www.google.com/recaptcha/api2/bframe?hl=%5BREDACTED%5D&v=%5BREDACTED%5D&k=%5BREDACTED%5D&bft=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618380206,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "239",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380268,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "240",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380309,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "241",
+        "url": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__pt_br.js",
+        "hostname": "www.gstatic.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380310,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "139",
+        "url": "https://sb.scorecardresearch.com/internal-cs/default/beacon.js",
+        "hostname": "sb.scorecardresearch.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380360,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "242",
+        "url": "https://gum.criteo.com/sid/json?origin=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&domain=%5BREDACTED%5D&cw=%5BREDACTED%5D&lsw=%5BREDACTED%5D",
+        "hostname": "gum.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618380371,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "243",
+        "url": "https://rcp.rtpge.com/sh",
+        "hostname": "rcp.rtpge.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380445,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "244",
+        "url": "https://rules.quantcount.com/[REDACTED]",
+        "hostname": "rules.quantcount.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380477,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "245",
+        "url": "https://www.google.com/recaptcha/api2/reload?k=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380477,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "246",
+        "url": "https://sb.scorecardresearch.com/b?c1=%5BREDACTED%5D&c2=%5BREDACTED%5D&cs_it=%5BREDACTED%5D&cv=%5BREDACTED%5D&ns__t=%5BREDACTED%5D&ns_c=%5BREDACTED%5D&cs_cfg=%5BREDACTED%5D&cs_gpc=%5BREDACTED%5D&cs_fpid=%5BREDACTED%5D&cs_fpit=%5BREDACTED%5D&cs_fpdm=%5BREDACTED%5D&cs_fpdt=%5BREDACTED%5D&c7=%5BREDACTED%5D&c8=%5BREDACTED%5D&c9=%5BREDACTED%5D",
+        "hostname": "sb.scorecardresearch.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380480,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "247",
+        "url": "https://mpc-prod-24-s6uit34pua-uw.a.run.app/events?cee=%5BREDACTED%5D",
+        "hostname": "mpc-prod-24-s6uit34pua-uw.a.run.app",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380481,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "248",
+        "url": "https://mpc-prod-24-s6uit34pua-uw.a.run.app/events?cee=%5BREDACTED%5D",
+        "hostname": "mpc-prod-24-s6uit34pua-uw.a.run.app",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380484,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "249",
+        "url": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&cd%5BchannelNames%5D=%5BREDACTED%5D&cd%5BsectionNames%5D=%5BREDACTED%5D&cd%5Bcategories%5D=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+        "hostname": "www.facebook.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380485,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "250",
+        "url": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+        "hostname": "www.facebook.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380485,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "243",
+        "url": "https://rcp.rtpge.com/sh",
+        "hostname": "rcp.rtpge.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380513,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "251",
+        "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+        "hostname": "securepubads.g.doubleclick.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380514,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "ad",
+        "rule": "doubleclick.net"
+      },
+      {
+        "requestId": "252",
+        "url": "https://rcp.rtpge.com/rcptv",
+        "hostname": "rcp.rtpge.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380522,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "253",
+        "url": "https://www.google.com/recaptcha/api2/reload?k=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380522,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "254",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/update",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380548,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "244",
+        "url": "https://rules.quantcount.com/[REDACTED]",
+        "hostname": "rules.quantcount.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380551,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "255",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/update",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380577,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "256",
+        "url": "https://www.google.com/recaptcha/api2/reload?k=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380594,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "249",
+        "url": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&cd%5BchannelNames%5D=%5BREDACTED%5D&cd%5BsectionNames%5D=%5BREDACTED%5D&cd%5Bcategories%5D=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+        "hostname": "www.facebook.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380610,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "250",
+        "url": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+        "hostname": "www.facebook.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380610,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "246",
+        "url": "https://sb.scorecardresearch.com/b?c1=%5BREDACTED%5D&c2=%5BREDACTED%5D&cs_it=%5BREDACTED%5D&cv=%5BREDACTED%5D&ns__t=%5BREDACTED%5D&ns_c=%5BREDACTED%5D&cs_cfg=%5BREDACTED%5D&cs_gpc=%5BREDACTED%5D&cs_fpid=%5BREDACTED%5D&cs_fpit=%5BREDACTED%5D&cs_fpdm=%5BREDACTED%5D&cs_fpdt=%5BREDACTED%5D&c7=%5BREDACTED%5D&c8=%5BREDACTED%5D&c9=%5BREDACTED%5D",
+        "hostname": "sb.scorecardresearch.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380610,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "252",
+        "url": "https://rcp.rtpge.com/rcptv",
+        "hostname": "rcp.rtpge.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380613,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "254",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/update",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380614,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "255",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/update",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380614,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "257",
+        "url": "https://rcp.rtpge.com/rcptv",
+        "hostname": "rcp.rtpge.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618380626,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "258",
+        "url": "https://www.gstatic.com/recaptcha/api2/refresh_2x.png",
+        "hostname": "www.gstatic.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380635,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "259",
+        "url": "https://www.gstatic.com/recaptcha/api2/audio_2x.png",
+        "hostname": "www.gstatic.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380636,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "260",
+        "url": "https://www.gstatic.com/recaptcha/api2/info_2x.png",
+        "hostname": "www.gstatic.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380638,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "261",
+        "url": "https://forbes.blueconic.net/DG/DEFAULT/rest/rpc/931?referer=%5BREDACTED%5D&bcsessionid=%5BREDACTED%5D&bctempid=%5BREDACTED%5D&overruleReferrer=%5BREDACTED%5D&time=%5BREDACTED%5D&ts=%5BREDACTED%5D",
+        "hostname": "forbes.blueconic.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380638,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "262",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/[REDACTED]",
+        "hostname": "fonts.gstatic.com",
+        "type": "font",
+        "method": "GET",
+        "timestamp": 1790618380639,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "263",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/update",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618380672,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "264",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/update",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618380672,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "265",
+        "url": "https://www.google.com/recaptcha/api2/payload?p=%5BREDACTED%5D&k=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380672,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "261",
+        "url": "https://forbes.blueconic.net/DG/DEFAULT/rest/rpc/931?referer=%5BREDACTED%5D&bcsessionid=%5BREDACTED%5D&bctempid=%5BREDACTED%5D&overruleReferrer=%5BREDACTED%5D&time=%5BREDACTED%5D&ts=%5BREDACTED%5D",
+        "hostname": "forbes.blueconic.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380676,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "266",
+        "url": "https://www.google.com/recaptcha/api2/payload?p=%5BREDACTED%5D&k=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380705,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "267",
+        "url": "https://www.google.com/recaptcha/api2/payload?p=%5BREDACTED%5D&k=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618380787,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "268",
+        "url": "https://forbes.blueconic.net/plugin/plugin/[REDACTED]",
+        "hostname": "forbes.blueconic.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380843,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "269",
+        "url": "https://forbes.blueconic.net/plugin/library/[REDACTED]",
+        "hostname": "forbes.blueconic.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380843,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "268",
+        "url": "https://forbes.blueconic.net/plugin/plugin/[REDACTED]",
+        "hostname": "forbes.blueconic.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380853,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "269",
+        "url": "https://forbes.blueconic.net/plugin/library/[REDACTED]",
+        "hostname": "forbes.blueconic.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618380853,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "270",
+        "url": "https://www.forbes.com/plugins/public/blueconic/segments",
+        "hostname": "www.forbes.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380895,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "270",
+        "url": "https://www.forbes.com/plugins/public/blueconic/segments",
+        "hostname": "www.forbes.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618380897,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "271",
+        "url": "https://s.amazon-adsystem.com/iu3?cm3ppd=%5BREDACTED%5D&d=%5BREDACTED%5D&csif=%5BREDACTED%5D&dl=%5BREDACTED%5D",
+        "hostname": "s.amazon-adsystem.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618380960,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "271",
+        "url": "https://s.amazon-adsystem.com/iu3?cm3ppd=%5BREDACTED%5D&d=%5BREDACTED%5D&csif=%5BREDACTED%5D&dl=%5BREDACTED%5D&dcc=%5BREDACTED%5D",
+        "hostname": "s.amazon-adsystem.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618381152,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "280",
+        "url": "https://phx.bmtrcs.com/api/v2/[REDACTED]/lib/ev/0?cf=%5BREDACTED%5D&cr=%5BREDACTED%5D&rnd=%5BREDACTED%5D&sid=%5BREDACTED%5D&st=%5BREDACTED%5D&toploc=%5BREDACTED%5D",
+        "hostname": "phx.bmtrcs.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618381183,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "281",
+        "url": "https://ml314.com/utsync.ashx?pub=%5BREDACTED%5D&adv=%5BREDACTED%5D&et=%5BREDACTED%5D&eid=%5BREDACTED%5D&ct=%5BREDACTED%5D&pi=%5BREDACTED%5D&fp=%5BREDACTED%5D&clid=%5BREDACTED%5D&if=%5BREDACTED%5D&ps=%5BREDACTED%5D&cl=%5BREDACTED%5D&mlt=%5BREDACTED%5D&data=%5BREDACTED%5D&cp=%5BREDACTED%5D&pv=%5BREDACTED%5D&bl=%5BREDACTED%5D&cb=%5BREDACTED%5D&return=%5BREDACTED%5D&ht=%5BREDACTED%5D&d=%5BREDACTED%5D&dc=%5BREDACTED%5D&si=%5BREDACTED%5D&cid=%5BREDACTED%5D&s=%5BREDACTED%5D&rp=%5BREDACTED%5D&v=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618381184,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "282",
+        "url": "https://pixel.quantserve.com/cs?a=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&sf2=%5BREDACTED%5D",
+        "hostname": "pixel.quantserve.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618381213,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "283",
+        "url": "https://pixel.quantserve.com/[REDACTED]",
+        "hostname": "pixel.quantserve.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381213,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "281",
+        "url": "https://ml314.com/utsync.ashx?pub=%5BREDACTED%5D&adv=%5BREDACTED%5D&et=%5BREDACTED%5D&eid=%5BREDACTED%5D&ct=%5BREDACTED%5D&pi=%5BREDACTED%5D&fp=%5BREDACTED%5D&clid=%5BREDACTED%5D&if=%5BREDACTED%5D&ps=%5BREDACTED%5D&cl=%5BREDACTED%5D&mlt=%5BREDACTED%5D&data=%5BREDACTED%5D&cp=%5BREDACTED%5D&pv=%5BREDACTED%5D&bl=%5BREDACTED%5D&cb=%5BREDACTED%5D&return=%5BREDACTED%5D&ht=%5BREDACTED%5D&d=%5BREDACTED%5D&dc=%5BREDACTED%5D&si=%5BREDACTED%5D&cid=%5BREDACTED%5D&s=%5BREDACTED%5D&rp=%5BREDACTED%5D&v=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618381218,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "280",
+        "url": "https://phx.bmtrcs.com/api/v2/[REDACTED]/lib/ev/0?cf=%5BREDACTED%5D&cr=%5BREDACTED%5D&rnd=%5BREDACTED%5D&sid=%5BREDACTED%5D&st=%5BREDACTED%5D&toploc=%5BREDACTED%5D",
+        "hostname": "phx.bmtrcs.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618381218,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "282",
+        "url": "https://pixel.quantserve.com/cs?a=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&sf2=%5BREDACTED%5D",
+        "hostname": "pixel.quantserve.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618381226,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "283",
+        "url": "https://pixel.quantserve.com/[REDACTED]",
+        "hostname": "pixel.quantserve.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381226,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "284",
+        "url": "https://s.amazon-adsystem.com/v3/pr?exlist=%5BREDACTED%5D&fv=%5BREDACTED%5D&a=%5BREDACTED%5D&cm3ppd=%5BREDACTED%5D&dmt=%5BREDACTED%5D&gdpr=%5BREDACTED%5D",
+        "hostname": "s.amazon-adsystem.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618381361,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "234",
+        "url": "https://mug.criteo.com/sid?cpp=%5BREDACTED%5D&cppv=%5BREDACTED%5D",
+        "hostname": "mug.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618381363,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "285",
+        "url": "https://pixel.quantserve.com/[REDACTED]",
+        "hostname": "pixel.quantserve.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381423,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "286",
+        "url": "https://forbes.blueconic.net/DG/DEFAULT/rest/rpc/931?referer=%5BREDACTED%5D&bcsessionid=%5BREDACTED%5D&bctempid=%5BREDACTED%5D&overruleReferrer=%5BREDACTED%5D&time=%5BREDACTED%5D&partitioned=%5BREDACTED%5D&ts=%5BREDACTED%5D",
+        "hostname": "forbes.blueconic.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381518,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "287",
+        "url": "https://dpm.demdex.net/[REDACTED]",
+        "hostname": "dpm.demdex.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381527,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "288",
+        "url": "https://idsync.rlcdn.com/395886.gif?partner_uid=%5BREDACTED%5D",
+        "hostname": "idsync.rlcdn.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381527,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "289",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D",
+        "hostname": "match.adsrvr.org",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381527,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "290",
+        "url": "https://securedvisit.com/sync/7242_05487?redirect=%5BREDACTED%5D",
+        "hostname": "securedvisit.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381528,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "291",
+        "url": "https://ps.eyeota.net/pixel?pid=%5BREDACTED%5D&t=%5BREDACTED%5D",
+        "hostname": "ps.eyeota.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381531,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "285",
+        "url": "https://pixel.quantserve.com/[REDACTED]",
+        "hostname": "pixel.quantserve.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381535,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "286",
+        "url": "https://forbes.blueconic.net/DG/DEFAULT/rest/rpc/931?referer=%5BREDACTED%5D&bcsessionid=%5BREDACTED%5D&bctempid=%5BREDACTED%5D&overruleReferrer=%5BREDACTED%5D&time=%5BREDACTED%5D&partitioned=%5BREDACTED%5D&ts=%5BREDACTED%5D",
+        "hostname": "forbes.blueconic.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381535,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "287",
+        "url": "https://dpm.demdex.net/[REDACTED]",
+        "hostname": "dpm.demdex.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381551,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "288",
+        "url": "https://idsync.rlcdn.com/395886.gif?partner_uid=%5BREDACTED%5D",
+        "hostname": "idsync.rlcdn.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381551,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "289",
+        "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D",
+        "hostname": "match.adsrvr.org",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381551,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "290",
+        "url": "https://securedvisit.com/sync/7242_05487?redirect=%5BREDACTED%5D",
+        "hostname": "securedvisit.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381552,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "291",
+        "url": "https://ps.eyeota.net/pixel?pid=%5BREDACTED%5D&t=%5BREDACTED%5D",
+        "hostname": "ps.eyeota.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381552,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "292",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381661,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "293",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381673,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "282",
+        "url": "https://pixel.quantserve.com/cs?a=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&sf2=%5BREDACTED%5D&__qcmcs=%5BREDACTED%5D",
+        "hostname": "pixel.quantserve.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618381702,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "294",
+        "url": "https://mug.criteo.com/sid?cpp=%5BREDACTED%5D&cppv=%5BREDACTED%5D",
+        "hostname": "mug.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "OPTIONS",
+        "timestamp": 1790618381707,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "292",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381710,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "293",
+        "url": "https://global.ketchcdn.com/web/v3/consent/forbes/get",
+        "hostname": "global.ketchcdn.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381711,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "295",
+        "url": "https://plugins.blueconic.net/static/scripts/jquery/[REDACTED]",
+        "hostname": "plugins.blueconic.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618381731,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "295",
+        "url": "https://plugins.blueconic.net/static/scripts/jquery/[REDACTED]",
+        "hostname": "plugins.blueconic.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618381741,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "296",
+        "url": "https://forbes.blueconic.net/DG/DEFAULT/rest/rpc/931?referer=%5BREDACTED%5D&bcsessionid=%5BREDACTED%5D&bctempid=%5BREDACTED%5D&overruleReferrer=%5BREDACTED%5D&time=%5BREDACTED%5D&partitioned=%5BREDACTED%5D&ts=%5BREDACTED%5D",
+        "hostname": "forbes.blueconic.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381765,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "296",
+        "url": "https://forbes.blueconic.net/DG/DEFAULT/rest/rpc/931?referer=%5BREDACTED%5D&bcsessionid=%5BREDACTED%5D&bctempid=%5BREDACTED%5D&overruleReferrer=%5BREDACTED%5D&time=%5BREDACTED%5D&partitioned=%5BREDACTED%5D&ts=%5BREDACTED%5D",
+        "hostname": "forbes.blueconic.net",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618381769,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "287",
+        "url": "https://dpm.demdex.net/demconf.jpg?et%3Aibs%7Cdata%3Adpid=%5BREDACTED%5D&dpuuid=%5BREDACTED%5D&redir=%5BREDACTED%5D",
+        "hostname": "dpm.demdex.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381989,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "289",
+        "url": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D",
+        "hostname": "match.adsrvr.org",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618381990,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "289",
+        "url": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618382014,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "289",
+        "url": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618382168,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "291",
+        "url": "https://ps.eyeota.net/pixel/bounce/?pid=%5BREDACTED%5D&t=%5BREDACTED%5D",
+        "hostname": "ps.eyeota.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618382184,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "304",
+        "url": "https://dnacdn.net/dna",
+        "hostname": "dnacdn.net",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618382296,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "304",
+        "url": "https://dnacdn.net/dna",
+        "hostname": "dnacdn.net",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618382368,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "291",
+        "url": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D&return=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618382503,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "291",
+        "url": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D&return=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618382642,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "291",
+        "url": "https://ps.eyeota.net/match?bid=%5BREDACTED%5D&uid=%5BREDACTED%5D&referrer_pid=%5BREDACTED%5D",
+        "hostname": "ps.eyeota.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618382811,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "305",
+        "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "analytics.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618384908,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "analytics.google.com"
+      },
+      {
+        "requestId": "306",
+        "url": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618384911,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "307",
+        "url": "https://media.pushlycdn.com/domain_12149/images/[REDACTED]",
+        "hostname": "media.pushlycdn.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618385495,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "307",
+        "url": "https://media.pushlycdn.com/domain_12149/images/[REDACTED]",
+        "hostname": "media.pushlycdn.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618385497,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "308",
+        "url": "https://k.p-n.io/event-stream",
+        "hostname": "k.p-n.io",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618386280,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "309",
+        "url": "https://zndpq7uw2elr2st9z-forbesbi.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=%5BREDACTED%5D&Q_LOC=%5BREDACTED%5D&t=%5BREDACTED%5D",
+        "hostname": "zndpq7uw2elr2st9z-forbesbi.siteintercept.qualtrics.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390223,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "310",
+        "url": "https://gum.criteo.com/syncframe?origin=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D",
+        "hostname": "gum.criteo.com",
+        "type": "sub_frame",
+        "method": "GET",
+        "timestamp": 1790618390224,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "311",
+        "url": "https://munchkin.marketo.net/munchkin.js",
+        "hostname": "munchkin.marketo.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390231,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "312",
+        "url": "https://static.chartbeat.com/js/chartbeat.js",
+        "hostname": "static.chartbeat.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390231,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "309",
+        "url": "https://zndpq7uw2elr2st9z-forbesbi.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=%5BREDACTED%5D&Q_LOC=%5BREDACTED%5D&t=%5BREDACTED%5D",
+        "hostname": "zndpq7uw2elr2st9z-forbesbi.siteintercept.qualtrics.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390249,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "311",
+        "url": "https://munchkin.marketo.net/munchkin.js",
+        "hostname": "munchkin.marketo.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390249,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "312",
+        "url": "https://static.chartbeat.com/js/chartbeat.js",
+        "hostname": "static.chartbeat.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390252,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "313",
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/[REDACTED]?Q_CLIENTVERSION=%5BREDACTED%5D&Q_CLIENTTYPE=%5BREDACTED%5D&Q_BRANDID=%5BREDACTED%5D",
+        "hostname": "siteintercept.qualtrics.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390366,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "314",
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/[REDACTED]?Q_CLIENTVERSION=%5BREDACTED%5D&Q_CLIENTTYPE=%5BREDACTED%5D&Q_BRANDID=%5BREDACTED%5D",
+        "hostname": "siteintercept.qualtrics.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390369,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "313",
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/[REDACTED]?Q_CLIENTVERSION=%5BREDACTED%5D&Q_CLIENTTYPE=%5BREDACTED%5D&Q_BRANDID=%5BREDACTED%5D",
+        "hostname": "siteintercept.qualtrics.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390388,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "314",
+        "url": "https://siteintercept.qualtrics.com/dxjsmodule/[REDACTED]?Q_CLIENTVERSION=%5BREDACTED%5D&Q_CLIENTTYPE=%5BREDACTED%5D&Q_BRANDID=%5BREDACTED%5D",
+        "hostname": "siteintercept.qualtrics.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390428,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "315",
+        "url": "https://munchkin.marketo.net/165/munchkin.js",
+        "hostname": "munchkin.marketo.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390444,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "316",
+        "url": "https://ping.chartbeat.net/ping?h=%5BREDACTED%5D&p=%5BREDACTED%5D&u=%5BREDACTED%5D&d=%5BREDACTED%5D&g=%5BREDACTED%5D&g0=%5BREDACTED%5D&g1=%5BREDACTED%5D&n=%5BREDACTED%5D&f=%5BREDACTED%5D&c=%5BREDACTED%5D&x=%5BREDACTED%5D&m=%5BREDACTED%5D&y=%5BREDACTED%5D&o=%5BREDACTED%5D&w=%5BREDACTED%5D&j=%5BREDACTED%5D&R=%5BREDACTED%5D&W=%5BREDACTED%5D&I=%5BREDACTED%5D&E=%5BREDACTED%5D&e=%5BREDACTED%5D&r=%5BREDACTED%5D&PA=%5BREDACTED%5D&b=%5BREDACTED%5D&t=%5BREDACTED%5D&V=%5BREDACTED%5D&i=%5BREDACTED%5D&tz=%5BREDACTED%5D&sn=%5BREDACTED%5D&sv=%5BREDACTED%5D&sr=%5BREDACTED%5D&sd=%5BREDACTED%5D&im=%5BREDACTED%5D&_=%5BREDACTED%5D",
+        "hostname": "ping.chartbeat.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618390444,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "317",
+        "url": "https://ag.gbc.criteo.com/newidsd",
+        "hostname": "ag.gbc.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618390452,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "318",
+        "url": "https://gem.gbc.criteo.com/newidsd",
+        "hostname": "gem.gbc.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618390452,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "319",
+        "url": "https://dnacdn.net/dna",
+        "hostname": "dnacdn.net",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618390452,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "315",
+        "url": "https://munchkin.marketo.net/165/munchkin.js",
+        "hostname": "munchkin.marketo.net",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618390453,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "316",
+        "url": "https://ping.chartbeat.net/ping?h=%5BREDACTED%5D&p=%5BREDACTED%5D&u=%5BREDACTED%5D&d=%5BREDACTED%5D&g=%5BREDACTED%5D&g0=%5BREDACTED%5D&g1=%5BREDACTED%5D&n=%5BREDACTED%5D&f=%5BREDACTED%5D&c=%5BREDACTED%5D&x=%5BREDACTED%5D&m=%5BREDACTED%5D&y=%5BREDACTED%5D&o=%5BREDACTED%5D&w=%5BREDACTED%5D&j=%5BREDACTED%5D&R=%5BREDACTED%5D&W=%5BREDACTED%5D&I=%5BREDACTED%5D&E=%5BREDACTED%5D&e=%5BREDACTED%5D&r=%5BREDACTED%5D&PA=%5BREDACTED%5D&b=%5BREDACTED%5D&t=%5BREDACTED%5D&V=%5BREDACTED%5D&i=%5BREDACTED%5D&tz=%5BREDACTED%5D&sn=%5BREDACTED%5D&sv=%5BREDACTED%5D&sr=%5BREDACTED%5D&sd=%5BREDACTED%5D&im=%5BREDACTED%5D&_=%5BREDACTED%5D",
+        "hostname": "ping.chartbeat.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618390464,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "320",
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=%5BREDACTED%5D&Q_CLIENTVERSION=%5BREDACTED%5D&Q_CLIENTTYPE=%5BREDACTED%5D",
+        "hostname": "siteintercept.qualtrics.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618390494,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "320",
+        "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=%5BREDACTED%5D&Q_CLIENTVERSION=%5BREDACTED%5D&Q_CLIENTTYPE=%5BREDACTED%5D",
+        "hostname": "siteintercept.qualtrics.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618390499,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "321",
+        "url": "https://gum.criteo.com/sid/json?origin=%5BREDACTED%5D&domain=%5BREDACTED%5D&sn=%5BREDACTED%5D&so=%5BREDACTED%5D&topUrl=%5BREDACTED%5D&bundle=%5BREDACTED%5D&info=%5BREDACTED%5D&idsd=%5BREDACTED%5D&idsdctx=%5BREDACTED%5D",
+        "hostname": "gum.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618390874,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "321",
+        "url": "https://mug.criteo.com/sid?cpp=%5BREDACTED%5D&cppv=%5BREDACTED%5D",
+        "hostname": "mug.criteo.com",
+        "type": "xmlhttprequest",
+        "method": "GET",
+        "timestamp": 1790618391019,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "322",
+        "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "analytics.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618392794,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "analytics.google.com"
+      },
+      {
+        "requestId": "323",
+        "url": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618392796,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "324",
+        "url": "https://ml314.com/imsync.ashx?pi=%5BREDACTED%5D&data=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618396185,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "324",
+        "url": "https://ml314.com/imsync.ashx?pi=%5BREDACTED%5D&data=%5BREDACTED%5D",
+        "hostname": "ml314.com",
+        "type": "script",
+        "method": "GET",
+        "timestamp": 1790618396187,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "325",
+        "url": "https://imageio.forbes.com/specials-images/imageserve/[REDACTED]/0x0.jpg?format=%5BREDACTED%5D&width=%5BREDACTED%5D",
+        "hostname": "imageio.forbes.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618397788,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "326",
+        "url": "https://imageio.forbes.com/specials-images/imageserve/[REDACTED]/0x0.jpg?format=%5BREDACTED%5D&width=%5BREDACTED%5D",
+        "hostname": "imageio.forbes.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618397788,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "325",
+        "url": "https://imageio.forbes.com/specials-images/imageserve/[REDACTED]/0x0.jpg?format=%5BREDACTED%5D&width=%5BREDACTED%5D",
+        "hostname": "imageio.forbes.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618397790,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "326",
+        "url": "https://imageio.forbes.com/specials-images/imageserve/[REDACTED]/0x0.jpg?format=%5BREDACTED%5D&width=%5BREDACTED%5D",
+        "hostname": "imageio.forbes.com",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618397790,
+        "thirdParty": false,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "327",
+        "url": "https://api-js.datadome.co/js/",
+        "hostname": "api-js.datadome.co",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618397791,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "327",
+        "url": "https://api-js.datadome.co/js/",
+        "hostname": "api-js.datadome.co",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618397794,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "328",
+        "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.ad_blocker_detection=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.category=%5BREDACTED%5D&ep.label=%5BREDACTED%5D&epn.value=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&_et=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "analytics.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618402802,
+        "thirdParty": true,
+        "blocked": true,
+        "category": "tracker",
+        "rule": "analytics.google.com"
+      },
+      {
+        "requestId": "329",
+        "url": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.ad_blocker_detection=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.category=%5BREDACTED%5D&ep.label=%5BREDACTED%5D&epn.value=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&_et=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+        "hostname": "www.google.com",
+        "type": "xmlhttprequest",
+        "method": "POST",
+        "timestamp": 1790618402803,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "330",
+        "url": "https://ping.chartbeat.net/ping?h=%5BREDACTED%5D&p=%5BREDACTED%5D&u=%5BREDACTED%5D&d=%5BREDACTED%5D&g=%5BREDACTED%5D&g0=%5BREDACTED%5D&g1=%5BREDACTED%5D&n=%5BREDACTED%5D&f=%5BREDACTED%5D&c=%5BREDACTED%5D&x=%5BREDACTED%5D&m=%5BREDACTED%5D&y=%5BREDACTED%5D&o=%5BREDACTED%5D&w=%5BREDACTED%5D&j=%5BREDACTED%5D&R=%5BREDACTED%5D&W=%5BREDACTED%5D&I=%5BREDACTED%5D&E=%5BREDACTED%5D&e=%5BREDACTED%5D&r=%5BREDACTED%5D&PA=%5BREDACTED%5D&b=%5BREDACTED%5D&t=%5BREDACTED%5D&V=%5BREDACTED%5D&tz=%5BREDACTED%5D&sn=%5BREDACTED%5D&sv=%5BREDACTED%5D&sr=%5BREDACTED%5D&sd=%5BREDACTED%5D&im=%5BREDACTED%5D&_=%5BREDACTED%5D",
+        "hostname": "ping.chartbeat.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618405411,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "330",
+        "url": "https://ping.chartbeat.net/ping?h=%5BREDACTED%5D&p=%5BREDACTED%5D&u=%5BREDACTED%5D&d=%5BREDACTED%5D&g=%5BREDACTED%5D&g0=%5BREDACTED%5D&g1=%5BREDACTED%5D&n=%5BREDACTED%5D&f=%5BREDACTED%5D&c=%5BREDACTED%5D&x=%5BREDACTED%5D&m=%5BREDACTED%5D&y=%5BREDACTED%5D&o=%5BREDACTED%5D&w=%5BREDACTED%5D&j=%5BREDACTED%5D&R=%5BREDACTED%5D&W=%5BREDACTED%5D&I=%5BREDACTED%5D&E=%5BREDACTED%5D&e=%5BREDACTED%5D&r=%5BREDACTED%5D&PA=%5BREDACTED%5D&b=%5BREDACTED%5D&t=%5BREDACTED%5D&V=%5BREDACTED%5D&tz=%5BREDACTED%5D&sn=%5BREDACTED%5D&sv=%5BREDACTED%5D&sr=%5BREDACTED%5D&sd=%5BREDACTED%5D&im=%5BREDACTED%5D&_=%5BREDACTED%5D",
+        "hostname": "ping.chartbeat.net",
+        "type": "image",
+        "method": "GET",
+        "timestamp": 1790618405414,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "430",
+        "url": "https://hbxlp.media.net/log",
+        "hostname": "hbxlp.media.net",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408549,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "431",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=%5BREDACTED%5D&url=%5BREDACTED%5D&property=%5BREDACTED%5D&environment=%5BREDACTED%5D&jurisdiction=%5BREDACTED%5D&tenant=%5BREDACTED%5D&dver=%5BREDACTED%5D&event_type=%5BREDACTED%5D&ids=%5BREDACTED%5D&region=%5BREDACTED%5D",
+        "hostname": "global.ketchcdn.com",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408550,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "432",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=%5BREDACTED%5D&url=%5BREDACTED%5D&property=%5BREDACTED%5D&environment=%5BREDACTED%5D&jurisdiction=%5BREDACTED%5D&tenant=%5BREDACTED%5D&dver=%5BREDACTED%5D&event_type=%5BREDACTED%5D&ids=%5BREDACTED%5D&region=%5BREDACTED%5D",
+        "hostname": "global.ketchcdn.com",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408550,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "433",
+        "url": "https://vtrk.dv.tech/?ec=%5BREDACTED%5D&ea=%5BREDACTED%5D&ctx=%5BREDACTED%5D&cmp=%5BREDACTED%5D&cd110=%5BREDACTED%5D&cm106=%5BREDACTED%5D&cm107=%5BREDACTED%5D&cm108=%5BREDACTED%5D&cm109=%5BREDACTED%5D&cm110=%5BREDACTED%5D&cm111=%5BREDACTED%5D&cm112=%5BREDACTED%5D&cd102=%5BREDACTED%5D&cd103=%5BREDACTED%5D&cd107=%5BREDACTED%5D&cd109=%5BREDACTED%5D&cd200=%5BREDACTED%5D&cd108=%5BREDACTED%5D&cd105=%5BREDACTED%5D&cd106=%5BREDACTED%5D&cd104=%5BREDACTED%5D&cd199=%5BREDACTED%5D&cd101=%5BREDACTED%5D&cm101=%5BREDACTED%5D&cid=%5BREDACTED%5D&t=%5BREDACTED%5D&v=%5BREDACTED%5D&z=%5BREDACTED%5D&cd160=%5BREDACTED%5D",
+        "hostname": "vtrk.dv.tech",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408550,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "430",
+        "url": "https://hbxlp.media.net/log",
+        "hostname": "hbxlp.media.net",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408559,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "431",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=%5BREDACTED%5D&url=%5BREDACTED%5D&property=%5BREDACTED%5D&environment=%5BREDACTED%5D&jurisdiction=%5BREDACTED%5D&tenant=%5BREDACTED%5D&dver=%5BREDACTED%5D&event_type=%5BREDACTED%5D&ids=%5BREDACTED%5D&region=%5BREDACTED%5D",
+        "hostname": "global.ketchcdn.com",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408560,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "432",
+        "url": "https://global.ketchcdn.com/web/v2/log?hasConsent=%5BREDACTED%5D&url=%5BREDACTED%5D&property=%5BREDACTED%5D&environment=%5BREDACTED%5D&jurisdiction=%5BREDACTED%5D&tenant=%5BREDACTED%5D&dver=%5BREDACTED%5D&event_type=%5BREDACTED%5D&ids=%5BREDACTED%5D&region=%5BREDACTED%5D",
+        "hostname": "global.ketchcdn.com",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408560,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      },
+      {
+        "requestId": "433",
+        "url": "https://vtrk.dv.tech/?ec=%5BREDACTED%5D&ea=%5BREDACTED%5D&ctx=%5BREDACTED%5D&cmp=%5BREDACTED%5D&cd110=%5BREDACTED%5D&cm106=%5BREDACTED%5D&cm107=%5BREDACTED%5D&cm108=%5BREDACTED%5D&cm109=%5BREDACTED%5D&cm110=%5BREDACTED%5D&cm111=%5BREDACTED%5D&cm112=%5BREDACTED%5D&cd102=%5BREDACTED%5D&cd103=%5BREDACTED%5D&cd107=%5BREDACTED%5D&cd109=%5BREDACTED%5D&cd200=%5BREDACTED%5D&cd108=%5BREDACTED%5D&cd105=%5BREDACTED%5D&cd106=%5BREDACTED%5D&cd104=%5BREDACTED%5D&cd199=%5BREDACTED%5D&cd101=%5BREDACTED%5D&cm101=%5BREDACTED%5D&cid=%5BREDACTED%5D&t=%5BREDACTED%5D&v=%5BREDACTED%5D&z=%5BREDACTED%5D&cd160=%5BREDACTED%5D",
+        "hostname": "vtrk.dv.tech",
+        "type": "beacon",
+        "method": "POST",
+        "timestamp": 1790618408560,
+        "thirdParty": true,
+        "blocked": false,
+        "category": null,
+        "rule": null
+      }
+    ],
+    "requestCount": 325,
+    "blockedCounts": {
+      "ads": 7,
+      "trackers": 4,
+      "custom": 0
+    },
+    "detectedCounts": {
+      "ads": 7,
+      "trackers": 4,
+      "custom": 0
+    },
+    "cookies": {
+      "firstParty": 29,
+      "thirdParty": 20,
+      "session": 1,
+      "persistent": 48,
+      "thirdPartyPersistent": 20,
+      "thirdPartySession": 0,
+      "scope": "Cookie inventory for observed allowed URLs; not a count of cookies injected by this page.",
+      "errors": 0
+    },
+    "cookieWrites": {
+      "total": 39,
+      "firstParty": 12,
+      "thirdParty": 27,
+      "session": 0,
+      "persistent": 38,
+      "deletions": 1,
+      "malformed": 0,
+      "events": [
+        {
+          "name": "VWO",
+          "domain": "www.forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": false,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618377853,
+          "thirdParty": false
+        },
+        {
+          "name": "__cf_bm",
+          "domain": "d.email.forbes.com",
+          "responseHost": "d.email.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618378684,
+          "thirdParty": false
+        },
+        {
+          "name": "datadome",
+          "domain": "forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618378781,
+          "thirdParty": false
+        },
+        {
+          "name": "datadome",
+          "domain": "forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618378823,
+          "thirdParty": false
+        },
+        {
+          "name": "AWSALB",
+          "domain": "www.forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618378871,
+          "thirdParty": false
+        },
+        {
+          "name": "AWSALB",
+          "domain": "www.forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618378877,
+          "thirdParty": false
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618378931,
+          "thirdParty": false
+        },
+        {
+          "name": "VWO",
+          "domain": "www.forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": false,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618379205,
+          "thirdParty": false
+        },
+        {
+          "name": "__cf_bm",
+          "domain": "se.email.forbes.com",
+          "responseHost": "se.email.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618379209,
+          "thirdParty": false
+        },
+        {
+          "name": "AWSALB",
+          "domain": "www.forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618379292,
+          "thirdParty": false
+        },
+        {
+          "name": "datadome",
+          "domain": "forbes.com",
+          "responseHost": "promote-subscribe.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618379684,
+          "thirdParty": false
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.blueconic.net",
+          "responseHost": "forbes.blueconic.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618380351,
+          "thirdParty": true
+        },
+        {
+          "name": "_GRECAPTCHA",
+          "domain": "www.google.com",
+          "responseHost": "www.google.com",
+          "domainMatchesResponse": true,
+          "path": "/recaptcha",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618380627,
+          "thirdParty": true
+        },
+        {
+          "name": "_GRECAPTCHA",
+          "domain": "www.google.com",
+          "responseHost": "www.google.com",
+          "domainMatchesResponse": true,
+          "path": "/recaptcha",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618380692,
+          "thirdParty": true
+        },
+        {
+          "name": "_GRECAPTCHA",
+          "domain": "www.google.com",
+          "responseHost": "www.google.com",
+          "domainMatchesResponse": true,
+          "path": "/recaptcha",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618380776,
+          "thirdParty": true
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.blueconic.net",
+          "responseHost": "forbes.blueconic.net",
+          "domainMatchesResponse": true,
+          "path": "/DG/DEFAULT",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": true,
+          "timestamp": 1790618380838,
+          "thirdParty": true
+        },
+        {
+          "name": "uid",
+          "domain": "criteo.com",
+          "responseHost": "gum.criteo.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381034,
+          "thirdParty": true
+        },
+        {
+          "name": "AWSALB",
+          "domain": "www.forbes.com",
+          "responseHost": "www.forbes.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381043,
+          "thirdParty": false
+        },
+        {
+          "name": "ad-id",
+          "domain": "amazon-adsystem.com",
+          "responseHost": "s.amazon-adsystem.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618381148,
+          "thirdParty": true
+        },
+        {
+          "name": "ad-id",
+          "domain": "amazon-adsystem.com",
+          "responseHost": "s.amazon-adsystem.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618381306,
+          "thirdParty": true
+        },
+        {
+          "name": "fr",
+          "domain": "facebook.com",
+          "responseHost": "www.facebook.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618381410,
+          "thirdParty": true
+        },
+        {
+          "name": "bm_lib",
+          "domain": "bmtrcs.com",
+          "responseHost": "phx.bmtrcs.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618381417,
+          "thirdParty": true
+        },
+        {
+          "name": "fr",
+          "domain": "facebook.com",
+          "responseHost": "www.facebook.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618381417,
+          "thirdParty": true
+        },
+        {
+          "name": "UID",
+          "domain": "scorecardresearch.com",
+          "responseHost": "sb.scorecardresearch.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": false,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381492,
+          "thirdParty": true
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.blueconic.net",
+          "responseHost": "forbes.blueconic.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381501,
+          "thirdParty": true
+        },
+        {
+          "name": "u",
+          "domain": "ml314.com",
+          "responseHost": "ml314.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381519,
+          "thirdParty": true
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.blueconic.net",
+          "responseHost": "forbes.blueconic.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381636,
+          "thirdParty": true
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.blueconic.net",
+          "responseHost": "forbes.blueconic.net",
+          "domainMatchesResponse": true,
+          "path": "/DG/DEFAULT",
+          "session": false,
+          "deletion": true,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": true,
+          "timestamp": 1790618381693,
+          "thirdParty": true
+        },
+        {
+          "name": "demdex",
+          "domain": "demdex.net",
+          "responseHost": "dpm.demdex.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381760,
+          "thirdParty": true
+        },
+        {
+          "name": "TDID",
+          "domain": "adsrvr.org",
+          "responseHost": "match.adsrvr.org",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381797,
+          "thirdParty": true
+        },
+        {
+          "name": "AWSALB",
+          "domain": "forbes.blueconic.net",
+          "responseHost": "forbes.blueconic.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618381929,
+          "thirdParty": true
+        },
+        {
+          "name": "TDID",
+          "domain": "adsrvr.org",
+          "responseHost": "match.adsrvr.org",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618382010,
+          "thirdParty": true
+        },
+        {
+          "name": "demdex",
+          "domain": "dpm.demdex.net",
+          "responseHost": "dpm.demdex.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618382048,
+          "thirdParty": true
+        },
+        {
+          "name": "mako_uid",
+          "domain": "eyeota.net",
+          "responseHost": "ps.eyeota.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618382179,
+          "thirdParty": true
+        },
+        {
+          "name": "SERVERID",
+          "domain": "eyeota.net",
+          "responseHost": "ps.eyeota.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618382393,
+          "thirdParty": true
+        },
+        {
+          "name": "browser_data",
+          "domain": "dnacdn.net",
+          "responseHost": "dnacdn.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618382923,
+          "thirdParty": true
+        },
+        {
+          "name": "SERVERID",
+          "domain": "eyeota.net",
+          "responseHost": "ps.eyeota.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": true,
+          "partitioned": false,
+          "timestamp": 1790618383156,
+          "thirdParty": true
+        },
+        {
+          "name": "uid",
+          "domain": "criteo.com",
+          "responseHost": "gum.criteo.com",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618390380,
+          "thirdParty": true
+        },
+        {
+          "name": "browser_data",
+          "domain": "dnacdn.net",
+          "responseHost": "dnacdn.net",
+          "domainMatchesResponse": true,
+          "path": "/",
+          "session": false,
+          "deletion": false,
+          "secure": true,
+          "httpOnly": false,
+          "partitioned": false,
+          "timestamp": 1790618390599,
+          "thirdParty": true
+        }
+      ]
+    },
+    "storage": {
+      "localStorage": true,
+      "localStorageEntries": 38,
+      "sessionStorage": true,
+      "sessionStorageEntries": 8,
+      "indexedDB": true,
+      "indexedDBDatabases": [
+        {
+          "name": "pn_store",
+          "version": 1
+        }
+      ],
+      "unavailable": []
+    },
+    "canvas": {
+      "detected": false,
+      "events": [],
+      "source": "untrusted MAIN-world instrumentation"
+    },
+    "bounceTracking": {
+      "suspected": false,
+      "cookieSyncSuspected": false,
+      "redirects": [
+        {
+          "requestId": "140",
+          "sourceUrl": "https://cdn.brandmetrics.com/tag/[REDACTED]/Forbes.js",
+          "destinationUrl": "https://phx.bmtrcs.com/api/v2/[REDACTED]/lib/site.js",
+          "sourceDomain": "brandmetrics.com",
+          "destinationDomain": "bmtrcs.com",
+          "type": "script",
+          "timestamp": 1790618379327,
+          "crossSite": true,
+          "suspiciousSourceParameters": [],
+          "suspiciousDestinationParameters": [],
+          "sharedIdentifiers": []
+        },
+        {
+          "requestId": "289",
+          "sourceUrl": "https://match.adsrvr.org/track/cmb/generic?ttd_pid=%5BREDACTED%5D&ttd_tpi=%5BREDACTED%5D",
+          "destinationUrl": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D",
+          "sourceDomain": "adsrvr.org",
+          "destinationDomain": "ml314.com",
+          "type": "image",
+          "timestamp": 1790618382010,
+          "crossSite": true,
+          "suspiciousSourceParameters": [],
+          "suspiciousDestinationParameters": [],
+          "sharedIdentifiers": []
+        },
+        {
+          "requestId": "291",
+          "sourceUrl": "https://ps.eyeota.net/pixel/bounce/?pid=%5BREDACTED%5D&t=%5BREDACTED%5D",
+          "destinationUrl": "https://ml314.com/utsync.ashx?eid=%5BREDACTED%5D&et=%5BREDACTED%5D&fp=%5BREDACTED%5D&gdpr=%5BREDACTED%5D&gdpr_consent=%5BREDACTED%5D&return=%5BREDACTED%5D",
+          "sourceDomain": "eyeota.net",
+          "destinationDomain": "ml314.com",
+          "type": "image",
+          "timestamp": 1790618382401,
+          "crossSite": true,
+          "suspiciousSourceParameters": [],
+          "suspiciousDestinationParameters": [],
+          "sharedIdentifiers": []
+        },
+        {
+          "requestId": "291",
+          "sourceUrl": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D&return=%5BREDACTED%5D",
+          "destinationUrl": "https://ps.eyeota.net/match?bid=%5BREDACTED%5D&uid=%5BREDACTED%5D&referrer_pid=%5BREDACTED%5D",
+          "sourceDomain": "ml314.com",
+          "destinationDomain": "eyeota.net",
+          "type": "image",
+          "timestamp": 1790618382806,
+          "crossSite": true,
+          "suspiciousSourceParameters": [],
+          "suspiciousDestinationParameters": [
+            {
+              "name": "uid",
+              "value": "[REDACTED]"
+            }
+          ],
+          "sharedIdentifiers": []
+        }
+      ],
+      "indicators": [],
+      "suspiciousParameters": [
+        {
+          "name": "id",
+          "sourceUrl": "https://cdn.speedcurve.com/js/lux.js?id=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://warp.media.net/js/tags/clientag.js?cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&version=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtm.js?id=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtag/js?id=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtag/destination?id=%5BREDACTED%5D&cx=%5BREDACTED%5D&gtm=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.googletagmanager.com/gtag/js?id=%5BREDACTED%5D&cx=%5BREDACTED%5D&gtm=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&_gaz=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&_fv=%5BREDACTED%5D&_nsi=%5BREDACTED%5D&_ss=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&up.bucket=%5BREDACTED%5D&up.client_id=%5BREDACTED%5D&up.login=%5BREDACTED%5D&up.cordial_id=%5BREDACTED%5D&up.piano_id=%5BREDACTED%5D&up.sh_post=%5BREDACTED%5D&up.ip=%5BREDACTED%5D&up.isp_name=%5BREDACTED%5D&up.pushly_user_id=%5BREDACTED%5D&up.pushly_opt_in_status=%5BREDACTED%5D&up.user_agent=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://stats.g.doubleclick.net/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&cid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&rcb=%5BREDACTED%5D&aip=%5BREDACTED%5D&dma=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&frm=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://www.google.com.br/ads/ga-audiences?v=%5BREDACTED%5D&t=%5BREDACTED%5D&slf_rd=%5BREDACTED%5D&_r=%5BREDACTED%5D&tid=%5BREDACTED%5D&cid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&rcb=%5BREDACTED%5D&aip=%5BREDACTED%5D&dma=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&frm=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&z=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&_gaz=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&_fv=%5BREDACTED%5D&_nsi=%5BREDACTED%5D&_ss=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&up.bucket=%5BREDACTED%5D&up.client_id=%5BREDACTED%5D&up.login=%5BREDACTED%5D&up.cordial_id=%5BREDACTED%5D&up.piano_id=%5BREDACTED%5D&up.sh_post=%5BREDACTED%5D&up.ip=%5BREDACTED%5D&up.isp_name=%5BREDACTED%5D&up.pushly_user_id=%5BREDACTED%5D&up.pushly_opt_in_status=%5BREDACTED%5D&up.user_agent=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://alb.reddit.com/rp?id=%5BREDACTED%5D&event=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://warp.media.net/ss/nes/dfs?cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&cc=%5BREDACTED%5D&ugd=%5BREDACTED%5D&type=%5BREDACTED%5D&itype=%5BREDACTED%5D&callback=%5BREDACTED%5D&rc=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://warp.media.net/mcx.js?callback=%5BREDACTED%5D&cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&icode=%5BREDACTED%5D&itype=%5BREDACTED%5D&rt=%5BREDACTED%5D&url=%5BREDACTED%5D&ver=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://warp.media.net/ss/nes/dfs?cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&cc=%5BREDACTED%5D&ugd=%5BREDACTED%5D&type=%5BREDACTED%5D&itype=%5BREDACTED%5D&callback=%5BREDACTED%5D&rc=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://warp.media.net/mcx.js?callback=%5BREDACTED%5D&cid=%5BREDACTED%5D&dn=%5BREDACTED%5D&icode=%5BREDACTED%5D&itype=%5BREDACTED%5D&rt=%5BREDACTED%5D&url=%5BREDACTED%5D&ver=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&cd%5BchannelNames%5D=%5BREDACTED%5D&cd%5BsectionNames%5D=%5BREDACTED%5D&cd%5Bcategories%5D=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&cd%5BchannelNames%5D=%5BREDACTED%5D&cd%5BsectionNames%5D=%5BREDACTED%5D&cd%5Bcategories%5D=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "id",
+          "sourceUrl": "https://www.facebook.com/tr/?id=%5BREDACTED%5D&ev=%5BREDACTED%5D&dl=%5BREDACTED%5D&rl=%5BREDACTED%5D&if=%5BREDACTED%5D&ts=%5BREDACTED%5D&iw=%5BREDACTED%5D&sw=%5BREDACTED%5D&sh=%5BREDACTED%5D&v=%5BREDACTED%5D&r=%5BREDACTED%5D&ec=%5BREDACTED%5D&o=%5BREDACTED%5D&aems=%5BREDACTED%5D&fbp=%5BREDACTED%5D&eid=%5BREDACTED%5D&ic=%5BREDACTED%5D&ler=%5BREDACTED%5D&plt=%5BREDACTED%5D&tz=%5BREDACTED%5D&it=%5BREDACTED%5D&coo=%5BREDACTED%5D&tm=%5BREDACTED%5D&cf=%5BREDACTED%5D&expv2%5B0%5D=%5BREDACTED%5D&expv2%5B1%5D=%5BREDACTED%5D&expv2%5B2%5D=%5BREDACTED%5D&expv2%5B3%5D=%5BREDACTED%5D&expv2%5B4%5D=%5BREDACTED%5D&expv2%5B5%5D=%5BREDACTED%5D&expv2%5B6%5D=%5BREDACTED%5D&expv2%5B7%5D=%5BREDACTED%5D&expv2%5B8%5D=%5BREDACTED%5D&expv2%5B9%5D=%5BREDACTED%5D&expv2%5B10%5D=%5BREDACTED%5D&expv2%5B11%5D=%5BREDACTED%5D&expv2%5B12%5D=%5BREDACTED%5D&expv2%5B13%5D=%5BREDACTED%5D&expv2%5B14%5D=%5BREDACTED%5D&expv2%5B15%5D=%5BREDACTED%5D&expv2%5B16%5D=%5BREDACTED%5D&expv2%5B17%5D=%5BREDACTED%5D&expv2%5B18%5D=%5BREDACTED%5D&expv2%5B19%5D=%5BREDACTED%5D&expv2%5B20%5D=%5BREDACTED%5D&expv2%5B21%5D=%5BREDACTED%5D&expv2%5B22%5D=%5BREDACTED%5D&expv2%5B23%5D=%5BREDACTED%5D&expv2%5B24%5D=%5BREDACTED%5D&expv2%5B25%5D=%5BREDACTED%5D&expv2%5B26%5D=%5BREDACTED%5D&expv2%5B27%5D=%5BREDACTED%5D&expv2%5B28%5D=%5BREDACTED%5D&expv2%5B29%5D=%5BREDACTED%5D&expv2%5B30%5D=%5BREDACTED%5D&expv2%5B31%5D=%5BREDACTED%5D&expv2%5B32%5D=%5BREDACTED%5D&expv2%5B33%5D=%5BREDACTED%5D&expv2%5B34%5D=%5BREDACTED%5D&expv2%5B35%5D=%5BREDACTED%5D&expv2%5B36%5D=%5BREDACTED%5D&expv2%5B37%5D=%5BREDACTED%5D&expv2%5B38%5D=%5BREDACTED%5D&expv2%5B39%5D=%5BREDACTED%5D&expv2%5B40%5D=%5BREDACTED%5D&expv2%5B41%5D=%5BREDACTED%5D&expv2%5B42%5D=%5BREDACTED%5D&expv2%5B43%5D=%5BREDACTED%5D&expv2%5B44%5D=%5BREDACTED%5D&expv2%5B45%5D=%5BREDACTED%5D&expv2%5B46%5D=%5BREDACTED%5D&expv2%5B47%5D=%5BREDACTED%5D&rqm=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://ml314.com/utsync.ashx?pub=%5BREDACTED%5D&adv=%5BREDACTED%5D&et=%5BREDACTED%5D&eid=%5BREDACTED%5D&ct=%5BREDACTED%5D&pi=%5BREDACTED%5D&fp=%5BREDACTED%5D&clid=%5BREDACTED%5D&if=%5BREDACTED%5D&ps=%5BREDACTED%5D&cl=%5BREDACTED%5D&mlt=%5BREDACTED%5D&data=%5BREDACTED%5D&cp=%5BREDACTED%5D&pv=%5BREDACTED%5D&bl=%5BREDACTED%5D&cb=%5BREDACTED%5D&return=%5BREDACTED%5D&ht=%5BREDACTED%5D&d=%5BREDACTED%5D&dc=%5BREDACTED%5D&si=%5BREDACTED%5D&cid=%5BREDACTED%5D&s=%5BREDACTED%5D&rp=%5BREDACTED%5D&v=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://ml314.com/utsync.ashx?pub=%5BREDACTED%5D&adv=%5BREDACTED%5D&et=%5BREDACTED%5D&eid=%5BREDACTED%5D&ct=%5BREDACTED%5D&pi=%5BREDACTED%5D&fp=%5BREDACTED%5D&clid=%5BREDACTED%5D&if=%5BREDACTED%5D&ps=%5BREDACTED%5D&cl=%5BREDACTED%5D&mlt=%5BREDACTED%5D&data=%5BREDACTED%5D&cp=%5BREDACTED%5D&pv=%5BREDACTED%5D&bl=%5BREDACTED%5D&cb=%5BREDACTED%5D&return=%5BREDACTED%5D&ht=%5BREDACTED%5D&d=%5BREDACTED%5D&dc=%5BREDACTED%5D&si=%5BREDACTED%5D&cid=%5BREDACTED%5D&s=%5BREDACTED%5D&rp=%5BREDACTED%5D&v=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "uid",
+          "sourceUrl": "https://ml314.com/csync.ashx?fp=%5BREDACTED%5D&person_id=%5BREDACTED%5D&eid=%5BREDACTED%5D&return=%5BREDACTED%5D",
+          "destinationUrl": "https://ps.eyeota.net/match?bid=%5BREDACTED%5D&uid=%5BREDACTED%5D&referrer_pid=%5BREDACTED%5D"
+        },
+        {
+          "name": "uid",
+          "sourceUrl": "https://ps.eyeota.net/match?bid=%5BREDACTED%5D&uid=%5BREDACTED%5D&referrer_pid=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.ad_blocker_detection=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.category=%5BREDACTED%5D&ep.label=%5BREDACTED%5D&epn.value=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&_et=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://www.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.ad_blocker_detection=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.category=%5BREDACTED%5D&ep.label=%5BREDACTED%5D&epn.value=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&_et=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://vtrk.dv.tech/?ec=%5BREDACTED%5D&ea=%5BREDACTED%5D&ctx=%5BREDACTED%5D&cmp=%5BREDACTED%5D&cd110=%5BREDACTED%5D&cm106=%5BREDACTED%5D&cm107=%5BREDACTED%5D&cm108=%5BREDACTED%5D&cm109=%5BREDACTED%5D&cm110=%5BREDACTED%5D&cm111=%5BREDACTED%5D&cm112=%5BREDACTED%5D&cd102=%5BREDACTED%5D&cd103=%5BREDACTED%5D&cd107=%5BREDACTED%5D&cd109=%5BREDACTED%5D&cd200=%5BREDACTED%5D&cd108=%5BREDACTED%5D&cd105=%5BREDACTED%5D&cd106=%5BREDACTED%5D&cd104=%5BREDACTED%5D&cd199=%5BREDACTED%5D&cd101=%5BREDACTED%5D&cm101=%5BREDACTED%5D&cid=%5BREDACTED%5D&t=%5BREDACTED%5D&v=%5BREDACTED%5D&z=%5BREDACTED%5D&cd160=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        },
+        {
+          "name": "cid",
+          "sourceUrl": "https://vtrk.dv.tech/?ec=%5BREDACTED%5D&ea=%5BREDACTED%5D&ctx=%5BREDACTED%5D&cmp=%5BREDACTED%5D&cd110=%5BREDACTED%5D&cm106=%5BREDACTED%5D&cm107=%5BREDACTED%5D&cm108=%5BREDACTED%5D&cm109=%5BREDACTED%5D&cm110=%5BREDACTED%5D&cm111=%5BREDACTED%5D&cm112=%5BREDACTED%5D&cd102=%5BREDACTED%5D&cd103=%5BREDACTED%5D&cd107=%5BREDACTED%5D&cd109=%5BREDACTED%5D&cd200=%5BREDACTED%5D&cd108=%5BREDACTED%5D&cd105=%5BREDACTED%5D&cd106=%5BREDACTED%5D&cd104=%5BREDACTED%5D&cd199=%5BREDACTED%5D&cd101=%5BREDACTED%5D&cm101=%5BREDACTED%5D&cid=%5BREDACTED%5D&t=%5BREDACTED%5D&v=%5BREDACTED%5D&z=%5BREDACTED%5D&cd160=%5BREDACTED%5D",
+          "context": "request parameter; not proof of sync"
+        }
+      ],
+      "sharedIdentifiers": []
+    },
+    "hijacking": {
+      "suspected": true,
+      "websockets": [],
+      "polling": [],
+      "hooks": [
+        {
+          "api": "fetch",
+          "timestamp": 1790618380923
+        },
+        {
+          "api": "open",
+          "timestamp": 1790618380923
+        },
+        {
+          "api": "send",
+          "timestamp": 1790618380923
+        }
+      ],
+      "indicators": [
+        "Possible hook: API reference changed; may be a framework"
+      ]
+    },
+    "blocked": {
+      "ads": [
+        {
+          "requestId": "115",
+          "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+          "hostname": "securepubads.g.doubleclick.net",
+          "type": "script",
+          "method": "GET",
+          "timestamp": 1790618378555,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        },
+        {
+          "requestId": "214",
+          "url": "https://stats.g.doubleclick.net/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&cid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&rcb=%5BREDACTED%5D&aip=%5BREDACTED%5D&dma=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&frm=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D",
+          "hostname": "stats.g.doubleclick.net",
+          "type": "beacon",
+          "method": "POST",
+          "timestamp": 1790618379943,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        },
+        {
+          "requestId": "216",
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/[REDACTED]/?random=%5BREDACTED%5D&cv=%5BREDACTED%5D&fst=%5BREDACTED%5D&bg=%5BREDACTED%5D&guid=%5BREDACTED%5D&async=%5BREDACTED%5D&en=%5BREDACTED%5D&gtm=%5BREDACTED%5D&gcd=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&u_w=%5BREDACTED%5D&u_h=%5BREDACTED%5D&url=%5BREDACTED%5D&rcb=%5BREDACTED%5D&frm=%5BREDACTED%5D&tiba=%5BREDACTED%5D&hn=%5BREDACTED%5D&npa=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&auid=%5BREDACTED%5D&data=%5BREDACTED%5D&ept=%5BREDACTED%5D&rfmt=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+          "hostname": "googleads.g.doubleclick.net",
+          "type": "script",
+          "method": "GET",
+          "timestamp": 1790618379944,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        },
+        {
+          "requestId": "219",
+          "url": "https://ad.doubleclick.net/ccm/s/collect?auid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+          "hostname": "ad.doubleclick.net",
+          "type": "xmlhttprequest",
+          "method": "POST",
+          "timestamp": 1790618379945,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        },
+        {
+          "requestId": "222",
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/[REDACTED]/?random=%5BREDACTED%5D&cv=%5BREDACTED%5D&fst=%5BREDACTED%5D&fmt=%5BREDACTED%5D&bg=%5BREDACTED%5D&guid=%5BREDACTED%5D&async=%5BREDACTED%5D&en=%5BREDACTED%5D&gtm=%5BREDACTED%5D&gcd=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&u_w=%5BREDACTED%5D&u_h=%5BREDACTED%5D&url=%5BREDACTED%5D&rcb=%5BREDACTED%5D&frm=%5BREDACTED%5D&tiba=%5BREDACTED%5D&hn=%5BREDACTED%5D&npa=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&auid=%5BREDACTED%5D&data=%5BREDACTED%5D&ept=%5BREDACTED%5D",
+          "hostname": "googleads.g.doubleclick.net",
+          "type": "image",
+          "method": "GET",
+          "timestamp": 1790618379972,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        },
+        {
+          "requestId": "227",
+          "url": "https://ad.doubleclick.net/ccm/s/collect?auid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&fmt=%5BREDACTED%5D",
+          "hostname": "ad.doubleclick.net",
+          "type": "image",
+          "method": "GET",
+          "timestamp": 1790618380014,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        },
+        {
+          "requestId": "251",
+          "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+          "hostname": "securepubads.g.doubleclick.net",
+          "type": "script",
+          "method": "GET",
+          "timestamp": 1790618380514,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "ad",
+          "rule": "doubleclick.net"
+        }
+      ],
+      "trackers": [
+        {
+          "requestId": "211",
+          "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&_gaz=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&_fv=%5BREDACTED%5D&_nsi=%5BREDACTED%5D&_ss=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&up.bucket=%5BREDACTED%5D&up.client_id=%5BREDACTED%5D&up.login=%5BREDACTED%5D&up.cordial_id=%5BREDACTED%5D&up.piano_id=%5BREDACTED%5D&up.sh_post=%5BREDACTED%5D&up.ip=%5BREDACTED%5D&up.isp_name=%5BREDACTED%5D&up.pushly_user_id=%5BREDACTED%5D&up.pushly_opt_in_status=%5BREDACTED%5D&up.user_agent=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "hostname": "analytics.google.com",
+          "type": "xmlhttprequest",
+          "method": "POST",
+          "timestamp": 1790618379942,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "analytics.google.com"
+        },
+        {
+          "requestId": "305",
+          "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "hostname": "analytics.google.com",
+          "type": "xmlhttprequest",
+          "method": "POST",
+          "timestamp": 1790618384908,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "analytics.google.com"
+        },
+        {
+          "requestId": "322",
+          "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&_s=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "hostname": "analytics.google.com",
+          "type": "xmlhttprequest",
+          "method": "POST",
+          "timestamp": 1790618392794,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "analytics.google.com"
+        },
+        {
+          "requestId": "328",
+          "url": "https://analytics.google.com/g/collect?v=%5BREDACTED%5D&tid=%5BREDACTED%5D&gtm=%5BREDACTED%5D&_p=%5BREDACTED%5D&gcd=%5BREDACTED%5D&npa=%5BREDACTED%5D&dma=%5BREDACTED%5D&tcfd=%5BREDACTED%5D&gdid=%5BREDACTED%5D&_eu=%5BREDACTED%5D&cid=%5BREDACTED%5D&frm=%5BREDACTED%5D&pscdl=%5BREDACTED%5D&rcb=%5BREDACTED%5D&sr=%5BREDACTED%5D&ul=%5BREDACTED%5D&gaf=%5BREDACTED%5D&_s=%5BREDACTED%5D&tag_exp=%5BREDACTED%5D&dl=%5BREDACTED%5D&sid=%5BREDACTED%5D&sct=%5BREDACTED%5D&seg=%5BREDACTED%5D&dt=%5BREDACTED%5D&en=%5BREDACTED%5D&ep.slot=%5BREDACTED%5D&ep.brand_voice=%5BREDACTED%5D&ep.dfp_site=%5BREDACTED%5D&ep.dfp_zone=%5BREDACTED%5D&ep.categories=%5BREDACTED%5D&ep.edit=%5BREDACTED%5D&ep.natural_id=%5BREDACTED%5D&ep.gam_zone=%5BREDACTED%5D&ep.page_total=%5BREDACTED%5D&ep.hero_image=%5BREDACTED%5D&ep.image_count=%5BREDACTED%5D&ep.custom_page=%5BREDACTED%5D&ep.virtual_page=%5BREDACTED%5D&ep.primary_channel=%5BREDACTED%5D&ep.primary_section=%5BREDACTED%5D&ep.bv_content_source=%5BREDACTED%5D&ep.bv_left_rail_headline=%5BREDACTED%5D&ep.stream_position=%5BREDACTED%5D&ep.dfp_line_item_id=%5BREDACTED%5D&ep.bv_program_type=%5BREDACTED%5D&ep.insights=%5BREDACTED%5D&ep.paid_content_type=%5BREDACTED%5D&ep.paid_content_brand=%5BREDACTED%5D&ep.premium_profiles=%5BREDACTED%5D&ep.ad_blocker_detection=%5BREDACTED%5D&ep.recirc_unit=%5BREDACTED%5D&ep.is_sponsored=%5BREDACTED%5D&ep.zone=%5BREDACTED%5D&ep.rand_id=%5BREDACTED%5D&ep.natural_id_version=%5BREDACTED%5D&ep.event_source=%5BREDACTED%5D&ep.link_rand_id=%5BREDACTED%5D&ep.git_branch=%5BREDACTED%5D&ep.is_private=%5BREDACTED%5D&ep.is_ai_assisted=%5BREDACTED%5D&ep.has_axiom_widget=%5BREDACTED%5D&ep.has_daily_brief=%5BREDACTED%5D&ep.clickthru_source=%5BREDACTED%5D&ep.category=%5BREDACTED%5D&ep.label=%5BREDACTED%5D&epn.value=%5BREDACTED%5D&ep.full_name=%5BREDACTED%5D&_et=%5BREDACTED%5D&tfd=%5BREDACTED%5D",
+          "hostname": "analytics.google.com",
+          "type": "xmlhttprequest",
+          "method": "POST",
+          "timestamp": 1790618402802,
+          "thirdParty": true,
+          "blocked": true,
+          "category": "tracker",
+          "rule": "analytics.google.com"
+        }
+      ],
+      "custom": []
+    },
+    "score": 48,
+    "scoreBreakdown": {
+      "thirdParties": 15,
+      "cookies": 20,
+      "storage": 5,
+      "canvas": 0,
+      "crossSite": 0,
+      "security": 12
+    },
+    "filterStatus": {
+      "ignoredRules": 0,
+      "errors": []
+    }
+  }
+}

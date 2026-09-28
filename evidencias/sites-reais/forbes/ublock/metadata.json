@@ -1,0 +1,60 @@
+{
+  "site": "Forbes",
+  "url": "https://www.forbes.com/",
+  "timestamp": "2026-09-28T18:02:31.028Z",
+  "mode": "ublock",
+  "profile": "NEW empty profile per site/mode",
+  "login": false,
+  "consent": "Não interagir com banners; registrar o estado apresentado. Sem login.",
+  "actions": [
+    {
+      "atSeconds": 10.009,
+      "scroll": {
+        "url": "https://www.forbes.com/",
+        "y": 600,
+        "height": 815
+      }
+    },
+    {
+      "atSeconds": 20.018,
+      "scroll": {
+        "url": "https://www.forbes.com/",
+        "y": 1105,
+        "height": 815
+      }
+    }
+  ],
+  "settings": {
+    "ads": false,
+    "trackers": false,
+    "custom": false,
+    "ublock": true
+  },
+  "os": "Windows_NT 10.0.26200",
+  "commit": "9ce2a41c53bae957f2a4c2b1f83ee1219c7e15d8",
+  "observationSeconds": 30,
+  "status": "collected",
+  "harSource": "Firefox DevTools Network Monitor HarExporter, not reconstructed from extension data",
+  "firefoxVersion": "156.0.1",
+  "etp": {
+    "browser.contentblocking.category": "standard",
+    "privacy.trackingprotection.enabled": false,
+    "privacy.trackingprotection.pbmode.enabled": true,
+    "network.cookie.cookieBehavior": 5,
+    "privacy.fingerprintingProtection": false,
+    "privacy.resistFingerprinting": false
+  },
+  "pluginVersion": "0.2.0",
+  "pluginTabId": 1,
+  "ublockVersion": "1.75.0",
+  "navigationStartedAt": "2026-09-28T18:02:41.942Z",
+  "finalUrl": "https://www.forbes.com/",
+  "observedSeconds": 30.02,
+  "harEntries": 155,
+  "reportSamples": 191,
+  "reportAttempts": 191,
+  "pageAccess": "Site content loaded; page.png and page-observation.json visually inspected; no challenge bypass",
+  "finishedAt": "2026-09-28T18:03:12.491Z",
+  "cacheStorage": "Empty new profile at start; normal cache enabled during navigation",
+  "notes": "HAR snapshot after 30-second observation and page screenshot; PI export follows HAR and may include later events. One run per condition, not causal/statistical replication."
+}

@@ -2,6 +2,24 @@ const reports = new Map();
 const trackingSessions = new Map();
 const pollingSessions = new Map();
 const frameReports = new Map();
+// MV3 event pages may suspend after a blocked navigation leaves no active document.
+// Session storage survives background suspension without retaining browsing data on disk.
+const stateReady = browser.storage.session ? browser.storage.session.get("inspectionState").then(({ inspectionState }) => {
+  for (const [tabId, report] of inspectionState?.reports || []) {
+    report.thirdPartyDomains = Object.assign(Object.create(null), report.thirdPartyDomains);
+    reports.set(tabId, report);
+  }
+  for (const [tabId, session] of inspectionState?.trackingSessions || []) trackingSessions.set(tabId, session);
+}).catch(error => console.warn("Privacy Inspector: session restore failed", error)) : Promise.resolve();
+let saveTimer = null;
+function scheduleStateSave() {
+  if (!browser.storage.session || saveTimer !== null) return;
+  saveTimer = setTimeout(() => {
+    saveTimer = null;
+    browser.storage.session.set({ inspectionState: { reports: [...reports], trackingSessions: [...trackingSessions] } })
+      .catch(error => console.warn("Privacy Inspector: session save failed", error));
+  }, 500);
+}
 const LIMIT = 200;
 const pushBounded = (array, item, limit = LIMIT) => {
   array.push(item);
@@ -80,6 +98,7 @@ function registerMainFrameRequest(details) {
 browser.tabs.onRemoved.addListener(tabId => {
   reports.delete(tabId); trackingSessions.delete(tabId);
   pollingSessions.delete(tabId); frameReports.delete(tabId);
+  scheduleStateSave();
 });
 // Do not reset on tabs.onUpdated: it can arrive after the first network events.
 
@@ -105,7 +124,7 @@ function observePolling(report, details, thirdParty) {
 browser.webRequest.onBeforeRequest.addListener(
   async details => {
     if (details.tabId < 0) return {};
-    await filtersReady;
+    await Promise.all([filtersReady, stateReady]);
     registerMainFrameRequest(details);
     const report = getReport(details.tabId);
     if (!report.pageUrl) report.pageUrl = details.documentUrl || details.originUrl || "";
@@ -146,6 +165,7 @@ browser.webRequest.onBeforeRequest.addListener(
     }
     updateBounceReport(details.tabId);
     report.score = calculateScore(report);
+    scheduleStateSave();
     return { cancel: result.blocked };
   },
   { urls: ["<all_urls>"] },
@@ -193,6 +213,7 @@ function updateBounceReport(tabId) {
     redirects: [...session.redirects], indicators: [...session.indicators],
     suspiciousParameters: [...session.suspiciousParameters], sharedIdentifiers: [...session.sharedIdentifiers] };
   report.score = calculateScore(report);
+  scheduleStateSave();
 }
 
 async function updateCookiesForTab(tabId) {
@@ -268,10 +289,12 @@ function acceptPageAnalysis(message, sender) {
   report.hijacking.suspected = Boolean(hooks.length || report.hijacking.polling.length);
   if (hooks.length) addIndicator(report.hijacking.indicators, "Possible hook: API reference changed; may be a framework");
   report.score = calculateScore(report);
+  scheduleStateSave();
 }
 
 browser.runtime.onMessage.addListener(async (message, sender) => {
   if (!message || typeof message.type !== "string") return;
+  await stateReady;
   if (message.type === "PAGE_ANALYSIS") {
     if (sender.tab && Number.isInteger(sender.frameId)) acceptPageAnalysis(message, sender);
     return { success: true };

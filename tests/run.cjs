@@ -3,7 +3,8 @@ const fs = require("node:fs");
 const vm = require("node:vm");
 const path = require("node:path");
 const root = path.join(__dirname, "..");
-function setup(saved = {}) {
+function setup(saved = {}, sessionSaved = null) {
+  const timers = [];
   const listeners = {};
   const event = name => ({ addListener(...args) {
     assert.equal(typeof args[0], "function");
@@ -18,13 +19,18 @@ function setup(saved = {}) {
     storage: { local: { get: async () => saved, set: async value => Object.assign(saved, value) } },
     cookies: { getAll: async () => [] }
   };
-  const context = vm.createContext({ URL, console, browser, fetch: async url => ({
+  if (sessionSaved) browser.storage.session = {
+    get: async () => structuredClone(sessionSaved),
+    set: async value => Object.assign(sessionSaved, structuredClone(value))
+  };
+  const context = vm.createContext({ URL, console, browser, setTimeout: fn => timers.push(fn), fetch: async url => ({
     ok: true, text: async () => fs.readFileSync(path.join(root, "extension", url.replace("moz-extension://test/", "")), "utf8")
   }) });
   for (const file of ["utils.js", "filter-engine.js", "tracking-detector.js", "background.js"]) {
     vm.runInContext(fs.readFileSync(path.join(root, "extension", file), "utf8"), context, { filename: file });
   }
-  return { l: listeners, e: code => vm.runInContext(code, context), saved, browser };
+  return { l: listeners, e: code => vm.runInContext(code, context), saved, browser,
+    flush: () => { for (const callback of timers.splice(0)) callback(); } };
 }
 const popup = { url: "moz-extension://test/popup/popup.html" };
 const req = (extra = {}) => ({ tabId: 1, requestId: "nav1", type: "main_frame", url: "https://first.test/", timeStamp: 1000, method: "GET", ...extra });
@@ -67,6 +73,19 @@ async function check(name, fn) { await fn(); console.log("PASS " + name); passed
     assert.equal(e("filterEngine.classify('https://sub.google-analytics.com/').blocked"), true);
     e("filterEngine.custom.add('google-analytics.com'); filterEngine.enabled.custom=false");
     assert.equal(e("filterEngine.classify('https://google-analytics.com/').category"), "tracker");
+  });
+  await check("blocked report survives MV3 background suspension", async () => {
+    const session = {};
+    const one = setup({ customBlocklist: ["first.test"] }, session);
+    await one.l.request(req());
+    one.flush();
+    const two = setup(one.saved, session);
+    await two.l.message({ type: "GET_FILTER_SETTINGS" }, popup);
+    assert.equal(two.e("getReport(1).blockedCounts.custom"), 1);
+    assert.equal(two.e("getReport(1).pageUrl"), "https://first.test/");
+    two.l.removed(1);
+    two.flush();
+    assert.equal(session.inspectionState.reports.length, 0);
   });
   await check("short named UID versus generic IDs and marketing labels", async () => {
     const { e } = setup();

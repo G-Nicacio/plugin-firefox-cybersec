@@ -50,7 +50,18 @@ async function collect(slug,mode){
     const setup=await m.asyncExecute("const tabs=await browser.tabs.query({}); const tab=tabs.find(t=>t.url==='about:blank'); for(const [category,enabled] of Object.entries("+JSON.stringify(settings)+")){if(category!=='ublock')await browser.runtime.sendMessage({type:'SET_FILTER_SETTING',category,enabled})} return {tabId:tab.id,version:browser.runtime.getManifest().version};");
     metadata.pluginVersion=setup.version;
     metadata.pluginTabId=setup.tabId;
-    if(mode==="ublock")throw new Error("uBlock logger integration not configured yet");
+    let ublockHandle;
+    if(mode==="ublock"){
+      await m.context("chrome");
+      const uboUuid=await m.execute("return JSON.parse(Services.prefs.getStringPref('extensions.webextensions.uuids'))['uBlock0@raymondhill.net']");
+      await m.execute("gBrowser.selectedTab=gBrowser.addTab("+JSON.stringify("moz-extension://"+uboUuid+"/dashboard.html")+",{triggeringPrincipal:Services.scriptSecurityManager.getSystemPrincipal()});");
+      await m.context("content");ublockHandle=(await m.call("WebDriver:GetWindowHandles")).at(-1);
+      await m.switchTo(ublockHandle);await wait(3000);
+      const defaults=await m.asyncExecute("const lists=await vAPI.messaging.send('dashboard',{what:'getLists'}); return {version:browser.runtime.getManifest().version,lists};");
+      metadata.ublockVersion=defaults.version;
+      writeJson(path.join(output,"ublock-defaults.json"),sanitizeReport(defaults));
+      await m.asyncExecute("window.__piUboEntries=[];window.__piUboOwner=Date.now();window.__piReadLog=async()=>{const result=await vAPI.messaging.send('loggerUI',{what:'readAll',ownerId:window.__piUboOwner});if(result.unavailable)throw new Error('Logger unavailable');window.__piUboEntries.push(...result.entries.map(e=>JSON.parse(e)));};await window.__piReadLog();window.__piUboPoll=setInterval(()=>window.__piReadLog(),1000);return true;");
+    }
     await m.switchTo(pageHandle);await m.context("chrome");
     await m.asyncExecute("window.__piRequire=ChromeUtils.importESModule('resource://devtools/shared/loader/Loader.sys.mjs').require; const {gDevTools}=window.__piRequire('resource://devtools/client/framework/devtools.js'); window.__piToolbox=await gDevTools.showToolboxForTab(gBrowser.selectedTab,{toolId:'netmonitor',hostType:'window'}); return true;");
     await m.switchTo(pageHandle);
@@ -71,6 +82,11 @@ async function collect(slug,mode){
     if(!har?.log?.entries?.length)throw new Error("DevTools retornou HAR vazio");
     const clean=sanitizeHar(har,"Firefox "+metadata.firefoxVersion+" DevTools netmonitor api.getHar()");
     const harFile=path.join(output,slug+"-"+mode+".har");writeJson(harFile,clean);
+    if(ublockHandle){
+      await m.switchTo(ublockHandle);
+      const log=await m.asyncExecute("clearInterval(window.__piUboPoll);await window.__piReadLog();return window.__piUboEntries;");
+      writeJson(path.join(output,"ublock-log.json"),{source:"Unmodified official uBlock Origin loggerUI/readAll; polled each second before/during navigation",version:metadata.ublockVersion,targetTabId:setup.tabId,entries:sanitizeReport(log.filter(entry=>entry.tabId===setup.tabId))});
+    }
     await m.switchTo(popupHandle);
     const report=await m.asyncExecute("const report=await browser.runtime.sendMessage({type:'GET_REPORT',tabId:"+setup.tabId+"}); renderReport(report); await loadFilterSettings(); return report;");
     writeJson(path.join(output,"privacy-inspector.json"),{exportedAt:new Date().toISOString(),version:setup.version,report:sanitizeReport(report)});

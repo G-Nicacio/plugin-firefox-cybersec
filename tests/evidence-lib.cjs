@@ -20,7 +20,8 @@ function redactUrl(value) {
     if (!["http:", "https:", "ws:", "wss:"].includes(url.protocol)) return url.protocol + "[REDACTED]";
     url.username = ""; url.password = ""; url.hash = "";
     url.pathname = url.pathname.split("/").map(segment =>
-      segment.length > 40 || /@|%40/i.test(segment) || /^[a-f0-9-]{24,}$/i.test(segment) ? "[REDACTED]" : segment).join("/");
+      segment.length > 40 || /@|%40|\d{8}/i.test(segment) || /^[a-f0-9-]{24,}$/i.test(segment) ||
+      (/\d/.test(segment) && segment.length >= 16) ? "[REDACTED]" : segment).join("/");
     for (const key of [...url.searchParams.keys()]) url.searchParams.set(key, "[REDACTED]");
     return url.href;
   } catch { return "[INVALID_OR_REDACTED_URL]"; }

@@ -51,7 +51,8 @@ function createEmptyReport(tabId, pageUrl = "") {
   return {
     tabId,
     pageUrl,
-    thirdPartyDomains: {},
+    navigationObserved: false,
+    thirdPartyDomains: Object.create(null),
     requests: [],
     requestCount: 0,
     blockedCounts: { ads: 0, trackers: 0, custom: 0 },

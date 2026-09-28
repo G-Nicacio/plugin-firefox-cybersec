@@ -1,3 +1,4 @@
+let latestReport = null;
 function setText(id, value) {
   const element = document.getElementById(id);
 
@@ -14,7 +15,7 @@ function renderThirdParties(report) {
     return;
   }
 
-  list.innerHTML = "";
+  list.replaceChildren();
 
   const domains =
     Object.entries(
@@ -31,7 +32,7 @@ function renderThirdParties(report) {
       document.createElement("li");
 
     item.textContent =
-      `${domain} (${info.count} requests)`;
+      `${domain}: ${info.count} tentativas, ${info.blocked || 0} bloqueadas`;
 
     list.appendChild(item);
   }
@@ -47,7 +48,7 @@ function renderTrackingIndicators(report) {
     return;
   }
 
-  list.innerHTML = "";
+  list.replaceChildren();
 
   const indicators =
     report
@@ -66,6 +67,22 @@ function renderTrackingIndicators(report) {
 }
 
 function renderReport(report) {
+  if (!report) { setText("status", "Relatório indisponível. Recarregue a página."); return; }
+  latestReport = report;
+  setText("cookie-status", report.cookies?.errors ? "Consulta parcial: alguns cookies ficaram indisponíveis." : "Partições filtradas pelo site principal.");
+  setText("storage-status", report.storage?.unavailable?.length ? "APIs indisponíveis: " + report.storage.unavailable.join(", ") : "Metadados dos frames observados.");
+  setText("detected-counts", `Tentativas classificadas: ads ${report.detectedCounts?.ads || 0}, trackers ${report.detectedCounts?.trackers || 0}, custom ${report.detectedCounts?.custom || 0}.`);
+  const security = document.getElementById("security-indicators");
+  security.replaceChildren();
+  for (const text of [...(report.hijacking?.indicators || []), ...(report.hijacking?.hooks || []).map(hook => "API alterada: " + hook.api)]) {
+    const item = document.createElement("li"); item.textContent = text; security.appendChild(item);
+  }
+  const breakdown = document.getElementById("score-breakdown");
+  breakdown.replaceChildren();
+  for (const [key, value] of Object.entries(report.scoreBreakdown || {})) {
+    const item = document.createElement("li"); item.textContent = `${key}: −${value}`; breakdown.appendChild(item);
+  }
+  setText("status", report.filterStatus?.errors?.length ? "Falha ao carregar filtros: " + report.filterStatus.errors.join("; ") : "Histórico limitado às 200 amostras mais recentes; contadores de requests são cumulativos.");
   setText(
     "current-site",
     report.pageUrl ||
@@ -74,7 +91,7 @@ function renderReport(report) {
 
   setText(
     "score",
-    `${report.score}/100`
+    report.navigationObserved === false ? "--" : `${report.score}/100`
   );
 
   renderThirdParties(report);
@@ -123,7 +140,7 @@ function renderReport(report) {
   setText(
     "canvas",
     report.canvas?.detected
-      ? "Detectado"
+      ? "Possível readout"
       : "Não detectado"
   );
 
@@ -136,17 +153,17 @@ function renderReport(report) {
 
   setText(
     "ads-blocked",
-    report.blocked?.ads?.length || 0
+    report.blockedCounts?.ads ?? report.blocked?.ads?.length ?? 0
   );
 
   setText(
     "trackers-blocked",
-    report.blocked?.trackers?.length || 0
+    report.blockedCounts?.trackers ?? report.blocked?.trackers?.length ?? 0
   );
 
   setText(
     "custom-blocked",
-    report.blocked?.custom?.length || 0
+    report.blockedCounts?.custom ?? report.blocked?.custom?.length ?? 0
   );
 
   setText(
@@ -192,6 +209,7 @@ function renderReport(report) {
   );
 
   renderTrackingIndicators(report);
+  if (report.navigationObserved === false) setText("status", "Observação parcial: recarregue a página para iniciar uma navegação monitorada.");
 }
 
 async function loadReport() {
@@ -237,7 +255,7 @@ function renderBlocklist(domains) {
     return;
   }
 
-  list.innerHTML = "";
+  list.replaceChildren();
 
   for (const domain of domains) {
     const item =
@@ -311,6 +329,8 @@ async function addBlockDomain() {
     renderBlocklist(
       result.domains || []
     );
+  } else {
+    setText("status", result.error || "Não foi possível salvar o domínio.");
   }
 }
 
@@ -388,7 +408,7 @@ const addButton =
 if (addButton) {
   addButton.addEventListener(
     "click",
-    addBlockDomain
+    () => addBlockDomain().catch(showError)
   );
 }
 
@@ -404,7 +424,7 @@ if (blockInput) {
       if (
         event.key === "Enter"
       ) {
-        addBlockDomain();
+        addBlockDomain().catch(showError);
       }
     }
   );
@@ -425,6 +445,13 @@ registerToggle(
   "custom"
 );
 
-loadReport();
-loadBlocklist();
-loadFilterSettings();
+function showError(error) { setText("status", "Falha: " + error.message); }
+document.getElementById("refresh-report").addEventListener("click", () => loadReport().catch(showError));
+document.getElementById("export-report").addEventListener("click", () => {
+  if (!latestReport) return;
+  const payload = { exportedAt: new Date().toISOString(), version: browser.runtime.getManifest().version, report: latestReport };
+  const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" }));
+  const link = document.createElement("a"); link.href = url; link.download = "privacy-inspector-report.json"; link.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+});
+Promise.all([loadReport(), loadBlocklist(), loadFilterSettings()]).catch(showError);

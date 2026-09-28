@@ -97,6 +97,15 @@ async function check(name, fn) { await fn(); console.log("PASS " + name); passed
     await l.request(req({ type: "xmlhttprequest", url: "https://third.test/poll?n=6", timeStamp: 11000 }));
     assert.equal(e("getReport(1).hijacking.polling.length"), 1);
   });
+  await check("DDG client-side bounce preserves short UID and tracker attempt", async () => {
+    const { l, e } = setup({ filterSettings: { trackers: false } });
+    await l.request(req({ url: "https://bad.third-party.site/bounce" }));
+    await l.request(req({ requestId: "client-nav", url: "https://first.test/?bounceUIDcookie=63", timeStamp: 1300 }));
+    assert.equal(e("getReport(1).bounceTracking.suspected"), true);
+    assert.equal(e("getReport(1).requestCount"), 2);
+    assert.equal(e("getReport(1).bounceTracking.cookieSyncSuspected"), false);
+    assert.equal(e("getReport(1).bounceTracking.suspiciousParameters[0].name"), "bounceuidcookie");
+  });
   await check("history caps and tab cleanup", async () => {
     const { l, e } = setup();
     await l.request(req());
@@ -129,7 +138,7 @@ async function check(name, fn) { await fn(); console.log("PASS " + name); passed
       type: "PAGE_ANALYSIS", storage: { localStorage: true, localStorageEntries: 2 },
       canvas: { events: [{ method: "toBlob" }] }, hooks: []
     }, { tab: { id: 1 }, frameId, url: "https://first.test/" });
-    assert.equal(e("getReport(1).storage.localStorageEntries"), 4);
+    assert.equal(e("getReport(1).storage.localStorageEntries"), 2);
     assert.equal(e("getReport(1).canvas.detected"), true);
   });
   await check("suffix fallback and IP addresses", async () => {
@@ -142,6 +151,35 @@ async function check(name, fn) { await fn(); console.log("PASS " + name); passed
     const { e } = setup();
     e("var report = createEmptyReport(1); report.bounceTracking.suspected=true; report.bounceTracking.cookieSyncSuspected=true");
     assert.equal(e("calculateScore(report)"), 80);
+  });
+  await check("canvas wrappers preserve returns, callbacks, errors and hostile metadata", async () => {
+    const events = [];
+    const intervals = [];
+    class Canvas {
+      toDataURL(value) { if (!(this instanceof Canvas)) throw new TypeError("receiver"); return value; }
+      toBlob(callback) { callback("blob"); }
+    }
+    class Context { getImageData() { return "pixels"; } }
+    const window = { dispatchEvent: event => events.push(event), addEventListener() {}, fetch() {},
+      XMLHttpRequest: function XHR() {}, WebSocket: function WS() {} };
+    const context = vm.createContext({ window, document: { hidden: false },
+      CustomEvent: class { constructor(type, data) { this.type = type; this.detail = data.detail; } },
+      HTMLCanvasElement: Canvas, CanvasRenderingContext2D: Context,
+      XMLHttpRequest: window.XMLHttpRequest, setInterval: fn => intervals.push(fn) });
+    vm.runInContext(fs.readFileSync(path.join(root, "extension/page-script.js"), "utf8"), context);
+    const canvas = new Canvas();
+    assert.equal(canvas.toDataURL("original"), "original");
+    let callback;
+    canvas.toBlob(value => { callback = value; });
+    assert.equal(callback, "blob");
+    assert.throws(() => Canvas.prototype.toDataURL.call({}), TypeError);
+    Object.defineProperty(canvas, "canvas", { get() { throw new Error("hostile getter"); } });
+    assert.equal(canvas.toDataURL("still original"), "still original");
+    intervals[0]();
+    assert.equal(events.filter(event => event.type.endsWith("hook")).length, 0);
+    window.fetch = function replacement() {};
+    intervals[0]();
+    assert.equal(events.filter(event => event.type.endsWith("hook")).length, 1);
   });
   console.log(passed + " tests passed");
 })().catch(error => { console.error(error); process.exitCode = 1; });

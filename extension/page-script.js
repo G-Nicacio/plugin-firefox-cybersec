@@ -18,8 +18,10 @@
       const original = descriptor.value;
       Object.defineProperty(prototype, method, { ...descriptor, value: function (...args) {
         const result = apply(original, this, args);
-        const canvas = this.canvas || this;
-        notify("canvas", { method, width: canvas.width, height: canvas.height, timestamp: Date.now() });
+        try {
+          const canvas = this.canvas || this;
+          notify("canvas", { method, width: canvas.width, height: canvas.height, timestamp: Date.now() });
+        } catch { /* Even hostile metadata getters must not alter a successful API call. */ }
         return result;
       } });
     } catch { /* Non-writable APIs cannot be instrumented. */ }

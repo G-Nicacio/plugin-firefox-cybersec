@@ -46,7 +46,21 @@ function registerMainFrameRequest(details) {
   let session = getTrackingSession(details.tabId);
   const continues = session.expectedNextUrl === details.url &&
     session.requestId === details.requestId && details.timeStamp - session.lastActivity < 10000;
-  if (!continues) {
+  const previous = reports.get(details.tabId);
+  const fromTracker = previous && filterEngine.classify(previous.pageUrl).matches.some(match => match.key === "trackers");
+  const clientBounce = previous && fromTracker && isThirdParty(previous.pageUrl, details.url) &&
+    details.timeStamp - session.lastActivity < 5000;
+  if (clientBounce && !continues) {
+    const analysis = trackingDetector.analyzeRedirect({ ...details, url: previous.pageUrl, redirectUrl: details.url });
+    analysis.mechanism = "inferred top-level transition (may be script, meta refresh, or user navigation)";
+    pushBounded(session.redirects, analysis);
+    session.bounceSuspected = true;
+    addIndicator(session.indicators, "Possible client-side bounce: rapid navigation away from a listed tracker");
+    for (const parameter of analysis.suspiciousDestinationParameters) pushBounded(session.suspiciousParameters,
+      { name: parameter.name, sourceUrl: analysis.sourceUrl, destinationUrl: analysis.destinationUrl });
+    // The UID's source is not visible, so this alone is not proof of cookie synchronization.
+  }
+  if (!continues && !clientBounce) {
     session = createTrackingSession();
     trackingSessions.set(details.tabId, session);
     reports.set(details.tabId, createEmptyReport(details.tabId, details.url));
@@ -57,6 +71,10 @@ function registerMainFrameRequest(details) {
   session.expectedNextUrl = null;
   session.lastActivity = details.timeStamp;
   getReport(details.tabId).pageUrl = details.url;
+  getReport(details.tabId).navigationObserved = true;
+  frameReports.delete(details.tabId);
+  getReport(details.tabId).storage = createEmptyReport(0).storage;
+  getReport(details.tabId).canvas = createEmptyReport(0).canvas;
 }
 
 browser.tabs.onRemoved.addListener(tabId => {
@@ -224,19 +242,24 @@ function acceptPageAnalysis(message, sender) {
   if (!frameReports.has(sender.tab.id)) frameReports.set(sender.tab.id, new Map());
   const frames = frameReports.get(sender.tab.id);
   if (!frames.has(sender.frameId) && frames.size >= 100) return;
-  frames.set(sender.frameId, { storage: message.storage, canvas: message.canvas, hooks: message.hooks || [] });
+  let origin;
+  try { origin = new URL(sender.url).origin; } catch { return; }
+  frames.set(sender.frameId, { origin, storage: message.storage, canvas: message.canvas, hooks: message.hooks || [] });
   const storage = createEmptyReport(0).storage;
   storage.unavailable = [];
   const events = [];
   const hooks = [];
+  const storageOrigins = new Set();
   for (const frame of frames.values()) {
+    events.push(...(frame.canvas?.events || []).slice(-100));
+    hooks.push(...frame.hooks.slice(-100));
+    if (storageOrigins.has(frame.origin)) continue;
+    storageOrigins.add(frame.origin);
     for (const key of ["localStorage", "sessionStorage", "indexedDB"]) storage[key] ||= Boolean(frame.storage?.[key]);
     storage.localStorageEntries += Math.max(0, Number(frame.storage?.localStorageEntries) || 0);
     storage.sessionStorageEntries += Math.max(0, Number(frame.storage?.sessionStorageEntries) || 0);
     storage.indexedDBDatabases.push(...(frame.storage?.indexedDBDatabases || []).slice(0, 100));
     for (const item of frame.storage?.unavailable || []) if (!storage.unavailable.includes(item)) storage.unavailable.push(item);
-    events.push(...(frame.canvas?.events || []).slice(-100));
-    hooks.push(...frame.hooks.slice(-100));
   }
   storage.indexedDBDatabases = storage.indexedDBDatabases.slice(0, 100);
   report.storage = storage;
@@ -254,7 +277,7 @@ browser.runtime.onMessage.addListener(async (message, sender) => {
     return { success: true };
   }
   // Page/content messages cannot modify the blocklist or request another tab's report.
-  if (sender.tab || !sender.url?.startsWith(browser.runtime.getURL("popup/"))) return;
+  if (!sender.url?.startsWith(browser.runtime.getURL("popup/"))) return;
   await filtersReady;
   if (message.type === "GET_REPORT") {
     if (!Number.isInteger(message.tabId) || message.tabId < 0) return null;

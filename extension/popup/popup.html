@@ -23,12 +23,18 @@
     <header>
       <h1>Privacy Inspector</h1>
       <p id="current-site">Carregando...</p>
+      <p id="status" role="status"></p>
+      <button id="refresh-report">Atualizar</button>
+      <button id="export-report">Exportar JSON</button>
     </header>
 
     <section class="score-card">
       <span>Privacy Score</span>
       <strong id="score">--</strong>
     </section>
+
+    <p class="note">Heurísticas indicam possibilidades, não comprovam rastreamento ou malware.</p>
+    <details class="card"><summary>Composição do score</summary><ul id="score-breakdown"></ul></details>
 
     <section class="card">
       <h2>Third-party domains</h2>
@@ -38,6 +44,8 @@
 
     <section class="card">
       <h2>Cookies</h2>
+      <p class="note">Inventário dos URLs observados, incluindo cookies anteriores à visita. Não representa cookies injetados nesta página.</p>
+      <p id="cookie-status" class="note"></p>
 
       <div class="metric">
         <span>First-party</span>
@@ -62,6 +70,7 @@
 
     <section class="card">
       <h2>Storage</h2>
+      <p id="storage-status" class="note"></p>
 
       <div class="metric">
         <span>localStorage</span>
@@ -81,6 +90,7 @@
 
     <section class="card">
       <h2>Fingerprinting</h2>
+      <p class="note">Leitura/serialização de canvas também ocorre em usos legítimos.</p>
 
       <div class="metric">
         <span>Canvas</span>
@@ -136,10 +146,12 @@
         <span>Hijacking / Hook</span>
         <span id="hijacking">Não detectado</span>
       </div>
+      <ul id="security-indicators"></ul>
     </section>
 
     <section class="card">
       <h2>Blocking</h2>
+      <p id="detected-counts" class="note"></p>
 
       <label class="toggle-row">
         <span>Block ads</span>
@@ -191,6 +203,7 @@
           id="block-domain-input"
           type="text"
           placeholder="example.com"
+          aria-label="Domínio para bloquear"
         >
 
         <button id="add-block-domain">

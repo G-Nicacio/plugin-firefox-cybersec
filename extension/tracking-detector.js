@@ -1,6 +1,9 @@
 const trackingDetector = {
   suspiciousParameterNames: new Set([
     "uid",
+    // Names used by DDG's bounce test for identifiers read from browser storage.
+    "bounceuidlocalstorage",
+    "bounceuidcookie",
     "user_id",
     "userid",
     "user",

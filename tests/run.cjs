@@ -14,7 +14,7 @@ function setup(saved = {}, sessionSaved = null) {
   } });
   const browser = {
     tabs: { onRemoved: event("removed"), get: async id => ({ id, url: "https://first.test/", cookieStoreId: "firefox-default" }) },
-    webRequest: { onBeforeRequest: event("request"), onBeforeRedirect: event("redirect") },
+    webRequest: { onBeforeRequest: event("request"), onBeforeRedirect: event("redirect"), onHeadersReceived: event("headers") },
     runtime: { onMessage: event("message"), getURL: value => "moz-extension://test/" + value },
     storage: { local: { get: async () => saved, set: async value => Object.assign(saved, value) } },
     cookies: { getAll: async () => [] }
@@ -147,6 +147,40 @@ async function check(name, fn) { await fn(); console.log("PASS " + name); passed
     assert.equal(report.cookies.firstParty, 1);
     assert.equal(report.cookies.thirdPartyPersistent, 1);
     assert.equal(report.cookies.session, 1);
+  });
+  await check("Set-Cookie metadata excludes values and honors Max-Age precedence", async () => {
+    const { e } = setup();
+    const metadata = e("getSetCookieMetadata('uid=supersecret; Domain=.third.test; Path=/; Max-Age=60; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly', 'https://sub.third.test/a', Date.now())");
+    assert.equal(metadata.session, false);
+    assert.equal(metadata.deletion, false);
+    assert.equal(metadata.domainMatchesResponse, true);
+    assert.equal(metadata.secure, true);
+    assert.equal(JSON.stringify(metadata).includes("supersecret"), false);
+    assert.equal(e("getSetCookieMetadata('broken', 'https://third.test/', Date.now())"), null);
+    assert.equal(e("getSetCookieMetadata('uid=value; Max-Age=0', 'https://third.test/', Date.now()).deletion"), true);
+  });
+  await check("HTTP cookie attempts separated by party, lifetime and deletion", async () => {
+    const { l, e } = setup();
+    await l.request(req());
+    l.headers(req({ responseHeaders: [{ name: "Set-Cookie", value: "session=secret" }] }));
+    await l.request(req({ requestId: "third", type: "xmlhttprequest", url: "https://third.test/" }));
+    l.headers(req({ requestId: "third", url: "https://third.test/", responseHeaders: [
+      { name: "set-cookie", value: "uid=secret2; Max-Age=3600" },
+      { name: "Set-Cookie", value: "deleted=secret3; Max-Age=0" }
+    ] }));
+    assert.equal(e("getReport(1).cookieWrites.total"), 3);
+    assert.equal(e("getReport(1).cookieWrites.thirdParty"), 2);
+    assert.equal(e("getReport(1).cookieWrites.session"), 1);
+    assert.equal(e("getReport(1).cookieWrites.persistent"), 1);
+    assert.equal(e("getReport(1).cookieWrites.deletions"), 1);
+    assert.equal(e("JSON.stringify(getReport(1).cookieWrites).includes('secret')"), false);
+  });
+  await check("late cookie response cannot contaminate a new navigation", async () => {
+    const { l, e } = setup();
+    await l.request(req());
+    await l.request(req({ requestId: "nav2", url: "https://new.test/" }));
+    l.headers(req({ responseHeaders: [{ name: "Set-Cookie", value: "old=value" }] }));
+    assert.equal(e("getReport(1).cookieWrites.total"), 0);
   });
   await check("content cannot change filters; frame analysis aggregates", async () => {
     const { l, e } = setup();

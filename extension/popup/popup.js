@@ -69,6 +69,8 @@ function renderTrackingIndicators(report) {
 function renderReport(report) {
   if (!report) { setText("status", "Relatório indisponível. Recarregue a página."); return; }
   latestReport = report;
+  const writes = report.cookieWrites || {};
+  setText("cookie-write-counts", `${writes.total || 0} headers: first-party ${writes.firstParty || 0}, third-party ${writes.thirdParty || 0}; sessão ${writes.session || 0}, persistentes ${writes.persistent || 0}, exclusões ${writes.deletions || 0}.`);
   setText("cookie-status", report.cookies?.errors ? "Consulta parcial: alguns cookies ficaram indisponíveis." : "Partições filtradas pelo site principal.");
   setText("storage-status", report.storage?.unavailable?.length ? "APIs indisponíveis: " + report.storage.unavailable.join(", ") : "Metadados dos frames observados.");
   setText("detected-counts", `Tentativas classificadas: ads ${report.detectedCounts?.ads || 0}, trackers ${report.detectedCounts?.trackers || 0}, custom ${report.detectedCounts?.custom || 0}.`);

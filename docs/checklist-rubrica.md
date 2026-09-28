@@ -11,7 +11,8 @@ As evidências DDG são reais, obtidas em Firefox 156.0.1 headless.
 - [x] Prints da página + interface do plugin e JSONs.
 - [ ] Conferência manual da instalação em about:debugging e popup ancorado.
 - [ ] HAR dos três sites reais.
-- [ ] Contagem estrita de cookies recém-injetados: inventário atual é aproximação explícita.
+- [x] Inventário e tentativas HTTP Set-Cookie separados; DDG confirmou 9 tentativas, 1 first-party e 8 third-party.
+- [ ] Atribuição estrita de cookies aceitos/recém-injetados, incluindo escritas JavaScript, continua fora da cobertura.
 
 ## Conceito B
 
@@ -44,7 +45,7 @@ As evidências DDG são reais, obtidas em Firefox 156.0.1 headless.
 
 ## Qualidade e limites
 
-- [x] 15 testes lógicos passam; sintaxe dos scripts verificada.
+- [x] 18 testes lógicos passam; sintaxe dos scripts verificada.
 - [x] Histórico limitado, limpeza por aba, validação de domínio e textContent na interface.
 - [x] Commits incrementais; arquitetura original preservada.
 - [ ] Domínio registrável usa fallback parcial, não PSL completa.

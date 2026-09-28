@@ -38,3 +38,9 @@ Hooks + polling têm teto conjunto de 20. Com os pesos atuais, mínimo teórico 
   Score alto nesses casos não implica privacidade alta.
 
 Fonte técnica: [Mozilla cookies.getAll](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAll).
+
+## Headers de cookies
+
+cookieWrites mostra tentativas HTTP Set-Cookie, sem valores, e separa exclusões.
+Esses contadores não entram no score: ele já usa o inventário contextual, e somá-los geraria
+dupla contagem. A tentativa não comprova aceitação nem cobre escritas JavaScript.

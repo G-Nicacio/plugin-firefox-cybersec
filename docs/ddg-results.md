@@ -61,3 +61,19 @@ O plugin estava OFF e seu contador de bloqueios permaneceu zero. Isso demonstra 
 cancelou essas requests, mas não identifica sozinho se a causa foi o browser, o servidor,
 particionamento ou uma falha do teste. Os detalhes originais estão no JSON e no screenshot
 expandido; investigar essas causas é necessário antes de atribuir cada falha a uma proteção.
+
+## Tentativas de gravação HTTP de cookies
+
+A continuação da implementação acrescentou cookieWrites ao relatório. No DDG Storage Blocking,
+foram observados 9 headers Set-Cookie: 1 first-party e 8 third-party, todos persistentes.
+O JSON guarda nome, domínio, path, flags e classificação; não guarda o valor.
+Um header é uma tentativa, inclusive se sobrescrever um cookie já existente ou se o browser
+recusar a gravação. Exclusões são separadas de sessão/persistente. Escritas JavaScript não estão
+incluídas; o inventário final continua sendo outra medida.
+
+A classificação foi testada com Max-Age, Expires, exclusões, headers malformados e respostas
+atrasadas de outra navegação. O histórico é limitado e tentativas não penalizam novamente o score,
+evitando somar a mesma ocorrência ao inventário já contabilizado.
+
+Referências: [Mozilla onHeadersReceived](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived)
+e [Set-Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie).

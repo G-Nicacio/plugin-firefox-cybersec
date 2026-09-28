@@ -63,6 +63,10 @@ function createEmptyReport(tabId, pageUrl = "") {
       session: 0,
       persistent: 0
     },
+    cookieWrites: {
+      total: 0, firstParty: 0, thirdParty: 0, session: 0, persistent: 0,
+      deletions: 0, malformed: 0, events: []
+    },
     storage: {
       localStorage: false,
       localStorageEntries: 0,
@@ -96,5 +100,34 @@ function createEmptyReport(tabId, pageUrl = "") {
         custom: []
     },
     score: 100
+  };
+}
+
+// Parse attributes only; cookie values are never returned or stored in the report.
+function getSetCookieMetadata(header, responseUrl, timestamp) {
+  if (typeof header !== "string") return null;
+  const [pair, ...parts] = header.split(";");
+  const equals = pair.indexOf("=");
+  const name = pair.slice(0, equals).trim();
+  if (equals < 1 || !name || /[\s;,]/.test(name)) return null;
+  const attributes = Object.create(null);
+  for (const part of parts) {
+    const index = part.indexOf("=");
+    const key = (index < 0 ? part : part.slice(0, index)).trim().toLowerCase();
+    attributes[key] = index < 0 ? "" : part.slice(index + 1).trim();
+  }
+  const maxAge = /^-?\d+$/.test(attributes["max-age"] || "") ? Number(attributes["max-age"]) : null;
+  const expires = Date.parse(attributes.expires || "");
+  const persistent = maxAge !== null || Number.isFinite(expires);
+  const deletion = maxAge !== null ? maxAge <= 0 : Number.isFinite(expires) && expires <= timestamp;
+  const responseHost = getHostnameFromUrl(responseUrl);
+  const domain = normalizeHostname((attributes.domain || responseHost).replace(/^\./, ""));
+  return {
+    name: name.slice(0, 128), domain, responseHost,
+    domainMatchesResponse: responseHost === domain || responseHost.endsWith("." + domain),
+    path: (attributes.path || "(default)").slice(0, 256),
+    session: !persistent, deletion,
+    secure: Object.hasOwn(attributes, "secure"), httpOnly: Object.hasOwn(attributes, "httponly"),
+    partitioned: Object.hasOwn(attributes, "partitioned"), timestamp
   };
 }

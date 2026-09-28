@@ -21,6 +21,7 @@ background MV3, mas são transitórios e podem se perder ao reiniciar/recarregar
 
 - Requests/hosts terceiros, tipos e tentativas bloqueadas ou permitidas pelo plugin.
 - Inventário de cookies first/third-party e session/persistent, por cookie store/partição.
+- Tentativas HTTP Set-Cookie separadas por contexto, duração e exclusão, sem guardar os valores.
 - localStorage, sessionStorage e nomes de bancos IndexedDB nos frames acessíveis.
 - Canvas toDataURL, toBlob e getImageData: possível readout, sem afirmar fingerprinting.
 - Possível bounce HTTP e saída rápida de tracker via navegação top-level; parâmetros e IDs compartilhados.
@@ -97,7 +98,7 @@ Storage não lê valores e deduplica frames por origem.
 Frames removidos podem permanecer até a próxima navegação.
 
 Cookies são inventário dos URLs permitidos amostrados, não contagem exata de cookies
-injetados nesta visita. ETP, expiração, paths, containers e partições afetam os números.
+injetados nesta visita. cookieWrites registra headers Set-Cookie recebidos (incluindo sobrescritas), não confirmação de aceitação; não inclui escritas JavaScript. ETP, expiração, paths, containers e partições afetam os números.
 O plugin não implementa bloqueio de storage, particionamento, ruído de canvas ou remoção de query params.
 
 Requests sem tabId são ignoradas, incluindo certos workers/backgrounds.

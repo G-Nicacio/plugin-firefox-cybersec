@@ -9,8 +9,11 @@ PASS polling time span and WebSocket not proof of hijacking
 PASS DDG client-side bounce preserves short UID and tracker attempt
 PASS history caps and tab cleanup
 PASS cookie deduplication, partitions and persistence
+PASS Set-Cookie metadata excludes values and honors Max-Age precedence
+PASS HTTP cookie attempts separated by party, lifetime and deletion
+PASS late cookie response cannot contaminate a new navigation
 PASS content cannot change filters; frame analysis aggregates
 PASS suffix fallback and IP addresses
 PASS score avoids bounce/sync double counting
 PASS canvas wrappers preserve returns, callbacks, errors and hostile metadata
-15 tests passed
+18 tests passed

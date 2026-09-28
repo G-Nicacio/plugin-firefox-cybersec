@@ -131,7 +131,7 @@ browser.webRequest.onBeforeRequest.addListener(
     const result = filterEngine.classify(details.url);
     const hostname = getHostnameFromUrl(details.url);
     const thirdParty = isThirdParty(report.pageUrl, details.url);
-    const request = { url: details.url, hostname, type: details.type, method: details.method,
+    const request = { requestId: details.requestId, url: details.url, hostname, type: details.type, method: details.method,
       timestamp: details.timeStamp, thirdParty, blocked: result.blocked,
       category: result.category, rule: result.rule };
     report.requestCount++;
@@ -204,6 +204,30 @@ browser.webRequest.onBeforeRedirect.addListener(
     updateBounceReport(details.tabId);
   },
   { urls: ["<all_urls>"] }
+);
+
+browser.webRequest.onHeadersReceived.addListener(
+  details => {
+    if (details.tabId < 0) return;
+    const report = reports.get(details.tabId);
+    // Ignore late responses from a previous navigation (or requests outside the sample cap).
+    if (!report?.requests.some(request => request.requestId === details.requestId)) return;
+    const writes = report.cookieWrites ||= createEmptyReport(0).cookieWrites;
+    for (const header of details.responseHeaders || []) {
+      if (header.name.toLowerCase() !== "set-cookie") continue;
+      const metadata = getSetCookieMetadata(header.value, details.url, details.timeStamp);
+      if (!metadata) { writes.malformed++; continue; }
+      const thirdParty = isThirdParty(report.pageUrl, details.url);
+      writes.total++;
+      writes[thirdParty ? "thirdParty" : "firstParty"]++;
+      if (metadata.deletion) writes.deletions++;
+      else writes[metadata.session ? "session" : "persistent"]++;
+      pushBounded(writes.events, { ...metadata, thirdParty });
+    }
+    scheduleStateSave();
+  },
+  { urls: ["<all_urls>"] },
+  ["responseHeaders"]
 );
 
 function updateBounceReport(tabId) {

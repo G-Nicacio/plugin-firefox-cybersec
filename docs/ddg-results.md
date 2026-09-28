@@ -24,7 +24,7 @@ Os testes compartilham storage; por isso os scores abaixo não comparam privacid
 
 ## Limites e pendências
 
-- Não há evidência dos três sites sorteados, HARs nem comparações empíricas com Blacklight/uBlock.
+- A fase posterior concluiu três sites, HARs e comparações empíricas: [resultados](real-sites-results.md). As evidências DDG originais desta página foram preservadas.
 - Cookies contam inventário contextual, não injeção estritamente atribuível à visita.
 - Score é didático e depende do estado do perfil; veja metodologia-score.md.
 - Teste genérico de fingerprinting cobre mais APIs que nosso canvas; esta rodada validou o teste específico de canvas.

@@ -57,4 +57,4 @@ Comparação é de achados corroborados, não uma repetição idêntica da sess�
 6. Importe com tests/analyze-har.cjs conforme o README das ferramentas.
 7. Registre metadata e exporte o PI na MESMA execução. Não misture HAR de outra visita.
 
-Status inicial: protocolo definido; resultados dependem de execução real.
+Status final: nove navegações locais e três scans Blacklight concluídos. Resultados em real-sites-results.md; comandos e importação em evidence-tools.md. Janela 1366×900 resultou em viewport 1366×815. CNN redirecionou para edition.cnn.com nos perfis locais. O HAR é capturado após o screenshot, e o JSON PI depois do HAR: não são snapshots atômicos.

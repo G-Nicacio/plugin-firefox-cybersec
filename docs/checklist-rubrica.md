@@ -1,57 +1,64 @@
-# Checklist da rubrica — 28/09/2026
+# Checklist da rubrica — fase final, 28/09/2026
 
-Legenda: implementado não significa entrega acadêmica completa.
-As evidências DDG são reais, obtidas em Firefox 156.0.1 headless.
+✅ comprovado por execução/arquivo real; ⚠ limite ou captura editorial manual pendente; ❌ não implementado/comprovado. Esta tabela documenta cobertura; não promete nota nem transforma heurística em prova.
 
 ## Conceito C
 
-- [x] Extensão MV3 instalada e executada no Firefox via instalação temporária automatizada.
-- [x] Terceiros, cookies (inventário), localStorage/sessionStorage/IndexedDB.
-- [x] DDG Tracker Reporting, Storage Blocking (gravação/recuperação) e Canvas executados.
-- [x] Prints da página + interface do plugin e JSONs.
-- [ ] Conferência manual da instalação em about:debugging e popup ancorado.
-- [ ] HAR dos três sites reais.
-- [x] Inventário e tentativas HTTP Set-Cookie separados; DDG confirmou 9 tentativas, 1 first-party e 8 third-party.
-- [ ] Atribuição estrita de cookies aceitos/recém-injetados, incluindo escritas JavaScript, continua fora da cobertura.
+| Requisito | Status | Evidência |
+|---|---|---|
+| Extensão MV3 funcional no Firefox | ✅ instalação temporária automatizada 156.0.1 | evidencias/sites-reais/*/baseline/metadata.json; extension/manifest.json |
+| Instalação manual e popup ancorado | ⚠ prints S01–S03 pendentes | docs/screenshot-plan.md |
+| Terceiros e requests | ✅ três sites + DDG | evidencias/ddg/tracker-reporting.json; evidencias/sites-reais/*/baseline/privacy-inspector.json |
+| Cookies first/third, sessão/persistente | ✅ inventário contextual | evidencias/sites-reais/forbes/baseline/privacy-inspector.json |
+| HTTP Set-Cookie sem valores | ✅ tentativas, não aceitação | evidencias/sites-reais/cnn/baseline/privacy-inspector.json; tests/run.cjs |
+| Cookies recém-injetados atribuídos à página, inclusive JS | ❌ atribuição estrita não implementada | docs/metodologia-score.md |
+| localStorage/sessionStorage/IndexedDB | ✅ metadados de frames | evidencias/ddg/storage-blocking.json; evidencias/sites-reais/forbes/baseline/privacy-inspector.json |
+| HAR MediaFire | ✅ HAR DevTools real sanitizado | evidencias/sites-reais/mediafire/baseline/mediafire-baseline.har |
+| HAR Forbes | ✅ HAR DevTools real sanitizado | evidencias/sites-reais/forbes/baseline/forbes-baseline.har |
+| HAR CNN | ✅ HAR DevTools real sanitizado; destino edition.cnn.com | evidencias/sites-reais/cnn/baseline/cnn-baseline.har |
 
 ## Conceito B
 
-- [x] Cookies first/third-party e session/persistent; persistentes terceiros usados no score.
-- [x] Canvas, possível bounce e possível compartilhamento de IDs.
-- [x] DDG Bounce OFF/ON, Query Parameters, Tracker Blocking e Storage Partitioning.
-- [x] Divergências técnicas documentadas no relatório DDG.
-- [ ] Cookie sync real corroborado por origem em cookie; somente heurística e regressões sintéticas.
-- [ ] Completar pendências do C.
+| Requisito | Status | Evidência |
+|---|---|---|
+| Cookies persistentes de terceiros | ✅ inventário e score | evidencias/sites-reais/forbes/baseline/privacy-inspector.json |
+| Canvas | ✅ readout DDG/fixture; não randomiza nem prova intenção | evidencias/ddg/canvas.json; evidencias/ddg/fixture.json |
+| Bounce | ✅ heurística real OFF e bloqueio ON | evidencias/ddg/bounce-tracking.json; evidencias/ddg/bounce-blocked.json |
+| Cookie sync | ⚠ heurística/regressão; origem em cookie não corroborada | tests/run.cjs; docs/ddg-results.md |
+| Query parameters e storage partitioning | ✅ executados; limites documentados | evidencias/ddg/query-parameters.json; evidencias/ddg/storage-partitioning.json |
+| Divergências com referência externa | ✅ Blacklight atual e HAR por domínio | docs/real-sites-results.md; evidencias/sites-reais/*/reconciliation.md |
+| Dependências do C | ⚠ prints editoriais e atribuição estrita continuam limitados | tabela C |
 
 ## Conceito A
 
-- [x] WebSocket terceiro, polling persistente e referência global alterada.
-- [x] Página controlada real confirma os três indicadores e preservação do canvas.
-- [x] js-leaks executado; baseline Firefox 92 é antigo e limita interpretação.
-- [x] Score explícito, interface por página, custom blocklist, exportação.
-- [x] Comparação conceitual com Blacklight/uBlock e template de análise.
-- [ ] Comparação empírica Blacklight e uBlock nos três sites.
-- [ ] Aplicar score aos três sites em condições comparáveis.
-- [ ] Completar pendências do B.
+| Requisito | Status | Evidência |
+|---|---|---|
+| WebSocket/polling/hook | ✅ fixture e indicadores nos sites; não prova hijacking | evidencias/ddg/fixture.json; evidencias/sites-reais/forbes/baseline/privacy-inspector.json |
+| js-leaks | ✅ executado; baseline Firefox 92 limita comparação | evidencias/ddg/js-leaks.json; docs/ddg-results.md |
+| Score explícito e decomposição nos três sites | ✅ 83 MediaFire, 43 Forbes, 77 CNN em baseline | docs/real-sites-results.md; evidencias/sites-reais/*/summary.json |
+| Comparação empírica uBlock | ✅ 3 perfis com logger real e defaults | evidencias/sites-reais/*/ublock/ublock-log.json; ublock-defaults.json |
+| Comparação empírica Blacklight | ✅ 3 respostas atuais success | evidencias/sites-reais/*/blacklight/result.json; metadata.json |
+| Reconciliação tracker/domínio e HAR | ✅ 9/91/9 linhas relevantes | evidencias/sites-reais/{mediafire,forbes,cnn}/reconciliation.md |
+| Custom blocklist e toggles persistentes | ✅ teste real + regressões | evidencias/ddg/custom-main-frame.json; evidencias/ddg/settings-reload.json |
+| Exportação JSON e interface | ✅ 9 exports/popup renderizados | evidencias/sites-reais/*/{baseline,blocking,ublock}/privacy-inspector.json; plugin.png |
+| Dependências B e prints finais | ⚠ sem afirmar A integral enquanto limites exigidos persistirem | docs/screenshot-plan.md |
 
 ## Bônus adblock
 
-- [x] Motor único ads/trackers/custom; registro anterior ao cancelamento.
-- [x] Toggles persistentes; detecção independente de bloqueio.
-- [x] Parser de domínio puro e ||domain^; regras ignoradas contabilizadas.
-- [x] Contadores cumulativos separados; bloqueio main_frame confirmado no Firefox com example.com e por regressão.
-- [x] Teste DDG cancelou requests de tracker e a navegação de bounce.
-- [ ] Validação ampla de ads em sites reais e comparação com uBlock.
+| Requisito | Status | Evidência |
+|---|---|---|
+| Motor ads/trackers/custom, detecção antes do cancelamento | ✅ regressão e execução real | tests/run.cjs; extension/filter-engine.js |
+| Parser domínio puro e regra ancorada; rejeições contabilizadas | ✅ | tests/run.cjs |
+| OFF/ON em sites reais | ✅ 4/11/3 cancelamentos PI em MediaFire/Forbes/CNN | evidencias/sites-reais/*/blocking/privacy-inspector.json |
+| Comparação com uBlock | ✅ decisões de logger e regras; sem confundir com HTTP único | docs/real-sites-results.md |
+| Limites visuais e falsos negativos de lista | ✅ documentados; placeholder Forbes, Amplitude/MaxMind e paths CNN | evidencias/sites-reais/*/reconciliation.md; */blocking/page.png |
+| Ausência de quebra em todas as funcionalidades | ⚠ somente renderização da home observada; playback/conta não testados | docs/real-sites-results.md |
+| Cosmetic filtering / EasyList completa / bypass | ❌ fora do escopo, não necessário à demonstração | README.md |
 
-## Qualidade e limites
+## Qualidade e rastreabilidade
 
-- [x] 18 testes lógicos passam; sintaxe dos scripts verificada.
-- [x] Histórico limitado, limpeza por aba, validação de domínio e textContent na interface.
-- [x] Commits incrementais; arquitetura original preservada.
-- [ ] Domínio registrável usa fallback parcial, não PSL completa.
-- [ ] Eventos MAIN são consultivos e podem ser forjados/suprimidos.
-- [x] Relatórios sobrevivem à suspensão do background via storage.session; confirmado com bloqueio main_frame no Firefox. Reiniciar/recarregar extensão ou navegador pode limpar esse estado transitório.
-- [ ] Cobertura de workers/tabId negativo, frames removidos e APIs não suportadas é limitada.
-
-Conclusão: implementação e validação técnica avançaram, mas não declarar C/B/A completos
-antes dos três sites, HARs e comparações exigidas.
+- 18 testes de extensão; 14 assertions do pipeline; validador estrutural de 12 execuções (9 locais + 3 externas).
+- Rechecagem DDG separada em evidencias/final-validation/, sem sobrescrever evidencias/ddg/ nem evidencias/screenshots/ antigos.
+- Histórico limitado, limpeza por aba, textContent e persistência transitória storage.session preservados.
+- PSL parcial, eventos MAIN consultivos e workers/tabId negativo permanecem limites conhecidos.
+- Fotos editoriais planejadas S01–S46. Nenhuma medição numérica dos três sites está pendente de preenchimento manual.

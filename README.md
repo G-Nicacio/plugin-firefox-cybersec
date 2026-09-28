@@ -84,7 +84,7 @@ bad.third-party.site está na lista de trackers para validação DDG; privacy-te
 - Teste example.com na custom blocklist: deve bloquear inclusive main_frame e registrar a tentativa.
 - Desligue toggles, recarregue a extensão e confirme persistência.
 - [Plano DDG](docs/ddg-test-plan.md), [resultados reais](docs/ddg-results.md).
-- [Análise dos 3 sites](docs/real-sites-analysis-template.md) e [checklist](docs/checklist-rubrica.md).
+- [Análise dos 3 sites](docs/real-sites-results.md) e [checklist](docs/checklist-rubrica.md).
 
 ## Limitações importantes
 
@@ -121,3 +121,17 @@ O painel é renderizado em aba para captura, não como popup ancorado.
 
 Os testes lógicos e o coletor têm propósitos diferentes: node tests/run.cjs faz asserções;
 o coletor registra observações e divergências, sem fingir que todo teste DDG passou.
+
+## Avaliação final dos três sites
+
+MediaFire, Forbes e CNN foram coletados em Firefox nos modos OFF, ON e uBlock, com HAR real do DevTools, JSON sanitizado e capturas técnicas. Blacklight respondeu aos três scans. Scores baseline: 83, 43 e 77, respectivamente.
+
+- [Resultados e reconciliação](docs/real-sites-results.md)
+- [Protocolo experimental](docs/real-sites-protocol.md)
+- [Ferramentas e importação de HAR/Blacklight](docs/evidence-tools.md)
+- [46 screenshots finais planejados](docs/screenshot-plan.md)
+- [Checklist C/B/A e limites](docs/checklist-rubrica.md)
+- [Evidências e integridade](evidencias/sites-reais/completeness.json)
+
+Para conferir os artefatos: node tests/evidence-tests.cjs e node tests/validate-evidence.cjs.
+As coletas são visitas específicas, não certificações de privacidade. Permanecem pendentes os prints editoriais com instalação/popup ancorado; cookie sync corroborado e atribuição estrita de injeção continuam fora da prova. Não foi gerado PDF.

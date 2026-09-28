@@ -1,0 +1,432 @@
+[
+  {
+    "path": "evidencias/sites-reais/.gitkeep",
+    "normalization": "LF for text; raw binary",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/cnn-baseline.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "e425566479b8731cccc826d3733aa8d285bd5ebb32b4162a8718c165aac8994c"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "245c6350b9ac9521c5c5bc93379c9119a3ba2d79f03a9fcc50c3e803fea0f9a5"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "1c48cd547905f705ac5a56ad9e6540d1558e675ea199df9d93e21d21d10cd4cd"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "36a30ccf308b061b8a4422350b629084a6a86fb33cbd1c0a49c96747fe770fd8"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "bdacafd85206f6bdf0279243e3d4913e0ef9faa4a603588d91458e23e38516aa"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "0437722822f1c9f3af6006371b69f52f719bcd3b5477541d544d57c3ef17d532"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/baseline/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "d5f1369a74c27e8df802f4027f4107b2218f0ced9dbb6004145e1287302f3806"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blacklight/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "3ba1b3fe5807ba5f5607b91619299dcdab27614facffa74b9dadc82b4cc34ff0"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blacklight/result.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "b5cc1a181c92b8c2eb24b34bf8bc49f584d1851b7b90b9bbb189db9fb7b6d436"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/cnn-blocking.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "efae85294d7a7e1c99426cce1f407129e4858192f4c9ea462ae8554136cf8a00"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "281832cc7c657451062e3d0d8c31a2893712bd831260dbdf53212a9170e49143"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "94ce5413b758e79dd4f1951e6674489d4b02e6a611e2d0e0b9daeca2a7ae503d"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "36a30ccf308b061b8a4422350b629084a6a86fb33cbd1c0a49c96747fe770fd8"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "a45d03b3c1395cb2babfa3442c524f76c532e0eb9c74b4671648eb3d4fc0d10b"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "c49eafa69c2547a988adca84f526d89e4be2f5310b8a5da289112ef272e5f4ad"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/blocking/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "6011b42f4ca220ba610185e59f0132a3fa227dcbed3841d43e938983cdd37e56"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/reconciliation.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "171c8b7447fa077f43f4c9eec048a82fee37bbfbf42dfcf863afbd0cf08a0a38"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/screenshots/README.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "37421484d0f961d67f275167d0b7dd5357034748c617f8b89bdd4c70470f02c9"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "28e34e6ef02b788aedec88f5004332732c1af87e8b57ae3b115ea8984b2c152c"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/cnn-ublock.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "7cae66ae1e2b932d26c9d4d843f048fcf5a62c2a8cfca464cdbad762bea639b3"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "ea4ec99e214acc0ae06b4dc8cab4697de1d80b966eeb32ff7a131e8f4fd32011"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "0cc0cfb34194e81b7a4ffa09dbf565f5d03ee886ea73e988844171ba11bf0d98"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "e7c78c4039270c797d52a46f4e2d42a035ab13371c70ffb6372835face645631"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "18ec6913c4a7f9efd361107d601d7c15d4499f8bd2cca47e8b8f2c8bbb0571da"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "e23bc85c344a8acf53c3de6e8bd6ca90c4293b0679e16e10988835c7cd9bbfbc"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "911a01939db14801a2097fed5028f1a476eb5e19fee017aad0decf16fcaa544f"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/ublock-defaults.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "880f7141bd98c23f56f3603e4a9985f6b894ea2edc58ae7137ba1ceb24785bfb"
+  },
+  {
+    "path": "evidencias/sites-reais/cnn/ublock/ublock-log.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "074fb0d4c6c90cfb570ad63cc63c58ac94b3102d8f45ce91c2da01c15e73f480"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/forbes-baseline.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "fe1f34d1046f395f2a936ed16c538088eb6904b6f14bc5496947205df428bb5b"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "c2f350b183c719d21a8f6e9ba774404250db9fffa2f258aca3a8ada3b7ffd537"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "ec983e42f786d7561fc6a3e8f59ef3a34375317b80a451b0eaec4c76aeaef78f"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "d2a4fd4bc72417edfe510087c01cfc9d83f30e73bce5a5f4afb06dd03c1bae95"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "f3db95d1f222319de5b6ae4ae588454e3dd0d56e6127fd1aa1af811d3d64c5e3"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "dbb14b43c813c3d756313dfd743bed22b376096f6a5716dfffc57e8c7cc96228"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/baseline/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "ed696a25bcaa0979960b15ff496ccc2d6149ee1894ab59eadaf8cc1ff53eca20"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blacklight/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "b6bac5c95dc3d1c83280f1d93d57a32530b9adbbe9bc2137c142c1f61719d1d6"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blacklight/result.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "c5fa0c1ccdebe7f39e4f380160fef42007ac6f8acddc4dc8291179739aa73891"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/forbes-blocking.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "1896e0256c059f29c16f1d2430682a74f409f10c2ae6c0f6e767ab62728a7aa3"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "841b834c3a3218f1b78468a04801c2de6fcba85823931b844e9c5ae09b398b0d"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "a4119be0728571707b906f81860afd6465fab49040eceab596513072e518a0c2"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "af3ecfc6dba1248e44215b0088d0f8a835635e68890a9eba408655f4c79d3e05"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "710d65adea4f1a2b2eb5e0ff0a4fa38ae21a0b0da12fb6eb79bb31c6b4cc5d00"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "527642421c01c377e7bf09b0c571211e078e73e23ae2ee5d30a6bc1a859f3f4d"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/blocking/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "ec59ae9c9502c2b83ba58b621db847ef9d828c57343bb5401ea9d861c52ffe63"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/reconciliation.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "e02b09565bd1c7b568d194426fe7e99429f777e7b4b6a9bc3d14ab346586dfec"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/screenshots/README.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "37421484d0f961d67f275167d0b7dd5357034748c617f8b89bdd4c70470f02c9"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "156701bd61725a581e8211ee083461c6d3842926aed0ac02f8d168fcd0156bd0"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/forbes-ublock.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "86106af3fbc8c289502ae53bda9d89196d57024b0d072c6e968f6907d757d076"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "eead3ca26de0331073426c8053c3e6c83842f0d0a1dd37328d9c1ff73feb24c3"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "6f0990d1cb4c059d0c660ff6e7624f25a36f0279ac9ea00120e674716408fee6"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "b8cf6b12a662efc6212b4ce417d7af85eee3aea0a3fb76cbf59373ee80f4487b"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "7d51b9f492427244d72c5413dc87494e9d3b12bec62abc172d2bd89c0269ae14"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "c1fe7d4e0924a065ae6ee56ac5d498880fd641998276e41ee2f25d543750e1f1"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "edeb0fb4841cd0466ef9adf6c5f11d6f27a6049f74582492047540e06f8265f5"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/ublock-defaults.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "71bfdb93535fb94bf536d6a8dbe23ff772cf8de4014ff76d2d95bf63e5d2ddc6"
+  },
+  {
+    "path": "evidencias/sites-reais/forbes/ublock/ublock-log.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "0e8746a39369eb64dd6e96136527645ed2d0fb87d4d1513fdd48ccb6c35afb40"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "32d53396c2611f595a3a782fdde446b7734eb5b20904efa8e1e6063ce0e953c8"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/mediafire-baseline.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "6a936b4ffff78f9f9feb897e9a44a89ebcc7812860cca0147b94edb0ab63991c"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "db2c3ee0043f12368bc061a270815068a9030218616b0aec8239441545b0f3ed"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "8adb032953f7edcb1359a7982352703c6fc14f9320af5c953e280d47aa68de80"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "9afc32db852b4a49bbddf4100a6e1fb461ed0c1973530ba91b4d23a534d6646b"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "101c6c98dd6da7211e54d56b299b97e4602d0dc98588b1ace324a1dc109c521e"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/baseline/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "4974631608f7ec2010f7c59289b9e90533c0530beba01e8f9e347bc7ba590b03"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blacklight/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "9b9b7379e185eda62846b15b024c7d0925c05f2b45effcf7fc8765cfdb54cacb"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blacklight/result.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "b0337ba845e32afec128d43eb39113ddb6d1f2999ac93341b4cb1ec6e4862851"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "516a2f2c75455e318d0ff9748a2864df7b00f9fe77ecbcd2de6229c03e5ba9eb"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/mediafire-blocking.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "f09773cd93f33235c699c450d125b731455e27e386a4588d00749f1dfc5dae16"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "f74e99aa43bd4c0c842247c17124f9fbad5456622944e2a84ef353f834227dff"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "8adb032953f7edcb1359a7982352703c6fc14f9320af5c953e280d47aa68de80"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "52f8ad4cb0c1e85247917cc6cdbe6c775ae4cc3960bb3ff4c01287fc24c9e939"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "f1ad27d289e055d28520d73b506406d44e7c509caebd3f5f7a41b8a199a33b17"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/blocking/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "638ae05d971a51bd9759f1afe1345f67ea020408cdbe0a42e8c194cc0ec0b458"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/reconciliation.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "c5faa2791a1af2e94a9bba9088093c110bfafa4f939e0607a7c60d6fe4f4dae8"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/screenshots/README.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "37421484d0f961d67f275167d0b7dd5357034748c617f8b89bdd4c70470f02c9"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "d2c43b335905737d9fe7c8cb0f0f4e9dc7d7d4975d7c63ae76a64a324d4ec524"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/har-summary.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "10c4af93ce3bf50794e787a203c15ce48466a2e1c23dc511821a6f632539b203"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/mediafire-ublock.har",
+    "normalization": "LF for text; raw binary",
+    "sha256": "66465bb3d03e8caeea32c349bed02ee6d166c4bdbb31b61d9778afa1535dfa85"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/metadata.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "d88a350a0b054c3bdd5f703d7abd6d87ffdda75d461a8efc8b82578abc4d06e1"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/page-observation.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "8adb032953f7edcb1359a7982352703c6fc14f9320af5c953e280d47aa68de80"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/page.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "52f8ad4cb0c1e85247917cc6cdbe6c775ae4cc3960bb3ff4c01287fc24c9e939"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/plugin.png",
+    "normalization": "LF for text; raw binary",
+    "sha256": "2e8c204b590bda13f34d4affc11cecf332c8cd361ae21b82ec3e928661953442"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/privacy-inspector.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "61de6d9d1a8e8d5795362cd2a8b86250d91d2dcd070bb4056e52b123a199d23b"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/ublock-defaults.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "f70b7867da41312dca8fbb915bd3bfbd99398efebd6bd6ac752428f019bf8167"
+  },
+  {
+    "path": "evidencias/sites-reais/mediafire/ublock/ublock-log.json",
+    "normalization": "LF for text; raw binary",
+    "sha256": "9f085de013cc88c9d11b28a089306bd1b0cf2a7e604e17beb46801796dbe2845"
+  },
+  {
+    "path": "evidencias/sites-reais/README.md",
+    "normalization": "LF for text; raw binary",
+    "sha256": "73b2bfd490741e33c0f92e4c7e0a3ff18a0754d19c9e51c4146411ce333f1f31"
+  }
+]

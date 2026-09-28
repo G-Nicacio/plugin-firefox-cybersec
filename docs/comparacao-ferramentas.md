@@ -28,3 +28,7 @@ automaticamente que a ferramenta com maior contagem é melhor.
 
 Status: nenhuma varredura dos três sites nem execução comparativa de uBlock foi realizada,
 pois os sites ainda não foram definidos nesta conversa.
+
+## Atualização empírica
+
+A comparação conceitual acima foi complementada por execuções reais de MediaFire, Forbes e CNN. Consulte [resultados](real-sites-results.md), HARs e tabelas por domínio. Os resultados Blacklight e Firefox representam sessões distintas; não há score Blacklight equivalente.

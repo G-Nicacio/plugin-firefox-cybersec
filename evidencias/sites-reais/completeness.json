@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-09-28T21:56:14.854Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "site": "mediafire",
+      "mode": "baseline",
+      "status": "PASS",
+      "harEntries": 87,
+      "score": 83
+    },
+    {
+      "site": "mediafire",
+      "mode": "blocking",
+      "status": "PASS",
+      "harEntries": 86,
+      "score": 87
+    },
+    {
+      "site": "mediafire",
+      "mode": "ublock",
+      "status": "PASS",
+      "harEntries": 76,
+      "score": 91
+    },
+    {
+      "site": "mediafire",
+      "mode": "blacklight",
+      "status": "PASS"
+    },
+    {
+      "site": "forbes",
+      "mode": "baseline",
+      "status": "PASS",
+      "harEntries": 1055,
+      "score": 43
+    },
+    {
+      "site": "forbes",
+      "mode": "blocking",
+      "status": "PASS",
+      "harEntries": 281,
+      "score": 48
+    },
+    {
+      "site": "forbes",
+      "mode": "ublock",
+      "status": "PASS",
+      "harEntries": 155,
+      "score": 79
+    },
+    {
+      "site": "forbes",
+      "mode": "blacklight",
+      "status": "PASS"
+    },
+    {
+      "site": "cnn",
+      "mode": "baseline",
+      "status": "PASS",
+      "harEntries": 210,
+      "score": 77
+    },
+    {
+      "site": "cnn",
+      "mode": "blocking",
+      "status": "PASS",
+      "harEntries": 201,
+      "score": 77
+    },
+    {
+      "site": "cnn",
+      "mode": "ublock",
+      "status": "PASS",
+      "harEntries": 141,
+      "score": 77
+    },
+    {
+      "site": "cnn",
+      "mode": "blacklight",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "manualPending": [
+    "Final editorial screenshots with anchored popup/about:debugging/uBlock UI (see docs/screenshot-plan.md)"
+  ],
+  "scope": "Structural consistency and selected privacy checks; not proof that all personal data is absent or all functionality was tested"
+}
